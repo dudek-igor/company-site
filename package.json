@@ -10,10 +10,13 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "next": "15.1.6",
+    "@tailwindcss/postcss": "^4.0.17",
+    "next": "^15.2.4",
     "next-intl": "^3.26.3",
+    "postcss": "^8.5.3",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.17"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.6.1",
