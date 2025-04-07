@@ -1,0 +1,171 @@
+{
+  "HOME_PAGE": {
+    "title": "Hello",
+    "link": "Strona Główna",
+    "caption": "Nowoczesne strony, aplikacje mobilne i systemy IT – kompleksowe wsparcie technologiczne.",
+    "metadata": {
+      "title": "Hello Software – Tworzenie Stron i Aplikacji",
+      "description": "Software House zajmujący się tworzeniem stron internetowych, aplikacjami mobilnymi i webowymi oraz zapewniamy wsparcie IT dla firm."
+    },
+    "hero_section": {
+      "text": "Jesteśmy doświadczonym software housem, który dostarcza kompleksowe rozwiązania IT dostosowane do potrzeb Twojej firmy. Projektujemy szybkie, responsywne i zoptymalizowane strony www, funkcjonalne aplikacje mobilne na Androida i iOS oraz skalowalne systemy e-commerce. Szukasz niezawodnego partnera technologicznego? Skontaktuj się z nami – zaprojektujemy rozwiązanie idealne dla Twojego biznesu",
+      "button": "Skontaktuj się z nami"
+    }
+  },
+  "SERVICES": {
+    "title": "Usługi",
+    "link": "Usługi",
+    "caption": "Kompleksowe usługi IT – od stron po aplikacje i chmurę.",
+    "metadata": {
+      "title": "Usługi IT – Hello Software",
+      "description": "Oferujemy strony internetowe, aplikacje mobilne, integracje API i rozwiązania chmurowe."
+    },
+    "section": {
+      "h5": "Nowoczesne Usługi, które Oferujemy",
+      "h2": "Zamień swój pomysł w realny biznes"
+    }
+  },
+  "WEBSITES": {
+    "title": "Strony Internetowe",
+    "link": "Strony Internetowe",
+    "button": { "read_more": "Zobacz Więcej" },
+    "caption": "Nowoczesne strony internetowe – szybkie, responsywne i zoptymalizowane pod SEO.",
+    "metadata": {
+      "title": "Strony Internetowe – Hello Software",
+      "description": "Projektujemy nowoczesne strony www zoptymalizowane pod kątem SEO i UX."
+    }
+  },
+  "E_COMMERCE": {
+    "title": "Sklepy Internetowe",
+    "link": "E-Commerce",
+    "button": { "read_more": "Zobacz Więcej" },
+    "caption": "Bezpieczne i skalowalne sklepy internetowe – maksymalizacja konwersji.",
+    "metadata": {
+      "title": "Sklepy Internetowe – Hello Software",
+      "description": "Tworzymy sklepy e-commerce skoncentrowane na wydajności i konwersji."
+    }
+  },
+  "WEB_APPLICATIONS": {
+    "title": "Aplikacje Internetowe",
+    "link": "Aplikacje Internetowe",
+    "button": { "read_more": "Zobacz Więcej" },
+    "caption": "Skalowalne aplikacje webowe dopasowane do Twoich potrzeb biznesowych.",
+    "metadata": {
+      "title": "Aplikacje Internetowe – Hello Software",
+      "description": "Tworzymy wydajne aplikacje webowe z wykorzystaniem nowoczesnych technologii."
+    }
+  },
+  "MOBILE_APPLICATIONS": {
+    "title": "Aplikacje Mobilne",
+    "link": "Aplikacje Mobilne",
+    "button": { "read_more": "Zobacz Więcej" },
+    "caption": "Nowoczesne aplikacje mobilne Android i iOS – intuicyjne i wydajne.",
+    "metadata": {
+      "title": "Aplikacje Mobilne – Hello Software",
+      "description": "Budujemy szybkie i intuicyjne aplikacje mobilne na Androida i iOS."
+    }
+  },
+  "SERVER_APPLICATIONS": {
+    "title": "API i Integracje",
+    "link": "Integracje Systemowe",
+    "button": { "read_more": "Zobacz Więcej" },
+    "caption": "Tworzenie API i integracji systemowych – automatyzacja i łączność.",
+    "metadata": {
+      "title": "API i Integracje – Hello Software",
+      "description": "Tworzymy API oraz integracje między systemami w celu automatyzacji i optymalizacji."
+    }
+  },
+  "SEARCH_ENGINE_OPTIMIZATION": {
+    "title": "Pozycjonowanie SEO",
+    "link": "Pozycjonowanie",
+    "button": { "read_more": "Zobacz Więcej" },
+    "caption": "Zwiększ widoczność strony – skuteczne działania SEO dla większego ruchu.",
+    "metadata": {
+      "title": "SEO – Hello Software",
+      "description": "Popraw widoczność strony w Google dzięki skutecznym technikom SEO."
+    }
+  },
+  "CLOUD_COMPUTING_SOLUTIONS": {
+    "title": "Rozwiązania Chmurowe",
+    "link": "Rozwiązania Chmurowe",
+    "button": { "read_more": "Zobacz Więcej" },
+    "caption": "Bezpieczne i skalowalne rozwiązania chmurowe dla firm.",
+    "metadata": {
+      "title": "Rozwiązania Chmurowe – Hello Software",
+      "description": "Nowoczesne usługi chmurowe – bezpieczeństwo, wydajność i elastyczność."
+    }
+  },
+  "OUTSOURCING": {
+    "title": "Outsourcing IT",
+    "link": "Outsourcing",
+    "button": { "read_more": "Zobacz Więcej" },
+    "caption": "Zewnętrzne zespoły IT – oszczędność i profesjonalne wsparcie techniczne.",
+    "metadata": {
+      "title": "Outsourcing IT – Hello Software",
+      "description": "Oferujemy zespoły IT na zewnątrz – elastyczność i wysoka jakość usług."
+    }
+  },
+  "TECHNOLOGIES": {
+    "title": "Technologie",
+    "link": "Technologie",
+    "caption": "Nowoczesne technologie wykorzystywane w naszych projektach.",
+    "metadata": {
+      "title": "Technologie – Hello Software",
+      "description": "Poznaj technologie, które wykorzystujemy w projektach IT."
+    }
+  },
+  "TYPESCRIPT": {
+    "title": "TypeScript",
+    "link": "TypeScript",
+    "caption": "Bezpieczne aplikacje w języku TypeScript – lepszy kod, mniej błędów.",
+    "metadata": {
+      "title": "TypeScript – Hello Software",
+      "description": "Tworzymy aplikacje w TypeScript – nowoczesnym i typowanym języku JavaScript."
+    }
+  },
+  "REACT": {
+    "title": "React",
+    "link": "React",
+    "caption": "Dynamiczne i szybkie interfejsy użytkownika – tworzone z React.",
+    "metadata": {
+      "title": "React – Hello Software",
+      "description": "Tworzymy front-endy aplikacji w React – szybkie, skalowalne i nowoczesne."
+    }
+  },
+  "NODE_JS": {
+    "title": "Node.js",
+    "link": "Node.js",
+    "caption": "Aplikacje backendowe i API w Node.js – skalowalne i wydajne.",
+    "metadata": {
+      "title": "Node.js – Hello Software",
+      "description": "Tworzymy backendy i API w Node.js – elastyczne i szybkie rozwiązania serwerowe."
+    }
+  },
+  "REACT_NATIVE": {
+    "title": "React Native",
+    "link": "React Native",
+    "caption": "Tworzenie aplikacji mobilnych z React Native – jedno źródło kodu dla iOS i Android.",
+    "metadata": {
+      "title": "React Native – Hello Software",
+      "description": "Tworzymy aplikacje mobilne z React Native – szybko, wydajnie i nowocześnie."
+    }
+  },
+  "COMPANY": {
+    "title": "O nas",
+    "link": "Firma",
+    "caption": "Poznaj nasz zespół, wartości i podejście do tworzenia oprogramowania.",
+    "metadata": {
+      "title": "O nas – Hello Software",
+      "description": "Poznaj naszą firmę, zespół i sposób pracy przy tworzeniu rozwiązań IT."
+    }
+  },
+  "CONTACT": {
+    "title": "Kontakt",
+    "link": "Kontakt",
+    "caption": "Masz pytania lub chcesz współpracować? Skontaktuj się z nami.",
+    "metadata": {
+      "title": "Kontakt – Hello Software",
+      "description": "Skontaktuj się z nami – chętnie porozmawiamy o Twoim projekcie IT."
+    }
+  }
+}

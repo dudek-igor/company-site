@@ -1,5 +1,80 @@
 @import 'tailwindcss';
 
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+:root {
+  --base-primary-color: #ffffff;
+  --base-secondary-color: #ffffff;
+  --base-tetriary-color: #ff0000;
+  --text-primary-color: #000;
+  --text-secondary-color: #666666;
+  --forground-primary-color: #000;
+  --forground-secondary-color: #666666;
+  /* --text-tetriary-color: #ff0000; */
+  --accented-primary-color: #2667ff;
+  --accented-secondary-color: #6c19ef;
+  --accented-backgroud-gradient: linear-gradient(
+    90deg,
+    var(--accented-color-primary) 20%,
+    var(--accented-secondary-color) 100%
+  );
+  --accented-stroke-gradient: linear-gradient(to right, var(--accented-color-primary), var(--accented-secondary-color));
+}
+
+/* --font-default: "Manrope", ;
+--font-heading: "Manrope", ;
+--fontawesome: "fontawesome";
+--black: #000000;
+--dark: #0E1E2A;
+--dark-secondary: #041637;
+--white: #ffffff;
+--color-primary: #2667FF;
+--color-secondary: #6c19ef;
+--color-heading: #04000b;
+--color-paragraph: #666666;
+--stroke-color1: #2667FF;
+--stroke-color2: #6c19ef;
+--stroke-gradient: linear-gradient(to right, var(--stroke-color1), var(--stroke-color2));
+--box-shadow-primary: -1px 3px 10px 0 rgba(0, 0, 0, 0.6);
+--box-shadow-secondary: 0 10px 30px 0 rgba(44, 130, 237, 0.4);
+--box-shadow-regular: 0px 2px 12px 0px #e7e7e7;
+--bg-gray: linear-gradient(90deg, rgba(237, 245, 255, 1) 0%, rgba(204, 223, 247, 1) 100%);
+--bg-gray-secondary: #f7f7f7;
+--bg-gradient: linear-gradient(90deg, var(--color-primary) 20%, var(--color-secondary) 100%); */
+/* // 142939 #0E1E2A */
+[data-theme='dark'] {
+  --base-primary-color: #0e1e2a;
+  --base-secondary-color: #041637;
+  --base-tetriary-color: #081825;
+  --forground-primary-color: #ffffff;
+  --forground-secondary-color: #666666;
+}
+
+@theme {
+  --color-base-primary: var(--base-primary-color);
+  --color-base-secondary: var(--base-secondary-color);
+  --color-base-tetriary: var(--base-tetriary-color);
+  --color-forground-primary: var(--forground-primary-color);
+  --color-forground-secondary: var(--forground-secondary-color);
+  --color-accented-primary: #2667ff;
+  --color-accented-secondary: #6c19ef;
+  /* --color-test: var(--accented-stroke-gradient); */
+}
+
+body {
+  /* color: var(--base-primary-color); */
+  background-color: var(--base-primary-color);
+  min-height: 300vh;
+  transition:
+    background-color 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+}
+/* body {
+  background-color: 
+  color()
+   bg-base-primary text-white min-h-[300vh];
+} */
+
 /* :root {
   --background: #ffffff;
   --foreground: #171717;
