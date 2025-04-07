@@ -7,6 +7,7 @@ import { ThemeProvider } from '@/providers';
 import { NextIntlClientProvider } from 'next-intl';
 import { Header, Footer } from '@/components/globals';
 import { notFound } from 'next/navigation';
+import { JetBrains_Mono, Manrope } from 'next/font/google';
 import { type Slug } from '@/utils';
 
 type Props = {
@@ -15,6 +16,19 @@ type Props = {
 };
 
 export const dynamic = 'error';
+
+const manrope = Manrope({
+  weight: ['200', '300', '400', '500', '600', '700', '800'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-sans',
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: '--font-mono',
+});
 
 export default async function RootLayout({ children, params }: Props) {
   /** @info Get slug and rerive locale */
@@ -31,7 +45,7 @@ export default async function RootLayout({ children, params }: Props) {
   setRequestLocale(locale);
   /** @info We need to enable suppress hydration warning due to detection light/dark theme. */
   return (
-    <html lang={locale} suppressHydrationWarning>
+    <html lang={locale} suppressHydrationWarning className={`${manrope.variable} ${jetbrainsMono.variable}`}>
       <head>
         {/* This Script detect user theme preferation */}
         <script
@@ -41,7 +55,8 @@ export default async function RootLayout({ children, params }: Props) {
           }}
         />
       </head>
-      <body>
+      {/* Adjust */}
+      <body className="font-sans">
         {/* Unfortunately, we have to use a provider, unfortunately the link from next-intl requires it */}
         <NextIntlClientProvider>
           <ThemeProvider>

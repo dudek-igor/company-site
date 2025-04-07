@@ -12,10 +12,10 @@ const config = {
           primary: 'var(--accented-primary-color)',
           secondary: 'var(--accented-secondary-color)',
         },
-        //   fontFamily: {
-        //     mono: ['var(--font-geist-mono)'],
-        //     sans: ['var(--font-geist-sans)'],
-        //   },
+        fontFamily: {
+          sans: ['var(--font-sans)', 'sans-serif'],
+          mono: ['var(--font-mono)', 'monospace'],
+        },
       },
     },
   },
