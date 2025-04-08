@@ -6,7 +6,6 @@ import * as motion from 'motion/react-client';
 import { Typewriter } from '@/components/ui';
 import type { SupportedNamespace } from '@/config';
 import { useTranslations } from 'next-intl';
-import shape1 from '@/public/assets/img/shape/1.png';
 import shape2 from '@/public/assets/img/shape/2.png';
 import thumb3 from '@/public/assets/img/thumb/3.jpg';
 
@@ -18,7 +17,7 @@ const HeroSection = ({ namespace }: THeroSection) => {
   const t = useTranslations(namespace); // i18n hook
 
   return (
-    <section className="relative overflow-hidden">
+    <section className=" relative overflow-hidden">
       {/* Decoration in the left corner */}
       <motion.div
         initial={{ opacity: 0 }}
@@ -28,7 +27,7 @@ const HeroSection = ({ namespace }: THeroSection) => {
       >
         <Image src={shape2} alt="Shape" className="max-w-[60%] opacity-50" />
       </motion.div>
-      <div className="container mx-auto px-4  lg:mt-20">
+      <div className="container mx-auto px-4 lg:py-48 lg:px-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 py-8 md:py-12">
           {/* Text Section */}
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.4 }}>
@@ -59,15 +58,7 @@ const HeroSection = ({ namespace }: THeroSection) => {
           <div className="relative h-100% flex justify-center md:justify-evenly lg:justify-end">
             {/* Decoration in the right side */}
             <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.4 }}
-              className="absolute hidden lg:inline left-30 -top-40 -z-10"
-            >
-              <Image src={shape1} alt="Shape" className="max-w-[500px] " />
-            </motion.div>
-            <motion.div
-              className="lg:absolute lg:left-15 lg:bottom-0 xl:left-25"
+              className="lg:absolute lg:left-15 lg:bottom-0 xl:-bottom-20 xl:left-25"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4 }}
@@ -75,7 +66,7 @@ const HeroSection = ({ namespace }: THeroSection) => {
               <Image
                 src={thumb3}
                 alt="Banner Image"
-                className="max-w-2xs rounded-md shadow-lg lg:max-w-[40%] xl:max-w-50%"
+                className="max-w-2xs rounded-md shadow-2xl lg:max-w-[40%] xl:max-w-60%"
               />
             </motion.div>
             <motion.div
@@ -87,7 +78,7 @@ const HeroSection = ({ namespace }: THeroSection) => {
               <Image
                 src={thumb3}
                 alt="Banner Image"
-                className="hidden max-w-2xs md:block rounded-md shadow-lg lg:max-w-fit"
+                className="hidden max-w-2xs md:block rounded-md shadow-2xl lg:max-w-fit xl:max-w-2xs"
               />
             </motion.div>
           </div>

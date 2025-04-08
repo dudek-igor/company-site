@@ -37,7 +37,7 @@ export default function Services() {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4 }}
-      className="mx-auto container py-16 lg:pt-0 lg:min-h-screen lg:flex lg:justify-center lg:items-center "
+      className="mx-auto container py-16 lg:py-32"
     >
       <div className="mx-auto px-6 lg:px-8">
         <div className="mx-auto text-center">
