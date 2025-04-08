@@ -1,5 +1,5 @@
 import { SupportedLocale, SupportedNamespace } from '@/config';
-import { HeroSection, ServiceSection } from '@/components/ui';
+import { HeroSection, ServiceSection, HowItWorkSection } from '@/components/ui';
 /**
  * Template for HomePage
  */
@@ -14,6 +14,7 @@ export default function HomePage({ namespace }: THomePage) {
     <>
       <HeroSection namespace={namespace} />
       <ServiceSection />
+      <HowItWorkSection namespace={namespace} />
     </>
   );
 }

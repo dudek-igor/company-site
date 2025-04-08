@@ -7,9 +7,28 @@
       "title": "Hello Software – Modern Web & Mobile App Development",
       "description": "Software House dealing with the creation of websites, mobile and web applications and provide complete technology support for your business."
     },
-    "hero_section": {
+    "HERO_SECTION": {
       "text": "We’re an experienced software house delivering high-performance digital solutions tailored to your business needs. We create fast, modern websites, mobile applications for iOS & Android, and scalable e-commerce platforms – all optimized for performance and SEO. Looking for a reliable technology partner? Let’s build your next digital product together – get in touch with us today!",
       "button": "Contact with us"
+    },
+    "SERVICES_SECTION": {},
+    "HOW_IT_WORK_SECTION": {
+      "title": "Our Development Process",
+      "caption": "Discover each stage of our development workflow – from strategy and design to launch and optimization.We simplify complex processes to deliver efficient, scalable, and user-friendly software solutions.",
+      "steps": [
+        {
+          "title": "Strategy & UX Design",
+          "description": "Define the business goals, target audience, and key functionalities. Create wireframes and high-fidelity mockups to ensure an intuitive user experience and conversion-driven layout."
+        },
+        {
+          "title": "Front-End & Back-End Development",
+          "description": "Transform the approved designs into a fast, responsive website using modern technologies like React and relevant frameworks. Implement scalable back-end architecture as needed."
+        },
+        {
+          "title": "Quality Assurance & Launch",
+          "description": "Perform thorough testing for performance, responsiveness, SEO readiness, and security. Fix bugs, optimize loading speed, and deploy the website on a reliable server with analytics integration."
+        }
+      ]
     }
   },
   "SERVICES": {
@@ -21,8 +40,8 @@
       "description": "We offer comprehensive IT services: websites, mobile apps, API integrations, and cloud solutions."
     },
     "section": {
-      "h5": "Innovative Services We're Offering",
-      "h2": "Transform Your Business Idea Into Powerful Software"
+      "title": "Innovative Services We're Offering",
+      "motto": "Transform Your Business Idea Into Powerful Software"
     }
   },
   "WEBSITES": {

@@ -20,7 +20,7 @@ const ServiceSectionCard = ({ namespace, icon: Icon, link }: DataType) => {
   const t = useTranslations(namespace); // i18n hook
 
   return (
-    <div className="relative p-6 h-[100%] flex flex-col justify-between bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+    <div className="relative p-6 h-full flex flex-col justify-between bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
       <div className="absolute bottom-0">
         <Image src={shape15} alt="Background Shape" className="h-[150px] rounded-br-lg" />
       </div>
@@ -52,7 +52,7 @@ const ServiceSection = () => {
   const t = useTranslations(SECTION); // i18n hook
 
   return (
-    <div className="container mx-auto px-8 md:px-12 py-12 rounded-4xl bg-gradient-to-br from-[#d9f2ff] via-[#eae2fc] to-[#ffffff] dark:from-[#0f172a] dark:via-[#1e293b] dark:to-[#334155]">
+    <div className="container mx-auto p-12 rounded-4xl bg-gradient-to-br from-[#d9f2ff] via-[#eae2fc] to-[#ffffff] dark:from-[#0f172a] dark:via-[#1e293b] dark:to-[#334155]">
       <motion.section
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
@@ -60,8 +60,8 @@ const ServiceSection = () => {
       >
         {/* Nagłówek */}
         <div className="max-w-2xl mx-auto text-center">
-          <h5 className="text-accented-primary font-medium lg:text-2xl">{t('section.h5')}</h5>
-          <h2 className="text-4xl font-bold text-gray-900 dark:text-white mt-3">{t('section.h2')}</h2>
+          <h5 className="text-accented-primary font-medium lg:text-2xl">{t('section.title')}</h5>
+          <h2 className="text-4xl font-bold text-gray-900 dark:text-white mt-3">{t('section.motto')}</h2>
         </div>
 
         {/* Siatka z usługami */}

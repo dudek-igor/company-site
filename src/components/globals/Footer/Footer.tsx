@@ -46,8 +46,19 @@ function FooterNav({ type = 'navigation' }: { type?: 'support' | 'navigation' })
   );
 }
 
+interface FormEventHandler {
+  (event: React.FormEvent<HTMLFormElement>): void;
+}
+
 export default function Footer() {
   const t = useTranslations('FOOTER'); // i18n hook
+
+  const handleContact: FormEventHandler = (e) => {
+    e.preventDefault();
+    const form = e.target as HTMLFormElement;
+    form.reset();
+  };
+
   return (
     <footer className="mx-auto container px-6 pt-16 pb-8 sm:px-6 lg:px-8">
       <div className="mx-auto flex flex-col items-center">
@@ -57,7 +68,7 @@ export default function Footer() {
           })}
         </strong>
 
-        <form className="mt-10 w-full max-w-md">
+        <form onSubmit={handleContact} className="mt-10 w-full max-w-md">
           <div className="relative">
             <label className="sr-only" htmlFor="email">
               Email
@@ -70,7 +81,7 @@ export default function Footer() {
               placeholder={t('form.placeholder')}
             />
 
-            <button className="absolute end-1 top-1/2 -translate-y-1/2 rounded-full bg-accented-primary px-5 py-3 text-sm font-medium text-white transition hover:bg-blue-700">
+            <button className="cursor-pointer absolute end-1 top-1/2 -translate-y-1/2 rounded-full bg-gradient-to-r from-accented-primary to-accented-secondary px-5 py-3 text-sm font-medium text-white">
               {t('form.button')}
             </button>
           </div>
@@ -86,7 +97,7 @@ export default function Footer() {
           {/* <SocialBar /> */}
         </div>
 
-        <div className="grid grid-cols-1 gap-8 text-center lg:grid-cols-2 lg:text-left">
+        <div className="grid grid-cols-1 gap-8 text-center sm:grid-cols-2 lg:text-left">
           <FooterNav />
           <FooterNav type="support" />
         </div>

@@ -28,16 +28,16 @@ const HeroSection = ({ namespace }: THeroSection) => {
       >
         <Image src={shape2} alt="Shape" className="max-w-[60%] opacity-50" />
       </motion.div>
-      <div className="container mx-auto px-4 md:px-12 lg:mt-20">
+      <div className="container mx-auto px-4  lg:mt-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 py-8 md:py-12">
           {/* Text Section */}
-          <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.4 }}>
+          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.4 }}>
             <h1 className="text-4xl text-center font-bold uppercase leading-none text-gray-900 dark:text-white text-shadow-md sm:text-5xl md:text-6xl lg:text-7xl lg:text-left">
               Hello
               <Typewriter />
             </h1>
             <p className="mt-8 text-sm text-center text-gray-600 dark:text-gray-300 sm:text-base lg:text-lg lg:text-justify">
-              {t('hero_section.text')}
+              {t('HERO_SECTION.text')}
             </p>
             {/* Call To Acction Section */}
             <motion.div
@@ -50,7 +50,7 @@ const HeroSection = ({ namespace }: THeroSection) => {
                 className="px-6 py-3 md:px-8 md:py-4 lg:text-lg text-white bg-gradient-to-r from-accented-primary to-accented-secondary rounded-md shadow-md hover:scale-105 transition-transform"
                 href="/contact"
               >
-                {t('hero_section.button')}
+                {t('HERO_SECTION.button')}
               </Link>
             </motion.div>
           </motion.div>
@@ -68,7 +68,7 @@ const HeroSection = ({ namespace }: THeroSection) => {
             </motion.div>
             <motion.div
               className="lg:absolute lg:left-15 lg:bottom-0 xl:left-25"
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4 }}
             >
@@ -80,9 +80,9 @@ const HeroSection = ({ namespace }: THeroSection) => {
             </motion.div>
             <motion.div
               className="hidden md:block"
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.1, duration: 0.4 }}
+              transition={{ duration: 0.4 }}
             >
               <Image
                 src={thumb3}

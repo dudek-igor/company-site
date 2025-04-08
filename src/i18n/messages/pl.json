@@ -7,22 +7,41 @@
       "title": "Hello Software – Tworzenie Stron i Aplikacji",
       "description": "Software House zajmujący się tworzeniem stron internetowych, aplikacjami mobilnymi i webowymi oraz zapewniamy wsparcie IT dla firm."
     },
-    "hero_section": {
+    "HERO_SECTION": {
       "text": "Jesteśmy doświadczonym software housem, który dostarcza kompleksowe rozwiązania IT dostosowane do potrzeb Twojej firmy. Projektujemy szybkie, responsywne i zoptymalizowane strony www, funkcjonalne aplikacje mobilne na Androida i iOS oraz skalowalne systemy e-commerce. Szukasz niezawodnego partnera technologicznego? Skontaktuj się z nami – zaprojektujemy rozwiązanie idealne dla Twojego biznesu",
       "button": "Skontaktuj się z nami"
+    },
+    "SERVICES_SECTION": {},
+    "HOW_IT_WORK_SECTION": {
+      "title": "Proces Rozwoju Oprogramowania",
+      "caption": "Poznaj każdy etap naszej pracy – od strategii i projektowania UX, aż po wdrożenie i optymalizację. Upraszczamy złożone procesy, dostarczając szybkie, skalowalne i przyjazne użytkownikom rozwiązania.",
+      "steps": [
+        {
+          "title": "Strategia i Projektowanie UX",
+          "description": "Określamy cele biznesowe, grupę docelową i kluczowe funkcje. Tworzymy makiety oraz finalne projekty graficzne, zapewniające intuicyjną nawigację i układ zwiększający konwersje."
+        },
+        {
+          "title": "Rozwój Front-End i Back-End",
+          "description": "Zamieniamy zaakceptowane projekty w szybkie i responsywne strony internetowe z wykorzystaniem nowoczesnych technologii jak React. W razie potrzeby wdrażamy skalowalną architekturę backendu."
+        },
+        {
+          "title": "Testy, Optymalizacja i Wdrożenie",
+          "description": "Przeprowadzamy dokładne testy wydajności, responsywności, zgodności z SEO i bezpieczeństwa. Usuwamy błędy, optymalizujemy szybkość ładowania i wdrażamy witrynę na niezawodnym serwerze z integracją analityki."
+        }
+      ]
     }
   },
   "SERVICES": {
     "title": "Usługi",
     "link": "Usługi",
-    "caption": "Kompleksowe usługi IT – od stron po aplikacje i chmurę.",
+    "caption": "Zapaznaj się z pełną ofertą naszych usług programistycznych dostosowanych do potrzeb Twojej firmy.",
     "metadata": {
       "title": "Usługi IT – Hello Software",
       "description": "Oferujemy strony internetowe, aplikacje mobilne, integracje API i rozwiązania chmurowe."
     },
     "section": {
-      "h5": "Nowoczesne Usługi, które Oferujemy",
-      "h2": "Zamień swój pomysł w realny biznes"
+      "title": "Nowoczesne Usługi, które Oferujemy",
+      "motto": "Zamień swój pomysł w realny biznes"
     }
   },
   "WEBSITES": {

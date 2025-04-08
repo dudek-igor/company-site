@@ -2,25 +2,46 @@
   "HOME_PAGE": {
     "title": "Startseite",
     "link": "Startseite",
+    "caption": "Moderne Websites, mobile Anwendungen und IT-Systeme – umfassende technologische Unterstützung.",
     "metadata": {
       "title": "Hello Software – Moderne Web- & App-Entwicklung",
       "description": "Softwarehaus, das sich mit der Erstellung von Websites, Mobil- und Webanwendungen beschäftigt und Ihrem Unternehmen umfassenden technischen Support bietet."
     },
-    "hero_section": {
+    "HERO_SECTION": {
       "text": "Wir sind ein erfahrenes Softwarehaus, das leistungsstarke IT-Lösungen entwickelt – individuell angepasst an die Anforderungen Ihres Unternehmens. Ob moderne Website, mobile App für iOS & Android oder skalierbare E-Commerce-Plattform – wir liefern schnelle, sichere und SEO-optimierte Ergebnisse. Suchen Sie einen zuverlässigen Technologiepartner? Kontaktieren Sie uns – gemeinsam realisieren wir Ihr digitales Projekt!",
       "button": "Kontaktieren Sie uns"
+    },
+    "SERVICES_SECTION": {},
+    "HOW_IT_WORK_SECTION": {
+      "title": "Softwareentwicklungsprozess",
+      "caption": "Erfahren Sie alle Phasen unserer Entwicklung – von Strategie und Design bis zur Veröffentlichung und Optimierung. Wir vereinfachen komplexe Abläufe und liefern schnelle, skalierbare und benutzerfreundliche Lösungen.",
+      "steps": [
+        {
+          "title": "Strategie & UX-Design",
+          "description": "Wir definieren die Geschäftsziele, Zielgruppe und Hauptfunktionen Ihrer Website. Mit Wireframes und hochauflösenden Mockups schaffen wir eine benutzerfreundliche und conversion-optimierte Struktur."
+        },
+        {
+          "title": "Frontend- & Backend-Entwicklung",
+          "description": "Wir setzen genehmigte Designs mit modernen Technologien wie React um und entwickeln bei Bedarf eine skalierbare Backend-Architektur für optimale Performance."
+        },
+        {
+          "title": "Qualitätssicherung & Launch",
+          "description": "Wir testen die Website umfassend auf Leistung, Responsivität, SEO-Tauglichkeit und Sicherheit. Nach Optimierung wird die Seite auf einem zuverlässigen Server mit Analytics-Integration veröffentlicht."
+        }
+      ]
     }
   },
   "SERVICES": {
     "title": "Dienstleistungen",
     "link": "Dienstleistungen",
+    "caption": "Informieren Sie sich über unser umfassendes Angebot an Programmierdiensten, die Ihrem Unternehmen zur Verfügung stehen.",
     "metadata": {
       "title": "IT-Dienstleistungen – Hello Software",
       "description": "Umfassende IT-Dienstleistungen: Websites, Mobile Apps, API-Integrationen und Cloud-Lösungen."
     },
     "section": {
-      "h5": "Moderne Dienstleistungen, die wir anbieten",
-      "h2": "Verwandeln Sie Ihre Idee in ein erfolgreiches Geschäft"
+      "title": "Moderne Dienstleistungen, die wir anbieten",
+      "motto": "Verwandeln Sie Ihre Idee in ein erfolgreiches Geschäft"
     }
   },
   "WEBSITES": {

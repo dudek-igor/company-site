@@ -74,14 +74,14 @@ export const getNavigationTree = ({
 /**
  * Get children of given namespace
  */
-interface ResultItem extends Omit<AppConfigItem, 'links' | 'children' | 'template'> {
+export interface ChildrenItem extends Omit<AppConfigItem, 'links' | 'children' | 'template'> {
   link: string;
   parentLink: string;
   namespace: SupportedNamespace;
 }
 
-export const getChildrenNamespace = (namespace: SupportedNamespace): ResultItem[] => {
-  const findChildren = (items: AppConfigItem[], parentPath = ''): ResultItem[] => {
+export const getChildrenNamespace = (namespace: SupportedNamespace): ChildrenItem[] => {
+  const findChildren = (items: AppConfigItem[], parentPath = ''): ChildrenItem[] => {
     for (const item of items) {
       const currentLink = item.links[defaultLocale];
       const fullPath = `${parentPath}${currentLink === '/' ? '' : currentLink}`;
