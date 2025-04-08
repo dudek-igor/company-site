@@ -4,6 +4,7 @@ import type { SupportedNamespace } from '@/config';
 import { Link, usePathname } from '@/i18n/routing';
 import { getNavigationTree } from '@/utils';
 import clsx from 'clsx';
+import * as motion from 'motion/react-client';
 /**
  * Global Footer Compoent.
  */
@@ -61,14 +62,20 @@ export default function Footer() {
 
   return (
     <footer className="mx-auto container px-6 pt-16 pb-8 sm:px-6 lg:px-8">
-      <div className="mx-auto flex flex-col items-center">
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6 }}
+        className="mx-auto flex flex-col items-center"
+      >
         <strong className="block text-center text-xl font-bold text-gray-900 sm:text-3xl dark:text-white">
           {t.rich('heading', {
             br: () => <br />,
           })}
         </strong>
 
-        <form onSubmit={handleContact} className="mt-10 w-full max-w-md">
+        <form onSubmit={handleContact} className="mt-10 lg:mt-24 w-full max-w-md">
           <div className="relative">
             <label className="sr-only" htmlFor="email">
               Email
@@ -86,9 +93,9 @@ export default function Footer() {
             </button>
           </div>
         </form>
-      </div>
+      </motion.div>
 
-      <div className="mt-10 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
+      <div className="mt-10 lg:mt-24 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
         <div className="mx-auto max-w-sm lg:max-w-none">
           <p className="text-center text-sm text-gray-500 lg:text-justify lg:text-base dark:text-gray-400">
             {t('caption')}

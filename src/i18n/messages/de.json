@@ -28,6 +28,11 @@
           "title": "Qualitätssicherung & Launch",
           "description": "Wir testen die Website umfassend auf Leistung, Responsivität, SEO-Tauglichkeit und Sicherheit. Nach Optimierung wird die Seite auf einem zuverlässigen Server mit Analytics-Integration veröffentlicht."
         }
+      ],
+      "STATS_SECTION": [
+        { "title": "5+", "caption": "Jahre Erfahrung" },
+        { "title": "Weltweit", "caption": "Aus Polen, weltweit verfügbar" },
+        { "title": "+100%", "caption": "Wachstum seit dem Start" }
       ]
     }
   },
@@ -42,7 +47,12 @@
     "section": {
       "title": "Moderne Dienstleistungen, die wir anbieten",
       "motto": "Verwandeln Sie Ihre Idee in ein erfolgreiches Geschäft"
-    }
+    },
+    "STATS_SECTION": [
+      { "title": "5+", "caption": "Jahre Erfahrung" },
+      { "title": "Weltweit", "caption": "Aus Polen, weltweit verfügbar" },
+      { "title": "+100%", "caption": "Wachstum seit dem Start" }
+    ]
   },
   "WEBSITES": {
     "title": "Webseiten",

@@ -28,6 +28,11 @@
           "title": "Testy, Optymalizacja i Wdrożenie",
           "description": "Przeprowadzamy dokładne testy wydajności, responsywności, zgodności z SEO i bezpieczeństwa. Usuwamy błędy, optymalizujemy szybkość ładowania i wdrażamy witrynę na niezawodnym serwerze z integracją analityki."
         }
+      ],
+      "STATS_SECTION": [
+        { "title": "5+", "caption": "Lat doświadczenia" },
+        { "title": "Na całym świecie", "caption": "Z Polski, dostępni globalnie" },
+        { "title": "+100%", "caption": "Wzrost od początku działalności" }
       ]
     }
   },
@@ -42,7 +47,12 @@
     "section": {
       "title": "Nowoczesne Usługi, które Oferujemy",
       "motto": "Zamień swój pomysł w realny biznes"
-    }
+    },
+    "STATS_SECTION": [
+      { "title": "5+", "caption": "Lat doświadczenia" },
+      { "title": "Na całym świecie", "caption": "Z Polski, dostępni globalnie" },
+      { "title": "+100%", "caption": "Wzrost od początku działalności" }
+    ]
   },
   "WEBSITES": {
     "title": "Strony Internetowe",

@@ -29,7 +29,12 @@
           "description": "Perform thorough testing for performance, responsiveness, SEO readiness, and security. Fix bugs, optimize loading speed, and deploy the website on a reliable server with analytics integration."
         }
       ]
-    }
+    },
+    "STATS_SECTION": [
+      { "title": "5+", "caption": "Years of experience" },
+      { "title": "Worldwide", "caption": "From Poland, available worldwide" },
+      { "title": "+100%", "caption": "Growth from the beginning" }
+    ]
   },
   "SERVICES": {
     "title": "Our Services – Web & App Development",
@@ -42,7 +47,12 @@
     "section": {
       "title": "Innovative Services We're Offering",
       "motto": "Transform Your Business Idea Into Powerful Software"
-    }
+    },
+    "STATS_SECTION": [
+      { "title": "5+", "caption": "Years of experience" },
+      { "title": "Worldwide", "caption": "From Poland, available worldwide" },
+      { "title": "+100%", "caption": "Growth from the beginning" }
+    ]
   },
   "WEBSITES": {
     "title": "Website Development",

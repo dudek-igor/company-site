@@ -2,7 +2,7 @@
 
 import { FiChevronRight } from 'react-icons/fi';
 import { Fragment } from 'react';
-import { motion } from 'framer-motion';
+import * as motion from 'motion/react-client';
 import type { SupportedNamespace } from '@/config';
 import { useMessages } from 'next-intl';
 
@@ -15,7 +15,7 @@ export default function HowItWorkSection({ namespace }: THowItWorkSection) {
   const howItWork = namespace === 'HOME_PAGE' && messages['HOME_PAGE'].HOW_IT_WORK_SECTION;
   if (!howItWork) return;
   return (
-    <section className="py-24 relative transition-colors duration-300">
+    <section className="py-16 relative transition-colors duration-300">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}

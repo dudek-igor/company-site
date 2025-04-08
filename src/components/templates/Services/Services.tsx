@@ -1,5 +1,6 @@
 'use client';
 
+import { StatsSection } from '@/components/ui';
 import { Link } from '@/i18n/routing';
 import { getChildrenNamespace, type ChildrenItem } from '@/utils';
 import * as motion from 'motion/react-client';
@@ -33,26 +34,29 @@ export default function Services() {
   const t = useTranslations(namespace);
 
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.4 }}
-      className="mx-auto container py-16 lg:py-32"
-    >
-      <div className="mx-auto px-6 lg:px-8">
-        <div className="mx-auto text-center">
-          <h5 className="mb-6 text-base/7 font-semibold text-accented-primary">{t('section.title')}</h5>
-          <h2 className="mb-6 text-4xl font-semibold tracking-tight text-pretty text-gray-900 dark:text-white sm:text-5xl lg:text-balance">
-            {t('caption')}
-          </h2>
-          <p className="mb-6 text-lg/8 text-gray-600 dark:text-gray-400 transition-colors">{t('section.motto')}</p>
+    <section>
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.4 }}
+        className="mx-auto container py-16 lg:py-32"
+      >
+        <div className="mx-auto px-6 lg:px-8">
+          <div className="mx-auto text-center">
+            <h5 className="mb-6 text-base/7 font-semibold text-accented-primary">{t('section.title')}</h5>
+            <h2 className="mb-6 text-4xl font-semibold tracking-tight text-pretty text-gray-900 dark:text-white sm:text-5xl lg:text-balance">
+              {t('caption')}
+            </h2>
+            <p className="mb-6 text-lg/8 text-gray-600 dark:text-gray-400 transition-colors">{t('section.motto')}</p>
+          </div>
+          <dl className="mx-auto grid mt-12 max-w-none grid-cols-1 gap-x-8 gap-y-10 md:max-w-4xl md:grid-cols-2 md:gap-y-16 lg:gap-x-32">
+            {children.map((data) => (
+              <ServicesItem key={data.link} {...data} />
+            ))}
+          </dl>
         </div>
-        <dl className="mx-auto grid mt-12 max-w-none grid-cols-1 gap-x-8 gap-y-10 md:max-w-4xl md:grid-cols-2 md:gap-y-16 lg:gap-x-32">
-          {children.map((data) => (
-            <ServicesItem key={data.link} {...data} />
-          ))}
-        </dl>
-      </div>
-    </motion.div>
+      </motion.div>
+      <StatsSection namespace={namespace} />
+    </section>
   );
 }
