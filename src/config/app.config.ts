@@ -16,6 +16,9 @@ import {
 } from 'react-icons/fa6';
 import { FaReact } from 'react-icons/fa';
 import { SiCreatereactapp, SiTypescript } from 'react-icons/si';
+import { MdSupportAgent, MdOutlinePolicy } from 'react-icons/md';
+import { LiaCookieSolid } from 'react-icons/lia';
+import { GrTask } from 'react-icons/gr';
 
 export const appConfig = [
   {
@@ -191,6 +194,48 @@ export const appConfig = [
       pl: '/kontakt',
       de: '/kontakt',
     },
+  },
+  {
+    namespace: 'SUPPORT',
+    template: 'SUPPORT',
+    icon: MdSupportAgent,
+    links: {
+      en: '/support',
+      pl: '/pomoc',
+      de: '/unterstutzung',
+    },
+    children: [
+      {
+        namespace: 'TERMS',
+        icon: GrTask,
+        template: 'SINGLE_SUPPORT',
+        links: {
+          en: '/terms-and-conditions',
+          pl: '/regulamin',
+          de: '/satzung',
+        },
+      },
+      {
+        namespace: 'POLICY',
+        icon: MdOutlinePolicy,
+        template: 'SINGLE_SUPPORT',
+        links: {
+          en: '/privacy-policy',
+          pl: '/polityka-prywatnosci',
+          de: '/datenschutzrichtlinie',
+        },
+      },
+      {
+        namespace: 'COOKIES',
+        icon: LiaCookieSolid,
+        template: 'SINGLE_SUPPORT',
+        links: {
+          en: '/cookies',
+          pl: '/cookies',
+          de: '/cookies',
+        },
+      },
+    ],
   },
 ];
 

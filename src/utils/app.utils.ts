@@ -7,6 +7,8 @@ import { isValidNamespaceTypeGuard } from './i18n.utils';
 type TgetNavigationPaths = {
   withHomePath?: boolean;
   onlyMainRoute?: boolean;
+  onlyHelpfulLinks?: boolean;
+  withHelpfulLinks?: boolean;
 };
 
 export type NavigationNode = {
@@ -19,9 +21,15 @@ export type NavigationNode = {
 export const getNavigationTree = ({
   withHomePath = false,
   onlyMainRoute = false,
+  onlyHelpfulLinks = false,
+  withHelpfulLinks = false,
 }: TgetNavigationPaths = {}): NavigationNode[] => {
   const buildTree = (items: typeof appConfig, parentPath = ''): NavigationNode[] => {
     return items
+      .filter(({ namespace }) => {
+        if (!withHelpfulLinks && namespace === 'SUPPORT') return false;
+        return true;
+      })
       .map(({ namespace, links, icon, children }) => {
         const current = links[defaultLocale];
 
@@ -52,7 +60,16 @@ export const getNavigationTree = ({
       .filter((node): node is NavigationNode => Boolean(node));
   };
 
-  return buildTree(appConfig);
+  const config = onlyHelpfulLinks
+    ? appConfig.filter(({ namespace }) => {
+        if (onlyHelpfulLinks && namespace === 'SUPPORT') return true;
+        return false;
+      })[0]?.children || []
+    : appConfig;
+
+  const parentPath = onlyHelpfulLinks ? '/support' : '';
+
+  return buildTree(config, parentPath);
 };
 /**
  * Get children of given namespace

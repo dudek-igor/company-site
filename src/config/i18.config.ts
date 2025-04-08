@@ -32,4 +32,8 @@ export const namespaces: SupportedNamespace[] = [
   'REACT_NATIVE',
   'COMPANY',
   'CONTACT',
+  'SUPPORT',
+  'TERMS',
+  'POLICY',
+  'COOKIES',
 ] as const;

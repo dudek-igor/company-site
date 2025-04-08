@@ -43,8 +43,12 @@ function getPriority(href: Href): number {
   const segments = href.toString().split('/').filter(Boolean).length;
 
   if (segments === 0) return 1; // Root "/"
+
+  if (href.toString().startsWith('/support')) {
+    if (segments === 1) return 0.3; // First-level paths
+    return 0.1; // Deeper nested paths
+  }
   if (segments === 1) return 0.8; // First-level paths
   if (segments === 2) return 0.5; // Second-level paths
-
   return 0.3; // Deeper nested paths
 }

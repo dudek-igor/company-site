@@ -167,5 +167,51 @@
       "title": "Contact – Hello Software",
       "description": "Get in touch with our team to discuss your project or request a free consultation."
     }
+  },
+  "SUPPORT": {
+    "title": "Helpful Links",
+    "link": "Helpful Links",
+    "caption": "Access useful resources, documentation, and policies related to our services.",
+    "metadata": {
+      "title": "Helpful Links – Hello Software",
+      "description": "Explore helpful links and important resources from Hello Software to stay informed and supported."
+    }
+  },
+  "TERMS": {
+    "title": "Hello Software Terms & Conditions",
+    "link": "Terms & Conditions",
+    "caption": "Understand the legal terms that govern your use of our services and website.",
+    "metadata": {
+      "title": "Terms & Conditions – Hello Software",
+      "description": "Read the terms and conditions of Hello Software to learn about your rights and responsibilities when using our services."
+    }
+  },
+  "POLICY": {
+    "title": "Hello Software Privacy Policy",
+    "link": "Privacy Policy",
+    "caption": "Learn how we handle your data and protect your privacy across all digital services.",
+    "metadata": {
+      "title": "Privacy Policy – Hello Software",
+      "description": "Discover how Hello Software collects, uses, and protects your personal data in our privacy policy."
+    }
+  },
+  "COOKIES": {
+    "title": "Cookies Policy",
+    "link": "Cookies",
+    "caption": "Find out how we use cookies to improve your experience on our website.",
+    "metadata": {
+      "title": "Cookies Policy – Hello Software",
+      "description": "Understand how Hello Software uses cookies for better functionality, analytics, and user experience."
+    }
+  },
+  "FOOTER": {
+    "heading": "Would you like us to contact with you? <br></br> Leave your email below",
+    "link": "To Page Down",
+    "caption": "Hello Software provides innovative, user-centric software solutions designed to streamline your business processes. With a focus on efficiency, scalability, and ease of use, we offer cutting-edge tools that  empower your team to achieve greater productivity and growth.",
+    "form": {
+      "placeholder": "your-email@example.com",
+      "button": "Contact with us"
+    },
+    "all-rights-reserved": "© Hello Software 2025. All rights reserved."
   }
 }

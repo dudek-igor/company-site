@@ -27,6 +27,8 @@ const mapTemplate: Record<SupportedTemplate, React.ComponentType<TMapTemplate>> 
   SINGLE_TECHNOLOGY: SingleTechnology,
   COMPANY: Company,
   CONTACT: Contact,
+  SINGLE_SUPPORT: Contact,
+  SUPPORT: Contact,
 };
 
 export default function DynamicTemplate({ template, locale, namespace }: TDynamicTemplate) {

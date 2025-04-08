@@ -165,5 +165,50 @@
       "title": "Kontakt – Hello Software",
       "description": "Kontaktieren Sie uns und starten Sie Ihr nächstes digitales Projekt mit Hello Software."
     }
+  },
+  "SUPPORT": {
+    "title": "Nützliche Links",
+    "link": "Nützliche Links",
+    "caption": "Zugriff auf wichtige Ressourcen, Dokumentationen und Richtlinien zu unseren Dienstleistungen.",
+    "metadata": {
+      "title": "Nützliche Links – Hello Software",
+      "description": "Entdecken Sie hilfreiche Links und wichtige Ressourcen von Hello Software, um informiert und unterstützt zu bleiben."
+    }
+  },
+  "TERMS": {
+    "title": "Allgemeine Geschäftsbedingungen Hello Software",
+    "link": "AGB",
+    "caption": "Lesen Sie die Bedingungen für die Nutzung unserer Website und Dienstleistungen.",
+    "metadata": {
+      "title": "AGB – Hello Software",
+      "description": "Lesen Sie die Allgemeinen Geschäftsbedingungen von Hello Software und erfahren Sie mehr über Ihre Rechte und Pflichten."
+    }
+  },
+  "POLICY": {
+    "title": "Datenschutzrichtlinie von Hello Software",
+    "link": "Datenschutz",
+    "caption": "Erfahren Sie, wie wir Ihre persönlichen Daten erfassen, verwenden und schützen.",
+    "metadata": {
+      "title": "Datenschutz – Hello Software",
+      "description": "Informieren Sie sich über die Datenschutzpraktiken von Hello Software im Umgang mit Ihren persönlichen Daten."
+    }
+  },
+  "COOKIES": {
+    "title": "Cookie-Richtlinie",
+    "link": "Cookies",
+    "caption": "Erfahren Sie, wie wir Cookies verwenden, um Ihre Nutzererfahrung zu verbessern.",
+    "metadata": {
+      "title": "Cookie-Richtlinie – Hello Software",
+      "description": "Verstehen Sie, wie Hello Software Cookies einsetzt, um die Website-Funktionalität und Benutzerfreundlichkeit zu optimieren."
+    }
+  },
+  "FOOTER": {
+    "heading": "Möchten Sie, dass wir Sie kontaktieren?<br></br>Hinterlassen Sie unten Ihre E-Mail-Adresse",
+    "caption": "Hello Software bietet innovative, benutzerfreundliche Softwarelösungen zur Optimierung Ihrer Geschäftsprozesse. Mit Fokus auf Effizienz, Skalierbarkeit und einfacher Bedienung helfen wir Ihrem Team, produktiver zu arbeiten und zu wachsen.",
+    "form": {
+      "placeholder": "deine-email@example.de",
+      "button": "Kontaktieren Sie uns"
+    },
+    "all-rights-reserved": "© Hello Software 2025. Alle Rechte vorbehalten."
   }
 }

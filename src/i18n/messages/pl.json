@@ -167,5 +167,50 @@
       "title": "Kontakt – Hello Software",
       "description": "Skontaktuj się z nami – chętnie porozmawiamy o Twoim projekcie IT."
     }
+  },
+  "SUPPORT": {
+    "title": "Przydatne Linki",
+    "link": "Przydatne Linki",
+    "caption": "Dostęp do przydatnych zasobów, dokumentacji i polityk związanych z naszymi usługami.",
+    "metadata": {
+      "title": "Przydatne Linki – Hello Software",
+      "description": "Poznaj ważne linki i materiały pomocnicze od Hello Software, aby być na bieżąco i uzyskać wsparcie."
+    }
+  },
+  "TERMS": {
+    "title": "Regulamin Hello Software",
+    "link": "Regulamin",
+    "caption": "Poznaj warunki korzystania z naszych usług oraz zasady obowiązujące na stronie.",
+    "metadata": {
+      "title": "Regulamin – Hello Software",
+      "description": "Zapoznaj się z regulaminem Hello Software, aby dowiedzieć się więcej o zasadach korzystania z naszych usług."
+    }
+  },
+  "POLICY": {
+    "title": "Polityka Prywatności Hello Software",
+    "link": "Polityka Prywatności",
+    "caption": "Dowiedz się, jak dbamy o Twoją prywatność i przetwarzamy dane osobowe.",
+    "metadata": {
+      "title": "Polityka Prywatności – Hello Software",
+      "description": "Sprawdź, jak Hello Software przetwarza i chroni Twoje dane osobowe zgodnie z przepisami RODO."
+    }
+  },
+  "COOKIES": {
+    "title": "Polityka Cookies",
+    "link": "Cookies",
+    "caption": "Dowiedz się, jak korzystamy z plików cookies, aby ulepszać naszą stronę.",
+    "metadata": {
+      "title": "Polityka Cookies – Hello Software",
+      "description": "Zobacz, jak Hello Software wykorzystuje pliki cookies w celu poprawy działania strony i analizy ruchu."
+    }
+  },
+  "FOOTER": {
+    "heading": "Chcesz, abyśmy się z Tobą skontaktowali?<br></br>Zostaw swój adres e-mail poniżej",
+    "caption": "Hello Software tworzy nowoczesne i przyjazne użytkownikowi rozwiązania IT, które usprawniają procesy biznesowe. Skupiamy się na wydajności, skalowalności i prostocie, dostarczając narzędzia wspierające rozwój Twojej firmy.",
+    "form": {
+      "placeholder": "twoj-email@example.com",
+      "button": "Skontaktuj się z nami"
+    },
+    "all-rights-reserved": "© Hello Software 2025. Wszelkie prawa zastrzeżone."
   }
 }
