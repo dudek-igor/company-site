@@ -52,7 +52,7 @@ const ServiceSection = () => {
   const t = useTranslations(SECTION); // i18n hook
 
   return (
-    <div className="container mx-auto p-12 rounded-4xl bg-gradient-to-br from-[#d9f2ff] via-[#eae2fc] to-[#ffffff] dark:from-[#0f172a] dark:via-[#1e293b] dark:to-[#334155]">
+    <div className="container mx-auto px-8 md:px-12 py-12 rounded-4xl bg-gradient-to-br from-[#d9f2ff] via-[#eae2fc] to-[#ffffff] dark:from-[#0f172a] dark:via-[#1e293b] dark:to-[#334155]">
       <motion.section
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}

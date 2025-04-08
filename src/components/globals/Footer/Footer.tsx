@@ -17,8 +17,7 @@ function FooterNavItem({ href, namespace }: { href: string; namespace: Supported
         href={href}
         aria-current={isAcitve ? 'page' : undefined}
         className={clsx(
-          '',
-          // 'px-4 py-3 text-lg font-medium transition-colors',
+          'transition-colors',
           isAcitve
             ? 'text-accented-primary dark:text-accented-primary'
             : 'text-gray-900 dark:text-white hover:text-accented-primary dark:hover:text-accented-primary'
@@ -50,16 +49,16 @@ function FooterNav({ type = 'navigation' }: { type?: 'support' | 'navigation' })
 export default function Footer() {
   const t = useTranslations('FOOTER'); // i18n hook
   return (
-    <footer className="mx-auto container px-4 pt-16 pb-8 sm:px-6 lg:px-8">
-      <div className="mx-auto max-w-xl">
+    <footer className="mx-auto container px-6 pt-16 pb-8 sm:px-6 lg:px-8">
+      <div className="mx-auto flex flex-col items-center">
         <strong className="block text-center text-xl font-bold text-gray-900 sm:text-3xl dark:text-white">
           {t.rich('heading', {
             br: () => <br />,
           })}
         </strong>
 
-        <form className="mt-10">
-          <div className="relative max-w-lg">
+        <form className="mt-10 w-full max-w-md">
+          <div className="relative">
             <label className="sr-only" htmlFor="email">
               Email
             </label>
