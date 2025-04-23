@@ -317,8 +317,18 @@
     "heading": "Chcesz, abyśmy się z Tobą skontaktowali?<br></br>Zostaw swój adres e-mail poniżej",
     "caption": "Hello Software tworzy nowoczesne i przyjazne użytkownikowi rozwiązania IT, które usprawniają procesy biznesowe. Skupiamy się na wydajności, skalowalności i prostocie, dostarczając narzędzia wspierające rozwój Twojej firmy.",
     "form": {
-      "placeholder": "twoj-email@example.com",
-      "button": "Kontakt"
+      "email": {
+        "placeholder": "Adres e-mail *"
+      },
+      "error": {
+        "general": "Wystąpił błąd. Spróbuj ponownie później.",
+        "email": "Wprowadź poprawny adres e-mail"
+      },
+      "success": "Wiadomość została wysłana. Skontaktujemy się z Tobą wkrótce!",
+      "button": {
+        "default": "Kontakt",
+        "sending": "Wysyłanie..."
+      }
     },
     "all-rights-reserved": "© Hello Software 2025. Wszelkie prawa zastrzeżone.",
     "STATS_SECTION": [

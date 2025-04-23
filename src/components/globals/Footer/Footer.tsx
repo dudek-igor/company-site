@@ -6,6 +6,8 @@ import { getNavigationTree } from '@/utils';
 import clsx from 'clsx';
 import * as motion from 'motion/react-client';
 import { StatsSection } from '@/components/ui';
+import { sendSubscriptionMail } from '@/actions';
+import { useActionState } from 'react';
 /**
  * Global Footer Compoent.
  */
@@ -48,19 +50,10 @@ function FooterNav({ type = 'navigation' }: { type?: 'support' | 'navigation' })
   );
 }
 
-interface FormEventHandler {
-  (event: React.FormEvent<HTMLFormElement>): void;
-}
-
 export default function Footer() {
   const namespace = 'FOOTER';
-  const t = useTranslations(namespace); // i18n hook
-
-  const handleContact: FormEventHandler = (e) => {
-    e.preventDefault();
-    const form = e.target as HTMLFormElement;
-    form.reset();
-  };
+  const t = useTranslations(namespace);
+  const [state, formAction, isPending] = useActionState(sendSubscriptionMail, { success: false });
 
   return (
     <footer className="mx-auto container px-6 pt-20 pb-8 sm:px-6 lg:px-8">
@@ -77,22 +70,50 @@ export default function Footer() {
           })}
         </strong>
 
-        <form onSubmit={handleContact} className="mt-10 lg:mt-24 w-full max-w-md">
+        <form action={formAction} className="mt-10 lg:mt-24 w-full max-w-md">
           <div className="relative">
             <label className="sr-only" htmlFor="email">
               Email
             </label>
 
             <input
-              className="w-full rounded-full border-gray-200 bg-gray-100 p-4 pe-32 text-sm font-medium dark:border-gray-700 dark:bg-gray-800 dark:text-white"
+              className={clsx(
+                'w-full rounded-full border border-gray-300 dark:border-gray-700 bg-gray-100 p-4 pe-32 text-sm font-medium dark:bg-gray-800 dark:text-white',
+                state.error && 'border-red-500 dark:border-red-500',
+                state.success && 'border-green-600 dark:border-green-600'
+              )}
               id="email"
+              name="email"
               type="email"
-              placeholder={t('form.placeholder')}
+              defaultValue={state.values?.email}
+              placeholder={t('form.email.placeholder')}
+              aria-invalid={state.error === 'email'}
+              aria-describedby="email-error"
             />
 
-            <button className="cursor-pointer absolute end-1 top-1/2 -translate-y-1/2 rounded-full bg-gradient-to-r from-accented-primary to-accented-secondary px-5 py-3 text-sm font-medium text-white">
-              {t('form.button')}
+            <button
+              disabled={isPending}
+              type="submit"
+              id="submit"
+              className={clsx(
+                'cursor-pointer absolute end-1 top-1/2 -translate-y-1/2 rounded-full bg-gradient-to-r from-accented-primary to-accented-secondary px-5 py-3 text-sm font-medium text-white',
+                isPending && 'animate-pulse'
+              )}
+            >
+              {t(`form.button.${isPending ? 'sending' : 'default'}`)}
             </button>
+          </div>
+          <div className="mt-2">
+            {state?.success && (
+              <div id="general" className="text-center text-sm text-green-600">
+                {t('form.success')}
+              </div>
+            )}
+            {state?.error && (
+              <div id="error" className="text-center text-sm text-red-500">
+                {t(`form.error.${state.error}`)}
+              </div>
+            )}
           </div>
         </form>
       </motion.div>

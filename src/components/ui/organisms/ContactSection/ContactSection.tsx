@@ -3,7 +3,7 @@
 import * as motion from 'motion/react-client';
 import { useTranslations } from 'next-intl';
 import { FaPaperPlane } from 'react-icons/fa';
-import { sendEmail } from '@/actions';
+import { sendContactMail } from '@/actions';
 import type { SupportedNamespace } from '@/config';
 import ContactSectionBackground from './ContactSectionBackground';
 import { useActionState } from 'react';
@@ -16,7 +16,7 @@ type TContactSection = {
 export default function ContactSection({ namespace }: TContactSection) {
   const section = 'CONNTACT_SECTION';
   const t = useTranslations(namespace);
-  const [state, formAction, isPending] = useActionState(sendEmail, { success: false });
+  const [state, formAction, isPending] = useActionState(sendContactMail, { success: false });
 
   return (
     <section className="relative overflow-hidden first:lg:pt-20">
