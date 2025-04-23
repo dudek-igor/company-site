@@ -3,6 +3,8 @@ import { createSlugs, getInfoBySlug, type Slug } from '@/utils';
 import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import DynamicTemplate from '@/components/templates';
+import type { Metadata } from 'next';
+
 /**
  * Enable full static site generator only in build time.
  */
@@ -19,7 +21,7 @@ type TPageGeneratorParams = { params: Promise<Slug> };
 /**
  * Generate Metadata for each slug
  */
-export async function generateMetadata({ params }: TPageGeneratorParams) {
+export async function generateMetadata({ params }: TPageGeneratorParams): Promise<Metadata> {
   const { slug } = await params;
   const pageData = getInfoBySlug(slug);
   if (pageData) {
@@ -30,6 +32,7 @@ export async function generateMetadata({ params }: TPageGeneratorParams) {
       description: t('metadata.description'),
     };
   }
+  return {};
 }
 /**
  * To catch unknown routes, we set dynamic params to false.

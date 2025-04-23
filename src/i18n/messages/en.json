@@ -30,6 +30,46 @@
         }
       ]
     },
+    "CONNTACT_SECTION": {
+      "form": {
+        "title": "Need a website or mobile app?",
+        "caption": "Drop us a message",
+        "input": {
+          "email": {
+            "placeholder": "Email address *",
+            "error": "Please enter a valid email address"
+          },
+          "name": {
+            "placeholder": "Name",
+            "error": "Please enter a valid name"
+          },
+          "phone": {
+            "placeholder": "Phone number",
+            "error": "Please enter a valid phone number"
+          },
+          "message": {
+            "placeholder": "Tell us about your project *",
+            "error": "Your message should contain at least 10 characters"
+          }
+        },
+        "submit": "Send Message",
+        "sending": "Sending...",
+        "success": "Message sent successfully. We'll get back to you soon!",
+        "error": "Something went wrong. Please try again later."
+      },
+      "informations": {
+        "title": "Contact Information",
+        "caption": "Reach out to us – we’ll guide you, suggest solutions, and provide a quote for your IT project",
+        "location": {
+          "title": "Our Location",
+          "detail": "Wrocław, Poland"
+        },
+        "mail": {
+          "title": "Email us",
+          "detail": "contact@hello-software.com"
+        }
+      }
+    },
     "STATS_SECTION": [
       { "title": "5+", "caption": "Years of experience" },
       { "title": "Worldwide", "caption": "From Poland, available worldwide" },
@@ -137,7 +177,7 @@
   "TECHNOLOGIES": {
     "title": "Technologies We Use",
     "link": "Technologies",
-    "caption": "Explore modern technologies we use – from React and Node.js to cloud infrastructure.",
+    "caption": "Discover cutting-edge technologies we use to build modern websites and apps.",
     "metadata": {
       "title": "Technologies – Hello Software",
       "description": "Discover the technologies we use to build modern digital solutions – React, Node.js, TypeScript, and more."
@@ -191,10 +231,50 @@
   "CONTACT": {
     "title": "Contact Hello Software",
     "link": "Contact",
-    "caption": "Have a project in mind? Get in touch with Hello Software – we're ready to help.",
+    "caption": "Do you need a website, mobile app, or e-commerce solution? Get in touch with our team of IT experts to discuss your project.",
     "metadata": {
-      "title": "Contact – Hello Software",
-      "description": "Get in touch with our team to discuss your project or request a free consultation."
+      "title": "Contact Hello Software – Expert IT Services",
+      "description": "Have an idea for a digital product? Contact Hello Software and get a free consultation for your website, mobile app, or custom software project."
+    },
+    "CONNTACT_SECTION": {
+      "form": {
+        "title": "Need a website or mobile app?",
+        "caption": "Drop us a message",
+        "input": {
+          "email": {
+            "placeholder": "Email address *",
+            "error": "Please enter a valid email address"
+          },
+          "name": {
+            "placeholder": "Name",
+            "error": "Please enter a valid name"
+          },
+          "phone": {
+            "placeholder": "Phone number",
+            "error": "Please enter a valid phone number"
+          },
+          "message": {
+            "placeholder": "Tell us about your project *",
+            "error": "Your message should contain at least 10 characters"
+          }
+        },
+        "submit": "Send Message",
+        "sending": "Sending...",
+        "success": "Message sent successfully. We'll get back to you soon!",
+        "error": "Something went wrong. Please try again later."
+      },
+      "informations": {
+        "title": "Contact Information",
+        "caption": "Reach out to us – we’ll guide you, suggest solutions, and provide a quote for your IT project",
+        "location": {
+          "title": "Our Location",
+          "detail": "Wrocław, Poland"
+        },
+        "mail": {
+          "title": "Email us",
+          "detail": "contact@hello-software.com"
+        }
+      }
     }
   },
   "SUPPORT": {
@@ -241,6 +321,11 @@
       "placeholder": "your-email@example.com",
       "button": "Contact"
     },
-    "all-rights-reserved": "© Hello Software 2025. All rights reserved."
+    "all-rights-reserved": "© Hello Software 2025. All rights reserved.",
+    "STATS_SECTION": [
+      { "title": "5+", "caption": "Years of experience" },
+      { "title": "Worldwide", "caption": "From Poland, available worldwide" },
+      { "title": "+100%", "caption": "Growth from the beginning" }
+    ]
   }
 }

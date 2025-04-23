@@ -1,5 +1,12 @@
 import { SupportedLocale, SupportedNamespace } from '@/config';
-import { HeroSection, ServiceSection, HowItWorkSection, StatsSection } from '@/components/ui';
+import {
+  HeroSection,
+  ServiceSection,
+  HowItWorkSection,
+  StatsSection,
+  IntegrationSection,
+  ContactSection,
+} from '@/components/ui';
 /**
  * Template for HomePage
  */
@@ -15,6 +22,8 @@ export default function HomePage({ namespace }: THomePage) {
       <HeroSection namespace={namespace} />
       <ServiceSection />
       <HowItWorkSection namespace={namespace} />
+      <ContactSection namespace={namespace} />
+      <IntegrationSection namespace={namespace} />
       <StatsSection namespace={namespace} />
     </>
   );

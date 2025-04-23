@@ -31,9 +31,49 @@
       ],
       "STATS_SECTION": [
         { "title": "5+", "caption": "Lat doświadczenia" },
-        { "title": "Na całym świecie", "caption": "Z Polski, dostępni globalnie" },
+        { "title": "Z Polski", "caption": "Dostępni globalnie" },
         { "title": "+100%", "caption": "Wzrost od początku działalności" }
       ]
+    },
+    "CONNTACT_SECTION": {
+      "form": {
+        "title": "Potrzebujesz strony internetowej lub aplikacji?",
+        "caption": "Napisz do nas",
+        "input": {
+          "email": {
+            "placeholder": "Adres e-mail *",
+            "error": "Wprowadź poprawny adres e-mail"
+          },
+          "name": {
+            "placeholder": "Imię",
+            "error": "Podaj poprawne imię"
+          },
+          "phone": {
+            "placeholder": "Numer telefonu",
+            "error": "Podaj poprawny numer telefonu"
+          },
+          "message": {
+            "placeholder": "Opisz swój projekt *",
+            "error": "Opis projektu powinien zawierać co najmniej 10 znaków"
+          }
+        },
+        "submit": "Wyślij wiadomość",
+        "sending": "Wysyłanie...",
+        "success": "Wiadomość została wysłana. Skontaktujemy się z Tobą wkrótce!",
+        "error": "Wystąpił błąd. Spróbuj ponownie później."
+      },
+      "informations": {
+        "title": "Nasze dane kontaktowe",
+        "caption": "Skontaktuj się z nami – doradzimy, zaproponujemy rozwiązania i przygotujemy wycenę projektu IT",
+        "location": {
+          "title": "Nasza lokalizacja",
+          "detail": "Wrocław, Polska"
+        },
+        "mail": {
+          "title": "Napisz do nas",
+          "detail": "contact@hello-software.com"
+        }
+      }
     }
   },
   "SERVICES": {
@@ -137,7 +177,7 @@
   "TECHNOLOGIES": {
     "title": "Technologie",
     "link": "Technologie",
-    "caption": "Nowoczesne technologie wykorzystywane w naszych projektach.",
+    "caption": "Nowoczesne technologie, które napędzają nasze projekty IT.",
     "metadata": {
       "title": "Technologie – Hello Software",
       "description": "Poznaj technologie, które wykorzystujemy w projektach IT."
@@ -189,12 +229,52 @@
     }
   },
   "CONTACT": {
-    "title": "Kontakt",
+    "title": "Skontaktuj się z Hello Software",
     "link": "Kontakt",
-    "caption": "Masz pytania lub chcesz współpracować? Skontaktuj się z nami.",
+    "caption": "Chcesz stworzyć stronę internetową, aplikację lub sklep online? Skontaktuj się z naszym zespołem ekspertów IT i omów swój projekt.",
     "metadata": {
-      "title": "Kontakt – Hello Software",
-      "description": "Skontaktuj się z nami – chętnie porozmawiamy o Twoim projekcie IT."
+      "title": "Skontaktuj się z Hello Software – Profesjonalne usługi IT",
+      "description": "Masz pomysł na projekt IT? Skontaktuj się z Hello Software i uzyskaj darmową konsultację w zakresie tworzenia stron, aplikacji mobilnych i e-commerce."
+    },
+    "CONNTACT_SECTION": {
+      "form": {
+        "title": "Potrzebujesz strony internetowej lub aplikacji?",
+        "caption": "Napisz do nas",
+        "input": {
+          "email": {
+            "placeholder": "Adres e-mail *",
+            "error": "Wprowadź poprawny adres e-mail"
+          },
+          "name": {
+            "placeholder": "Imię",
+            "error": "Podaj poprawne imię"
+          },
+          "phone": {
+            "placeholder": "Numer telefonu",
+            "error": "Podaj poprawny numer telefonu"
+          },
+          "message": {
+            "placeholder": "Opisz swój projekt *",
+            "error": "Opis projektu powinien zawierać co najmniej 10 znaków"
+          }
+        },
+        "submit": "Wyślij wiadomość",
+        "sending": "Wysyłanie...",
+        "success": "Wiadomość została wysłana. Skontaktujemy się z Tobą wkrótce!",
+        "error": "Wystąpił błąd. Spróbuj ponownie później."
+      },
+      "informations": {
+        "title": "Nasze dane kontaktowe",
+        "caption": "Skontaktuj się z nami – doradzimy, zaproponujemy rozwiązania i przygotujemy wycenę projektu IT",
+        "location": {
+          "title": "Nasza lokalizacja",
+          "detail": "Wrocław, Polska"
+        },
+        "mail": {
+          "title": "Napisz do nas",
+          "detail": "contact@hello-software.com"
+        }
+      }
     }
   },
   "SUPPORT": {
@@ -240,6 +320,11 @@
       "placeholder": "twoj-email@example.com",
       "button": "Kontakt"
     },
-    "all-rights-reserved": "© Hello Software 2025. Wszelkie prawa zastrzeżone."
+    "all-rights-reserved": "© Hello Software 2025. Wszelkie prawa zastrzeżone.",
+    "STATS_SECTION": [
+      { "title": "5+", "caption": "Lat doświadczenia" },
+      { "title": "Z Polski", "caption": "Dostępni globalnie" },
+      { "title": "+100%", "caption": "Wzrost od początku działalności" }
+    ]
   }
 }

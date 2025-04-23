@@ -52,28 +52,31 @@ const ServiceSection = () => {
   const t = useTranslations(SECTION); // i18n hook
 
   return (
-    <div className="container mx-auto p-12 rounded-4xl bg-gradient-to-br from-[#d9f2ff] via-[#eae2fc] to-[#ffffff] dark:from-[#0f172a] dark:via-[#1e293b] dark:to-[#334155]">
-      <motion.section
-        initial={{ opacity: 0, y: 30 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.1, duration: 0.6 }}
-      >
-        {/* Nagłówek */}
-        <div className="max-w-2xl mx-auto text-center">
-          <h5 className="text-accented-primary font-medium lg:text-2xl">{t('section.title')}</h5>
-          <h2 className="text-4xl font-bold text-gray-900 dark:text-white mt-3">{t('section.motto')}</h2>
-        </div>
+    <section className="relative overflow-hidden first:lg:pt-20 transition-colors duration-300">
+      <div className="mx-auto container py-12 px-4 md:px-5">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.1, duration: 0.6 }}
+          className="p-12 rounded-4xl bg-gradient-to-br from-[#d9f2ff] via-[#eae2fc] to-[#ffffff] dark:from-[#0f172a] dark:via-[#1e293b] dark:to-[#334155]"
+        >
+          {/* Nagłówek */}
+          <div className="max-w-2xl mx-auto text-center">
+            <h5 className="text-accented-primary font-medium lg:text-2xl">{t('section.title')}</h5>
+            <h2 className="text-4xl font-bold text-gray-900 dark:text-white mt-3">{t('section.motto')}</h2>
+          </div>
 
-        {/* Siatka z usługami */}
-        <div className="mt-12 grid gap-6 items-stretch justify-items-stretch grid-cols-1 sm:grid-cols-2 xl:grid-cols-4">
-          {services.map(({ namespace, icon, link }) => (
-            <Fragment key={namespace}>
-              <ServiceSectionCard namespace={namespace} icon={icon} link={link} />
-            </Fragment>
-          ))}
-        </div>
-      </motion.section>
-    </div>
+          {/* Siatka z usługami */}
+          <div className="mt-12 grid gap-6 items-stretch justify-items-stretch grid-cols-1 sm:grid-cols-2 xl:grid-cols-4">
+            {services.map(({ namespace, icon, link }) => (
+              <Fragment key={namespace}>
+                <ServiceSectionCard namespace={namespace} icon={icon} link={link} />
+              </Fragment>
+            ))}
+          </div>
+        </motion.div>
+      </div>
+    </section>
   );
 };
 

@@ -15,20 +15,20 @@ export default function HowItWorkSection({ namespace }: THowItWorkSection) {
   const howItWork = namespace === 'HOME_PAGE' && messages['HOME_PAGE'].HOW_IT_WORK_SECTION;
   if (!howItWork) return;
   return (
-    <section className="py-16 relative transition-colors duration-300">
+    <section className="relative transition-colors duration-300">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, amount: 0.1 }}
+        viewport={{ once: true, amount: 0.4 }}
         transition={{ duration: 0.6, ease: 'easeOut' }}
-        className="container px-4 md:px-5 lg:px-5 mx-auto"
+        className="container py-12 px-4 md:px-5 lg:px-5 mx-auto"
       >
         <div className="w-full flex-col justify-start items-center lg:gap-12 gap-10 inline-flex">
           <motion.div
             className="w-full flex-col justify-start items-center gap-3 flex"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, amount: 0.4 }}
             transition={{ duration: 0.6 }}
           >
             <h2 className="w-full text-center text-gray-900 dark:text-white text-4xl font-bold font-manrope leading-normal">
@@ -47,7 +47,7 @@ export default function HowItWorkSection({ namespace }: THowItWorkSection) {
                   className="grow shrink basis-0 flex-col justify-start items-center gap-2.5 inline-flex text-center"
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
+                  viewport={{ once: true, amount: 0.4 }}
                   transition={{ duration: 0.6, delay: index * 0.2 }}
                 >
                   <div className="flex-col justify-start items-center gap-0.5 flex">

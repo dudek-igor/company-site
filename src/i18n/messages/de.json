@@ -34,6 +34,46 @@
         { "title": "Weltweit", "caption": "Aus Polen, weltweit verfügbar" },
         { "title": "+100%", "caption": "Wachstum seit dem Start" }
       ]
+    },
+    "CONNTACT_SECTION": {
+      "form": {
+        "title": "Benötigen Sie eine Website oder App?",
+        "caption": "Schreiben Sie uns",
+        "input": {
+          "email": {
+            "placeholder": "E-Mail-Adresse *",
+            "error": "Bitte geben Sie eine gültige E-Mail-Adresse ein"
+          },
+          "name": {
+            "placeholder": "Name",
+            "error": "Bitte geben Sie einen gültigen Namen ein"
+          },
+          "phone": {
+            "placeholder": "Telefonnummer",
+            "error": "Bitte geben Sie eine gültige Telefonnummer ein"
+          },
+          "message": {
+            "placeholder": "Beschreiben Sie Ihr Projekt *",
+            "error": "Die Projektbeschreibung muss mindestens 10 Zeichen enthalten"
+          }
+        },
+        "submit": "Nachricht senden",
+        "sending": "Wird gesendet...",
+        "success": "Nachricht erfolgreich gesendet. Wir melden uns bald bei Ihnen!",
+        "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es später noch einmal."
+      },
+      "informations": {
+        "title": "Kontaktinformationen",
+        "caption": "Kontaktieren Sie uns – wir beraten Sie, schlagen Lösungen vor und erstellen ein individuelles Angebot",
+        "location": {
+          "title": "Standort",
+          "detail": "Wrocław, Polen"
+        },
+        "mail": {
+          "title": "Schreiben Sie uns",
+          "detail": "contact@hello-software.com"
+        }
+      }
     }
   },
   "SERVICES": {
@@ -189,12 +229,52 @@
     }
   },
   "CONTACT": {
-    "title": "Kontakt",
+    "title": "Kontaktieren Sie Hello Software",
     "link": "Kontakt",
-    "caption": "Kontaktieren Sie uns für eine individuelle Beratung oder ein Angebot.",
+    "caption": "Benötigen Sie eine Website, App oder eine E-Commerce-Lösung? Kontaktieren Sie unser IT-Expertenteam und besprechen Sie Ihr Projekt.",
     "metadata": {
-      "title": "Kontakt – Hello Software",
-      "description": "Kontaktieren Sie uns und starten Sie Ihr nächstes digitales Projekt mit Hello Software."
+      "title": "Kontakt – Hello Software | Professionelle IT-Dienstleistungen",
+      "description": "Haben Sie eine Idee für ein digitales Projekt? Kontaktieren Sie Hello Software und erhalten Sie eine kostenlose Beratung zu Websites, mobilen Apps und individuellen Softwarelösungen."
+    },
+    "CONNTACT_SECTION": {
+      "form": {
+        "title": "Benötigen Sie eine Website oder App?",
+        "caption": "Schreiben Sie uns",
+        "input": {
+          "email": {
+            "placeholder": "E-Mail-Adresse *",
+            "error": "Bitte geben Sie eine gültige E-Mail-Adresse ein"
+          },
+          "name": {
+            "placeholder": "Name",
+            "error": "Bitte geben Sie einen gültigen Namen ein"
+          },
+          "phone": {
+            "placeholder": "Telefonnummer",
+            "error": "Bitte geben Sie eine gültige Telefonnummer ein"
+          },
+          "message": {
+            "placeholder": "Beschreiben Sie Ihr Projekt *",
+            "error": "Die Projektbeschreibung muss mindestens 10 Zeichen enthalten"
+          }
+        },
+        "submit": "Nachricht senden",
+        "sending": "Wird gesendet...",
+        "success": "Nachricht erfolgreich gesendet. Wir melden uns bald bei Ihnen!",
+        "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es später noch einmal."
+      },
+      "informations": {
+        "title": "Kontaktinformationen",
+        "caption": "Kontaktieren Sie uns – wir beraten Sie, schlagen Lösungen vor und erstellen ein individuelles Angebot",
+        "location": {
+          "title": "Standort",
+          "detail": "Wrocław, Polen"
+        },
+        "mail": {
+          "title": "Schreiben Sie uns",
+          "detail": "contact@hello-software.com"
+        }
+      }
     }
   },
   "SUPPORT": {
@@ -240,6 +320,11 @@
       "placeholder": "deine-email@example.de",
       "button": "Kontakt"
     },
-    "all-rights-reserved": "© Hello Software 2025. Alle Rechte vorbehalten."
+    "all-rights-reserved": "© Hello Software 2025. Alle Rechte vorbehalten.",
+    "STATS_SECTION": [
+      { "title": "5+", "caption": "Jahre Erfahrung" },
+      { "title": "Weltweit", "caption": "Aus Polen, weltweit verfügbar" },
+      { "title": "+100%", "caption": "Wachstum seit dem Start" }
+    ]
   }
 }

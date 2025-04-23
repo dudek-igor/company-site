@@ -34,12 +34,12 @@ export default function Services() {
   const t = useTranslations(namespace);
 
   return (
-    <section>
+    <section className="relative overflow-hidden first:lg:pt-20">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4 }}
-        className="mx-auto container py-16 lg:py-32"
+        className="mx-auto container py-12 px-4 md:px-5"
       >
         <div className="mx-auto px-6 lg:px-8">
           <div className="mx-auto text-center">

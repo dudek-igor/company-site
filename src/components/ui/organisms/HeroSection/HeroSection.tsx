@@ -17,7 +17,7 @@ const HeroSection = ({ namespace }: THeroSection) => {
   const t = useTranslations(namespace); // i18n hook
 
   return (
-    <section className=" relative overflow-hidden">
+    <section className="relative overflow-hidden first:lg:pt-20">
       {/* Decoration in the left corner */}
       <motion.div
         initial={{ opacity: 0 }}
@@ -27,7 +27,7 @@ const HeroSection = ({ namespace }: THeroSection) => {
       >
         <Image src={shape2} alt="Shape" className="max-w-[60%] opacity-50" />
       </motion.div>
-      <div className="container mx-auto px-4 lg:py-48 lg:px-10">
+      <div className="mx-auto container py-12 px-4 md:px-5">
         <div className="grid grid-cols-1 lg:grid-cols-2 py-8 md:py-12">
           {/* Text Section */}
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.4 }}>

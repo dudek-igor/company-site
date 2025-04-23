@@ -2,7 +2,7 @@
 
 import type { SupportedNamespace } from '@/config';
 import { useMessages } from 'next-intl';
-import { motion } from 'framer-motion';
+import * as motion from 'motion/react-client';
 
 type TStatsSection = {
   namespace: SupportedNamespace;
@@ -23,12 +23,12 @@ const fadeIn = {
 
 const StatsSection = ({ namespace }: TStatsSection) => {
   const messages = useMessages();
-  const stats = (namespace === 'HOME_PAGE' || namespace === 'SERVICES') && messages[namespace].STATS_SECTION;
+  const stats = namespace === 'FOOTER' && messages[namespace].STATS_SECTION;
 
   if (!stats) return null;
 
   return (
-    <section className="transition-colors duration-300 py-12 lg:py-20">
+    <section className="transition-colors duration-300 py-12">
       <div className="container mx-auto px-6 lg:px-8">
         <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
           {stats.map(({ title, caption }, index) => (

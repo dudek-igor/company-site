@@ -5,6 +5,7 @@ import { Link, usePathname } from '@/i18n/routing';
 import { getNavigationTree } from '@/utils';
 import clsx from 'clsx';
 import * as motion from 'motion/react-client';
+import { StatsSection } from '@/components/ui';
 /**
  * Global Footer Compoent.
  */
@@ -52,7 +53,8 @@ interface FormEventHandler {
 }
 
 export default function Footer() {
-  const t = useTranslations('FOOTER'); // i18n hook
+  const namespace = 'FOOTER';
+  const t = useTranslations(namespace); // i18n hook
 
   const handleContact: FormEventHandler = (e) => {
     e.preventDefault();
@@ -61,13 +63,13 @@ export default function Footer() {
   };
 
   return (
-    <footer className="mx-auto container px-6 pt-16 pb-8 sm:px-6 lg:px-8">
+    <footer className="mx-auto container px-6 pt-20 pb-8 sm:px-6 lg:px-8">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
+        viewport={{ once: true, amount: 0.4 }}
         transition={{ duration: 0.6 }}
-        className="mx-auto flex flex-col items-center"
+        className="mx-auto flex flex-col items-center pb-12"
       >
         <strong className="block text-center text-xl font-bold text-gray-900 sm:text-3xl dark:text-white">
           {t.rich('heading', {
@@ -94,8 +96,8 @@ export default function Footer() {
           </div>
         </form>
       </motion.div>
-
-      <div className="mt-10 lg:mt-24 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
+      <StatsSection namespace={namespace} />
+      <div className="py-6 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
         <div className="mx-auto max-w-sm lg:max-w-none">
           <p className="text-center text-sm text-gray-500 lg:text-justify lg:text-base dark:text-gray-400">
             {t('caption')}
