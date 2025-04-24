@@ -176,13 +176,13 @@ export const appConfig = [
     ],
   },
   {
-    namespace: 'COMPANY',
-    template: 'COMPANY',
+    namespace: 'ABOUT_US',
+    template: 'ABOUT_US',
     icon: FaUsers,
     links: {
-      en: '/company',
-      pl: '/firma',
-      de: '/unternehmen',
+      en: '/about-us',
+      pl: '/o-nas',
+      de: '/uber-uns',
     },
   },
   {

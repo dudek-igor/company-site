@@ -219,13 +219,33 @@
       "description": "We develop cross-platform mobile apps using React Native – fast, native-like experience."
     }
   },
-  "COMPANY": {
+  "ABOUT_US": {
     "title": "About Hello Software",
     "link": "About Us",
     "caption": "Learn more about Hello Software – our team, mission, and commitment to innovation.",
     "metadata": {
       "title": "About Us – Hello Software",
       "description": "Meet the team behind Hello Software – experts in web, mobile, and cloud development."
+    },
+    "sections_1": {
+      "title": "Our Core Values",
+      "caption": "The foundation behind every successful project we deliver.",
+      "text": "At Hello Software, we are guided by values such as transparency, innovation, accountability, and commitment. We believe that only through honest, collaborative partnerships can we deliver top-quality software solutions that truly support the growth of our clients' businesses."
+    },
+    "sections_2": {
+      "title": "Our Team Culture",
+      "caption": "Driven by passion, built on trust and mutual respect.",
+      "text": "We foster a work environment focused on teamwork, open communication, and continuous learning. Every team member at Hello Software has a real impact on both projects and the company. We promote a culture of feedback, flexibility, and work-life balance that fuels productivity and creativity."
+    },
+    "sections_3": {
+      "title": "Our Vision",
+      "caption": "Modern technologies serving people and business growth.",
+      "text": "Our vision is to create intelligent, scalable, and accessible software solutions that meet the evolving needs of today’s digital world. We strive to be a trusted tech partner for businesses worldwide, enabling their digital transformation and helping them achieve their goals."
+    },
+    "sections_4": {
+      "title": "Why Choose Us?",
+      "caption": "Your business goals in the hands of a skilled software team.",
+      "text": "Choosing Hello Software means partnering with a team that understands your needs and translates them into effective technology solutions. We combine experience, innovation, and transparency in everything we do. Each project is built on strategic analysis, a tailored plan, and the highest quality standards—from concept to deployment and beyond."
     }
   },
   "CONTACT": {
@@ -318,8 +338,18 @@
     "link": "To Page Down",
     "caption": "Hello Software provides innovative, user-centric software solutions designed to streamline your business processes. With a focus on efficiency, scalability, and ease of use, we offer cutting-edge tools that  empower your team to achieve greater productivity and growth.",
     "form": {
-      "placeholder": "your-email@example.com",
-      "button": "Contact"
+      "email": {
+        "placeholder": "Email address *"
+      },
+      "error": {
+        "general": "An error occurred. Please try again later.",
+        "email": "Please enter a valid email address"
+      },
+      "success": "Your message has been sent. We'll get back to you shortly!",
+      "button": {
+        "default": "Contact",
+        "sending": "Sending..."
+      }
     },
     "all-rights-reserved": "© Hello Software 2025. All rights reserved.",
     "STATS_SECTION": [

@@ -226,6 +226,26 @@
     "metadata": {
       "title": "Über uns – Hello Software",
       "description": "Hello Software – Ihr Partner für innovative IT-Lösungen und individuelle Softwareentwicklung."
+    },
+    "sections_1": {
+      "title": "Unsere Werte",
+      "caption": "Das Fundament jedes erfolgreichen Projekts.",
+      "text": "Bei Hello Software setzen wir auf Werte wie Transparenz, Innovation, Verantwortung und Engagement. Wir sind überzeugt, dass nur durch partnerschaftliche Zusammenarbeit und Ehrlichkeit erstklassige IT-Lösungen entstehen, die das Wachstum unserer Kunden nachhaltig fördern."
+    },
+    "sections_2": {
+      "title": "Unsere Unternehmenskultur",
+      "caption": "Ein Team, das von Leidenschaft und Respekt geprägt ist.",
+      "text": "Wir schaffen ein Arbeitsumfeld, das auf Zusammenarbeit, offener Kommunikation und kontinuierlicher Weiterentwicklung basiert. Bei Hello Software hat jedes Teammitglied einen echten Einfluss auf Projekte und die Unternehmensentwicklung. Unsere Kultur ist geprägt von Feedback, Flexibilität und einem ausgewogenen Verhältnis zwischen Beruf und Privatleben – für mehr Effizienz und Kreativität."
+    },
+    "sections_3": {
+      "title": "Unsere Vision",
+      "caption": "Moderne Technologien im Dienst von Menschen und Unternehmen.",
+      "text": "Unsere Vision ist es, intelligente, skalierbare und zugängliche IT-Lösungen zu entwickeln, die den Anforderungen eines sich ständig verändernden Marktes gerecht werden. Wir wollen ein zuverlässiger Technologiepartner für Unternehmen weltweit sein und sie bei der digitalen Transformation und Zielerreichung unterstützen."
+    },
+    "sections_4": {
+      "title": "Warum wir?",
+      "caption": "Ihre Ziele in den Händen erfahrener IT-Experten.",
+      "text": "Mit Hello Software entscheiden Sie sich für einen Partner, der Ihre Anforderungen versteht und in wirkungsvolle digitale Lösungen umsetzt. Wir vereinen Erfahrung, moderne Ansätze und Transparenz. Jedes Projekt basiert auf fundierter Analyse, strategischer Planung und höchsten Qualitätsstandards – von der Idee bis zur Umsetzung und darüber hinaus."
     }
   },
   "CONTACT": {
@@ -317,8 +337,18 @@
     "heading": "Möchten Sie, dass wir Sie kontaktieren?<br></br>Hinterlassen Sie unten Ihre E-Mail-Adresse",
     "caption": "Hello Software bietet innovative, benutzerfreundliche Softwarelösungen zur Optimierung Ihrer Geschäftsprozesse. Mit Fokus auf Effizienz, Skalierbarkeit und einfacher Bedienung helfen wir Ihrem Team, produktiver zu arbeiten und zu wachsen.",
     "form": {
-      "placeholder": "deine-email@example.de",
-      "button": "Kontakt"
+      "email": {
+        "placeholder": "E-Mail-Adresse *"
+      },
+      "error": {
+        "general": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später noch einmal.",
+        "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein"
+      },
+      "success": "Ihre Nachricht wurde erfolgreich gesendet. Wir melden uns in Kürze bei Ihnen!",
+      "button": {
+        "default": "Kontakt",
+        "sending": "Wird gesendet..."
+      }
     },
     "all-rights-reserved": "© Hello Software 2025. Alle Rechte vorbehalten.",
     "STATS_SECTION": [

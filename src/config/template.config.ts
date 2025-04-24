@@ -4,7 +4,7 @@ export type SupportedTemplate =
   | 'SINGLE_SERVICE'
   | 'TECHNOLOGIES'
   | 'SINGLE_TECHNOLOGY'
-  | 'COMPANY'
+  | 'ABOUT_US'
   | 'CONTACT'
   | 'SUPPORT'
   | 'SINGLE_SUPPORT';
@@ -15,7 +15,7 @@ export const supportedTemplate: SupportedTemplate[] = [
   'SINGLE_SERVICE',
   'TECHNOLOGIES',
   'SINGLE_TECHNOLOGY',
-  'COMPANY',
+  'ABOUT_US',
   'CONTACT',
   'SUPPORT',
   'SINGLE_SUPPORT',

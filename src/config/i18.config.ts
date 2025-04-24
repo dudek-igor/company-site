@@ -30,10 +30,15 @@ export const namespaces: SupportedNamespace[] = [
   'REACT',
   'NODE_JS',
   'REACT_NATIVE',
-  'COMPANY',
+  'ABOUT_US',
   'CONTACT',
   'SUPPORT',
   'TERMS',
   'POLICY',
   'COOKIES',
 ] as const;
+
+export type TBaseProps = {
+  locale: SupportedLocale;
+  namespace: SupportedNamespace;
+};

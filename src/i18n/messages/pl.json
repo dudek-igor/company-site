@@ -79,7 +79,7 @@
   "SERVICES": {
     "title": "Usługi",
     "link": "Usługi",
-    "caption": "Zapaznaj się z pełną ofertą naszych usług programistycznych dostosowanych do potrzeb Twojej firmy.",
+    "caption": "Oferta usług programistycznych dostosowanych do potrzeb Twojej firmy.",
     "metadata": {
       "title": "Usługi IT – Hello Software",
       "description": "Oferujemy strony internetowe, aplikacje mobilne, integracje API i rozwiązania chmurowe."
@@ -219,17 +219,37 @@
       "description": "Tworzymy aplikacje mobilne z React Native – szybko, wydajnie i nowocześnie."
     }
   },
-  "COMPANY": {
-    "title": "O nas",
-    "link": "Firma",
-    "caption": "Poznaj nasz zespół, wartości i podejście do tworzenia oprogramowania.",
+  "ABOUT_US": {
+    "title": "O Nas - Hello Software",
+    "link": "O nas",
+    "caption": "Poznaj nas, wartości i podejście do tworzenia oprogramowania.",
     "metadata": {
       "title": "O nas – Hello Software",
-      "description": "Poznaj naszą firmę, zespół i sposób pracy przy tworzeniu rozwiązań IT."
+      "description": "Poznaj naszą firmę, wartości i sposób pracy przy tworzeniu rozwiązań IT."
+    },
+    "sections_1": {
+      "title": "Nasze Wartości",
+      "caption": "Fundamenty, które kształtują każdy nasz projekt.",
+      "text": "W Hello Software kierujemy się wartościami takimi jak transparentność, innowacyjność, odpowiedzialność i zaangażowanie. Wierzymy, że tylko poprzez partnerską współpracę i uczciwość jesteśmy w stanie dostarczać najwyższej jakości rozwiązania IT, które realnie wspierają rozwój biznesów naszych klientów."
+    },
+    "sections_2": {
+      "title": "Nasza kultura organizacyjna",
+      "caption": "Zespół napędzany pasją i wzajemnym szacunkiem.",
+      "text": "Tworzymy środowisko pracy, w którym liczy się współpraca, otwarta komunikacja i ciągły rozwój. W Hello Software każdy członek zespołu ma realny wpływ na projekty i firmę. Promujemy kulturę feedbacku, elastyczności oraz równowagi między życiem zawodowym a prywatnym, co przekłada się na efektywność i kreatywność w działaniu."
+    },
+    "sections_3": {
+      "title": "Nasza Wizja",
+      "caption": "Nowoczesne technologie w służbie ludzi i biznesu.",
+      "text": "Naszą wizją jest tworzenie inteligentnych, skalowalnych i dostępnych rozwiązań IT, które odpowiadają na dynamiczne potrzeby rynku. Dążymy do bycia zaufanym partnerem technologicznym dla firm z całego świata, wspierając ich w cyfrowej transformacji i osiąganiu celów biznesowych."
+    },
+    "sections_4": {
+      "title": "Dlaczego wybrać nas?",
+      "caption": "Twoje cele biznesowe w rękach doświadczonego zespołu IT.",
+      "text": "Wybierając Hello Software, zyskujesz partnera, który rozumie Twoje potrzeby i potrafi przełożyć je na skuteczne rozwiązania technologiczne. Łączymy doświadczenie, nowoczesne podejście i transparentność w działaniu. Nasze projekty powstają w oparciu o analizę, strategię i najwyższe standardy jakości – od koncepcji po wdrożenie i dalsze wsparcie."
     }
   },
   "CONTACT": {
-    "title": "Skontaktuj się z Hello Software",
+    "title": "Kontakt z Hello Software",
     "link": "Kontakt",
     "caption": "Chcesz stworzyć stronę internetową, aplikację lub sklep online? Skontaktuj się z naszym zespołem ekspertów IT i omów swój projekt.",
     "metadata": {

@@ -4,22 +4,18 @@ import * as motion from 'motion/react-client';
 import { useTranslations } from 'next-intl';
 import { FaPaperPlane } from 'react-icons/fa';
 import { sendContactMail } from '@/actions';
-import type { SupportedNamespace } from '@/config';
 import ContactSectionBackground from './ContactSectionBackground';
 import { useActionState } from 'react';
 import clsx from 'clsx';
+import type { TBaseProps } from '@/config';
 
-type TContactSection = {
-  namespace: SupportedNamespace;
-};
-
-export default function ContactSection({ namespace }: TContactSection) {
+export default function ContactSection({ namespace }: TBaseProps) {
   const section = 'CONNTACT_SECTION';
   const t = useTranslations(namespace);
   const [state, formAction, isPending] = useActionState(sendContactMail, { success: false });
 
   return (
-    <section className="relative overflow-hidden first:lg:pt-20">
+    <section className="relative overflow-hidden transition-colors duration-300">
       <ContactSectionBackground className="dark:opacity-20 absolute -z-1 w-full left-0 bottom-0 lg:bottom-auto lg:top-50" />
 
       <motion.div
@@ -27,7 +23,7 @@ export default function ContactSection({ namespace }: TContactSection) {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.4 }}
         transition={{ duration: 0.6, ease: 'easeOut' }}
-        className="mx-auto container py-12 px-4 md:px-5"
+        className="mx-auto container py-6 lg:py-12 px-4 md:px-5"
       >
         <div className="grid lg:grid-cols-12 gap-10 items-center">
           {/* Contact Form */}
@@ -43,7 +39,7 @@ export default function ContactSection({ namespace }: TContactSection) {
                   <div>
                     <input
                       className={clsx(
-                        'w-full border-b bg-transparent border-red-500 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:ring-0 px-0 py-2',
+                        'w-full border-b bg-transparent text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:ring-0 px-0 py-2',
                         state.errors?.email
                           ? 'border-red-500 dark:border-red-500'
                           : 'border-gray-300 dark:border-gray-700'
@@ -66,7 +62,7 @@ export default function ContactSection({ namespace }: TContactSection) {
                     <div>
                       <input
                         className={clsx(
-                          'w-full border-b bg-transparent border-red-500 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:ring-0 px-0 py-2',
+                          'w-full border-b bg-transparent text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:ring-0 px-0 py-2',
                           state.errors?.name
                             ? 'border-red-500 dark:border-red-500'
                             : 'border-gray-300 dark:border-gray-700'
@@ -88,7 +84,7 @@ export default function ContactSection({ namespace }: TContactSection) {
                     <div>
                       <input
                         className={clsx(
-                          'w-full border-b bg-transparent border-red-500 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:ring-0 px-0 py-2',
+                          'w-full border-b bg-transparent text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:ring-0 px-0 py-2',
                           state.errors?.phone
                             ? 'border-red-500 dark:border-red-500'
                             : 'border-gray-300 dark:border-gray-700'
@@ -114,7 +110,7 @@ export default function ContactSection({ namespace }: TContactSection) {
                       name="message"
                       defaultValue={state.values?.message}
                       className={clsx(
-                        'w-full border-b bg-transparent border-red-500 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:ring-0 px-0 py-2 min-h-[180px]',
+                        'w-full border-b bg-transparent text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:ring-0 px-0 py-2 min-h-[180px]',
                         state.errors?.message
                           ? 'border-red-500 dark:border-red-500'
                           : 'border-gray-300 dark:border-gray-700'

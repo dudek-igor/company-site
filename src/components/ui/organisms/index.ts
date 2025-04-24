@@ -3,3 +3,5 @@ export { default as ServiceSection } from './ServiceSection/ServiceSection';
 export { default as HowItWorkSection } from './HowItWorkSection/HowItWorkSection';
 export { default as IntegrationSection } from './IntegrationSection/IntegrationSection';
 export { default as ContactSection } from './ContactSection/ContactSection';
+export { default as HeadingSection } from './HeadingSection/HeadingSection';
+export { default as HorizontalCardSection } from './HorizontalCardSection/HorizontalCardSection';
