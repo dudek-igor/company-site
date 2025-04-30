@@ -79,7 +79,8 @@
   "SERVICES": {
     "title": "Our Services – Web & App Development",
     "link": "Services",
-    "caption": "Explore our full range of software development services tailored to your business needs.",
+    "caption": "Explore our full range of software development services tailored to your business needs",
+    "motto": "Transform Your Business Idea Into Powerful Software",
     "metadata": {
       "title": "IT Services – Hello Software",
       "description": "We offer comprehensive IT services: websites, mobile apps, API integrations, and cloud solutions."
@@ -313,7 +314,8 @@
     "metadata": {
       "title": "Terms & Conditions – Hello Software",
       "description": "Read the terms and conditions of Hello Software to learn about your rights and responsibilities when using our services."
-    }
+    },
+    "rules": []
   },
   "POLICY": {
     "title": "Hello Software Privacy Policy",
@@ -322,7 +324,8 @@
     "metadata": {
       "title": "Privacy Policy – Hello Software",
       "description": "Discover how Hello Software collects, uses, and protects your personal data in our privacy policy."
-    }
+    },
+    "rules": []
   },
   "COOKIES": {
     "title": "Cookies Policy",
@@ -331,10 +334,11 @@
     "metadata": {
       "title": "Cookies Policy – Hello Software",
       "description": "Understand how Hello Software uses cookies for better functionality, analytics, and user experience."
-    }
+    },
+    "rules": []
   },
   "FOOTER": {
-    "heading": "Would you like us to contact with you? <br></br> Leave your email below",
+    "title": "Would you like us to contact with you? <br></br> Leave your email below",
     "link": "To Page Down",
     "caption": "Hello Software provides innovative, user-centric software solutions designed to streamline your business processes. With a focus on efficiency, scalability, and ease of use, we offer cutting-edge tools that  empower your team to achieve greater productivity and growth.",
     "form": {
@@ -357,5 +361,25 @@
       { "title": "Worldwide", "caption": "From Poland, available worldwide" },
       { "title": "+100%", "caption": "Growth from the beginning" }
     ]
+  },
+  "COOKIES_BANNER": {
+    "title": "Cookies",
+    "link": "Cookie Policy",
+    "caption": "We use cookies to ensure the website works properly, analyze traffic, and personalize ads. Manage your preferences or accept all to enjoy the full website experience.",
+    "preferences": {
+      "analytics": "Analytics cookies (e.g. Google Analytics) – help us measure traffic and improve performance.",
+      "marketing": "Marketing cookies (e.g. Google Ads, Facebook Ads) – used to show you relevant ads based on your interests."
+    },
+    "button": {
+      "settings": {
+        "open": "Cookie Settings",
+        "close": "Close Settings"
+      },
+      "reject": "Reject All",
+      "submit": {
+        "custom": "Accept Selected",
+        "acceptAll": "Accept All"
+      }
+    }
   }
 }

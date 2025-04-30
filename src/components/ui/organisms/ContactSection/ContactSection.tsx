@@ -15,7 +15,7 @@ export default function ContactSection({ namespace }: TBaseProps) {
   const [state, formAction, isPending] = useActionState(sendContactMail, { success: false });
 
   return (
-    <section className="relative overflow-hidden transition-colors duration-300">
+    <section className="relative transition-colors duration-300">
       <ContactSectionBackground className="dark:opacity-20 absolute -z-1 w-full left-0 bottom-0 lg:bottom-auto lg:top-50" />
 
       <motion.div

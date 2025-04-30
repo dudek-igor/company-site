@@ -2,6 +2,7 @@ import Image, { type StaticImageData } from 'next/image';
 import * as motion from 'motion/react-client';
 import clsx from 'clsx';
 import { Link } from '@/i18n/routing';
+import { FaArrowRight } from 'react-icons/fa6';
 /**
  * Horizontal Card Section Component
  */
@@ -26,7 +27,7 @@ export default function HorizontalCardSection({
   direction = 'right',
 }: THorizontalCardSection) {
   return (
-    <section className="relative overflow-hidden transition-colors duration-300">
+    <section className="relative transition-colors duration-300 overflow-hidden">
       <motion.div
         initial={{ opacity: 0, x: direction === 'right' ? -30 : 30 }}
         whileInView={{ opacity: 1, x: 0 }}
@@ -41,15 +42,16 @@ export default function HorizontalCardSection({
               direction === 'right' ? 'order-1 md:order-2' : 'order-1 md:order-1'
             )}
           >
-            <h4 className="font-bold mb-6 text-accented-primary">{title}</h4>
+            <h4 className=" mb-6 text-accented-primary">{title}</h4>
             <h3 className="text-xl md:text-2xl font-semibold mb-4 text-gray-900 dark:text-white">{caption}</h3>
-            <p className="text-gray-500 dark:text-gray-400 leading-relaxed">{text}</p>
+            <p className="text-gray-500 dark:text-gray-400 leading-relaxed mb-6 ">{text}</p>
             {link && (
               <Link
-                className="inline-block px-6 py-2 bg-primary-light dark:bg-primary-dark text-white rounded-md hover:bg-opacity-90 transition-colors duration-300 font-medium"
+                className="group px-4 py-2 text-white bg-gradient-to-r from-accented-primary to-accented-secondary rounded-md shadow-md"
                 href={link.href}
               >
                 {link.title}
+                <FaArrowRight className="inline ml-1 transition-transform duration-300 group-hover:translate-x-1.5" />
               </Link>
             )}
           </div>

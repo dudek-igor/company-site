@@ -79,7 +79,8 @@
   "SERVICES": {
     "title": "Usługi",
     "link": "Usługi",
-    "caption": "Oferta usług programistycznych dostosowanych do potrzeb Twojej firmy.",
+    "caption": "Oferta usług programistycznych dostosowanych do potrzeb Twojej firmy",
+    "motto": "Zamień swój pomysł w realny biznes",
     "metadata": {
       "title": "Usługi IT – Hello Software",
       "description": "Oferujemy strony internetowe, aplikacje mobilne, integracje API i rozwiązania chmurowe."
@@ -313,7 +314,41 @@
     "metadata": {
       "title": "Regulamin – Hello Software",
       "description": "Zapoznaj się z regulaminem Hello Software, aby dowiedzieć się więcej o zasadach korzystania z naszych usług."
-    }
+    },
+    "rules": [
+      {
+        "title": "1. Definicje",
+        "content": "Usługodawca – JavaScript Solutions Igor Dudek, działający pod nazwą Hello Software, NIP 8943163760, email kontaktowy: contact@hello-software.com.\n\nUżytkownik – osoba lub podmiot korzystający z usług świadczonych przez Usługodawcę, takich jak tworzenie stron internetowych, aplikacji mobilnych, systemów e-commerce i innych rozwiązań IT."
+      },
+      {
+        "title": "2. Zakres usług",
+        "content": "Hello Software świadczy kompleksowe usługi IT, w tym:\n\n- Tworzenie nowoczesnych stron internetowych,\n- Budowanie aplikacji mobilnych na Androida i iOS,\n- Rozwiązania e-commerce, w tym sklepy internetowe,\n- Tworzenie aplikacji webowych i backendowych,\n- Integracje systemowe oraz API,\n- Optymalizacja SEO, usługi chmurowe i outsourcing IT."
+      },
+      {
+        "title": "3. Warunki korzystania z usług",
+        "content": "Usługodawca dostarcza usługi na podstawie umowy zawartej z Użytkownikiem.\n\nUżytkownik zobowiązuje się do korzystania z usług Usługodawcy zgodnie z obowiązującym prawem.\n\nUsługodawca ma prawo do modyfikacji oferty usług w dowolnym momencie."
+      },
+      {
+        "title": "4. Płatności",
+        "content": "Opłaty za usługi są uzgadniane indywidualnie w ramach zawartych umów."
+      },
+      {
+        "title": "5. Reklamacje",
+        "content": "Reklamacje dotyczące świadczonych usług należy zgłaszać na adres email: [email kontaktowy]."
+      },
+      {
+        "title": "6. Odpowiedzialność",
+        "content": "Usługodawca nie ponosi odpowiedzialności za szkody wynikłe z niewłaściwego korzystania z usług, ani za opóźnienia spowodowane działaniem siły wyższej."
+      },
+      {
+        "title": "7. Rozwiązywanie umowy",
+        "content": "Użytkownik i Usługodawca mogą rozwiązać umowę na mocy porozumienia stron lub zgodnie z warunkami określonymi w umowie."
+      },
+      {
+        "title": "8. Zmiany regulaminu",
+        "content": "Usługodawca zastrzega sobie prawo do wprowadzenia zmian w regulaminie, informując o tym użytkowników."
+      }
+    ]
   },
   "POLICY": {
     "title": "Polityka Prywatności Hello Software",
@@ -322,7 +357,45 @@
     "metadata": {
       "title": "Polityka Prywatności – Hello Software",
       "description": "Sprawdź, jak Hello Software przetwarza i chroni Twoje dane osobowe zgodnie z przepisami RODO."
-    }
+    },
+    "rules": [
+      {
+        "title": "1. Administrator danych osobowych",
+        "content": "Administratorem danych osobowych jest JavaScript Solutions Igor Dudek, działający pod nazwą Hello Software, NIP 8943163760, email kontaktowy: contact@hello-software.com."
+      },
+      {
+        "title": "2. Cele przetwarzania danych",
+        "content": "Przetwarzamy dane osobowe w celu świadczenia usług IT, w tym projektowania i rozwoju stron internetowych, aplikacji mobilnych, systemów e-commerce, API i integracji, a także w celach marketingowych, jeżeli użytkownik wyrazi na to zgodę."
+      },
+      {
+        "title": "3. Podstawa prawna przetwarzania",
+        "content": "Przetwarzanie danych osobowych odbywa się na podstawie zgody użytkownika, realizacji umowy, a także uzasadnionego interesu administratora."
+      },
+      {
+        "title": "4. Zakres przetwarzanych danych",
+        "content": "Zbieramy dane takie jak: imię, nazwisko, adres email (jeśli dobrowolnie przekazane), dane analityczne o użytkowaniu strony internetowej (Google Analytics)."
+      },
+      {
+        "title": "5. Odbiorcy danych",
+        "content": "Dane mogą być przekazywane do podmiotów świadczących usługi techniczne, w tym dostawców usług hostingowych, firm zajmujących się analityką internetową (np. Google Analytics), a także zewnętrznych partnerów w ramach realizacji umów."
+      },
+      {
+        "title": "6. Przekazywanie danych poza EOG",
+        "content": "Dane mogą być przekazywane do krajów spoza EOG, w szczególności do Google (USA) w ramach korzystania z Google Analytics. Google zapewnia odpowiednie zabezpieczenia danych."
+      },
+      {
+        "title": "7. Prawa użytkowników",
+        "content": "Użytkownik ma prawo do dostępu, sprostowania, usunięcia, przenoszenia danych oraz do ograniczenia przetwarzania danych. Może także wycofać zgodę w dowolnym momencie, kontaktując się z administratorem danych."
+      },
+      {
+        "title": "8. Kontakt w sprawach danych osobowych",
+        "content": "W celu skorzystania z przysługujących praw, użytkownik może kontaktować się z administratorem danych na adres email: contact@hello-software.com."
+      },
+      {
+        "title": "9. Przechowywanie danych",
+        "content": "Dane osobowe przechowujemy przez czas trwania umowy oraz przez okres wymagany przepisami prawa, w zależności od rodzaju danych."
+      }
+    ]
   },
   "COOKIES": {
     "title": "Polityka Cookies",
@@ -331,10 +404,36 @@
     "metadata": {
       "title": "Polityka Cookies – Hello Software",
       "description": "Zobacz, jak Hello Software wykorzystuje pliki cookies w celu poprawy działania strony i analizy ruchu."
-    }
+    },
+    "rules": [
+      {
+        "title": "1. Czym są pliki cookies",
+        "content": "Cookies to małe pliki tekstowe przechowywane w urządzeniu użytkownika, które umożliwiają identyfikację urządzenia i przechowywanie informacji o sesjach użytkownika."
+      },
+      {
+        "title": "2. Rodzaje plików cookies",
+        "content": "Niezbędne pliki cookies – umożliwiają korzystanie z podstawowych funkcji strony.\n\nAnalityczne pliki cookies – umożliwiają nam zbieranie anonimowych danych o sposobie korzystania z witryny, np. Google Analytics."
+      },
+      {
+        "title": "3. Cel stosowania cookies",
+        "content": "Pliki cookies służą do poprawy funkcjonalności strony, analizy ruchu oraz dostosowywania treści do potrzeb użytkowników. W szczególności, używamy Google Analytics do monitorowania użytkowania strony."
+      },
+      {
+        "title": "4. Zgoda na cookies",
+        "content": "Korzystając ze strony, użytkownik wyraża zgodę na stosowanie plików cookies. Zgodę można wycofać w każdej chwili, zmieniając ustawienia przeglądarki."
+      },
+      {
+        "title": "5. Zarządzanie plikami cookies",
+        "content": "Użytkownik może w każdej chwili zmienić ustawienia cookies w swojej przeglądarce. Instrukcje zmiany ustawień cookies są dostępne w dokumentacji przeglądarek internetowych."
+      },
+      {
+        "title": "6. Google Analytics",
+        "content": "Na naszej stronie używamy Google Analytics do analizy ruchu na stronie. Informacje o plikach cookies Google Analytics dostępne są w Polityce prywatności Google."
+      }
+    ]
   },
   "FOOTER": {
-    "heading": "Chcesz, abyśmy się z Tobą skontaktowali?<br></br>Zostaw swój adres e-mail poniżej",
+    "title": "Chcesz, abyśmy się z Tobą skontaktowali?<br></br>Zostaw swój adres e-mail poniżej",
     "caption": "Hello Software tworzy nowoczesne i przyjazne użytkownikowi rozwiązania IT, które usprawniają procesy biznesowe. Skupiamy się na wydajności, skalowalności i prostocie, dostarczając narzędzia wspierające rozwój Twojej firmy.",
     "form": {
       "email": {
@@ -356,5 +455,25 @@
       { "title": "Z Polski", "caption": "Dostępni globalnie" },
       { "title": "+100%", "caption": "Wzrost od początku działalności" }
     ]
+  },
+  "COOKIES_BANNER": {
+    "title": "Pliki cookies",
+    "link": "Polityka cookies",
+    "caption": "Wykorzystujemy pliki cookies, aby zapewnić prawidłowe działanie strony, analizować ruch oraz personalizować treści reklamowe. Zarządzaj zgodami lub zaakceptuj wszystkie, by korzystać z pełnej funkcjonalności serwisu.",
+    "preferences": {
+      "analytics": "Analityczne pliki cookies (np. Google Analytics) – pomagają nam mierzyć ruch i poprawiać stronę.",
+      "marketing": "Marketingowe pliki cookies (np. Google Ads, Facebook Ads) – umożliwiają dopasowanie reklam do Twoich zainteresowań."
+    },
+    "button": {
+      "settings": {
+        "open": "Ustawienia cookies",
+        "close": "Zamknij ustawienia"
+      },
+      "reject": "Odrzuć wszystkie",
+      "submit": {
+        "custom": "Zatwierdź wybrane",
+        "acceptAll": "Akceptuj wszystkie"
+      }
+    }
   }
 }

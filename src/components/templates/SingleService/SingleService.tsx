@@ -1,6 +1,17 @@
+import { useTranslations } from 'next-intl';
+import { setRequestLocale } from 'next-intl/server';
+import { HeadingSection } from '@/components/ui';
+import { TBaseProps } from '@/config';
 /**
  * Template for Single Service
  */
-export default function SingleService() {
-  return <div>Single Service</div>;
+export default function SingleService({ locale, namespace }: TBaseProps) {
+  setRequestLocale(locale);
+  const t = useTranslations(namespace);
+
+  return (
+    <main className="pt-6 lg:pt-26">
+      <HeadingSection title={t('title')} caption={t('caption')} motto={t('motto')} />
+    </main>
+  );
 }

@@ -2,13 +2,12 @@ import * as motion from 'motion/react-client';
 /**
  * Heading Section Component
  */
-type THeadingSection = {
+type THeadingSectionSecondary = {
   title: string;
-  caption?: string;
-  motto?: string;
+  caption: string;
 };
 
-const HeadingSection = ({ title, caption, motto }: THeadingSection) => {
+const HeadingSectionSecondary = ({ title, caption }: THeadingSectionSecondary) => {
   return (
     <section className="relative overflow-hidden transition-colors duration-300">
       <motion.div
@@ -18,14 +17,15 @@ const HeadingSection = ({ title, caption, motto }: THeadingSection) => {
         transition={{ duration: 0.6, ease: 'easeOut' }}
         className="mx-auto container py-6 lg:py-12 px-4 md:px-5 text-center"
       >
-        {title && <h1 className="text-accented-primary text-4xl md:text-5xl mb-6">{title}</h1>}
+        <h2 className="inline-flex items-center rounded-4xl bg-gray-50 dark:bg-gray-800 px-4 py-2 mb-6 opacity-75 text-md font-medium text-gray-600 dark:text-gray-300 ring-1 ring-gray-500/10 dark:ring-white/10 ring-inset">
+          {title}
+        </h2>
         {caption && (
-          <h2 className="text-xl md:text-2xl text-gray-700 dark:text-gray-300 max-w-4xl mx-auto mb-6">{caption}</h2>
+          <h3 className="text-xl md:text-2xl text-gray-700 dark:text-gray-300 max-w-5xl mx-auto">{caption}</h3>
         )}
-        {motto && <h3 className="text-gray-500 dark:text-gray-400">{motto}</h3>}
       </motion.div>
     </section>
   );
 };
 
-export default HeadingSection;
+export default HeadingSectionSecondary;

@@ -6,7 +6,6 @@ import * as motion from 'motion/react-client';
 import { Typewriter } from '@/components/ui';
 import type { SupportedNamespace } from '@/config';
 import { useTranslations } from 'next-intl';
-import shape2 from '@/public/assets/img/shape/2.png';
 import thumb3 from '@/public/assets/img/thumb/3.jpg';
 
 type THeroSection = {
@@ -17,16 +16,7 @@ const HeroSection = ({ namespace }: THeroSection) => {
   const t = useTranslations(namespace); // i18n hook
 
   return (
-    <section className="relative overflow-hidden first:lg:pt-20">
-      {/* Decoration in the left corner */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 0.6 }}
-        transition={{ duration: 0.4 }}
-        className="absolute left-0 top-0 -z-10"
-      >
-        <Image src={shape2} alt="Shape" className="max-w-[60%] opacity-50" />
-      </motion.div>
+    <section className="relative first:lg:pt-20">
       <div className="mx-auto container py-12 px-4 md:px-5">
         <div className="grid grid-cols-1 lg:grid-cols-2 py-8 md:py-12">
           {/* Text Section */}

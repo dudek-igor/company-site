@@ -3,9 +3,9 @@ import { setRequestLocale } from 'next-intl/server';
 import { hasLocale } from 'next-intl';
 import { routing } from '@/i18n/routing';
 import { defaultTheme, themeLocalStorageKey } from '@/config';
-import { ThemeProvider } from '@/providers';
+import { ThemeProvider, CookieProvider } from '@/providers';
 import { NextIntlClientProvider } from 'next-intl';
-import { Header, Footer } from '@/components/globals';
+import { Header, Footer, CookiesBanner } from '@/components/globals';
 import { notFound } from 'next/navigation';
 import { JetBrains_Mono, Manrope } from 'next/font/google';
 import { type Slug } from '@/utils';
@@ -59,11 +59,14 @@ export default async function RootLayout({ children, params }: Props) {
       <body className="font-sans">
         {/* Unfortunately, we have to use a provider, unfortunately the link from next-intl requires it */}
         <NextIntlClientProvider>
-          <ThemeProvider>
-            <Header />
-            {children}
-            <Footer />
-          </ThemeProvider>
+          <CookieProvider>
+            <ThemeProvider>
+              <Header />
+              {children}
+              <CookiesBanner />
+              <Footer />
+            </ThemeProvider>
+          </CookieProvider>
         </NextIntlClientProvider>
       </body>
     </html>

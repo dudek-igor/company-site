@@ -1,6 +1,6 @@
 import * as motion from 'motion/react-client';
 /**
- * Heading Section Component
+ * Description List Section Component
  */
 type THeadingSection = {
   title: string;
@@ -8,7 +8,7 @@ type THeadingSection = {
   motto?: string;
 };
 
-const HeadingSection = ({ title, caption, motto }: THeadingSection) => {
+const DescriptionListSection = ({ title, caption, motto }: THeadingSection) => {
   return (
     <section className="relative overflow-hidden transition-colors duration-300">
       <motion.div
@@ -28,4 +28,4 @@ const HeadingSection = ({ title, caption, motto }: THeadingSection) => {
   );
 };
 
-export default HeadingSection;
+export default DescriptionListSection;

@@ -80,6 +80,7 @@
     "title": "Dienstleistungen",
     "link": "Dienstleistungen",
     "caption": "Informieren Sie sich über unser umfassendes Angebot an Programmierdiensten, die Ihrem Unternehmen zur Verfügung stehen.",
+    "motto": "Verwandeln Sie Ihre Idee in ein erfolgreiches Geschäft",
     "metadata": {
       "title": "IT-Dienstleistungen – Hello Software",
       "description": "Umfassende IT-Dienstleistungen: Websites, Mobile Apps, API-Integrationen und Cloud-Lösungen."
@@ -356,5 +357,25 @@
       { "title": "Weltweit", "caption": "Aus Polen, weltweit verfügbar" },
       { "title": "+100%", "caption": "Wachstum seit dem Start" }
     ]
+  },
+  "COOKIES_BANNER": {
+    "title": "Cookies",
+    "link": "Cookie-Richtlinie",
+    "caption": "Wir verwenden Cookies, um den ordnungsgemäßen Betrieb der Website zu gewährleisten, den Datenverkehr zu analysieren und personalisierte Werbung anzuzeigen. Verwalte deine Einstellungen oder akzeptiere alle Cookies für die volle Nutzung der Website.",
+    "preferences": {
+      "analytics": "Analytische Cookies (z. B. Google Analytics) – helfen uns, den Datenverkehr zu messen und die Website zu verbessern.",
+      "marketing": "Marketing-Cookies (z. B. Google Ads, Facebook Ads) – zeigen dir relevante Werbung basierend auf deinem Verhalten."
+    },
+    "button": {
+      "settings": {
+        "open": "Cookie-Einstellungen",
+        "close": "Einstellungen schließen"
+      },
+      "reject": "Alle ablehnen",
+      "submit": {
+        "custom": "Auswahl akzeptieren",
+        "acceptAll": "Alle akzeptieren"
+      }
+    }
   }
 }

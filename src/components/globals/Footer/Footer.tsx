@@ -65,9 +65,7 @@ export default function Footer() {
         className="mx-auto flex flex-col items-center pb-12"
       >
         <strong className="block text-center text-xl font-bold text-gray-900 sm:text-3xl dark:text-white">
-          {t.rich('heading', {
-            br: () => <br />,
-          })}
+          {t.rich('title', { br: () => <br /> })}
         </strong>
 
         <form action={formAction} className="mt-10 lg:mt-24 w-full max-w-md">

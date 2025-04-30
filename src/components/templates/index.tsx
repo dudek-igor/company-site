@@ -7,6 +7,8 @@ import { default as Technologies } from './Technologies/Technologies';
 import { default as SingleTechnology } from './SingleTechnology/SingleTechnology';
 import { default as AboutUs } from './AboutUs/AboutUs';
 import { default as Contact } from './Contact/Contact';
+import { default as Support } from './Support/Support';
+import { default as SingleSupport } from './SingleSupport/SingleSupport';
 
 type TDynamicTemplate = {
   template: SupportedTemplate;
@@ -20,8 +22,8 @@ const mapTemplate: Record<SupportedTemplate, React.ComponentType<TBaseProps>> = 
   SINGLE_TECHNOLOGY: SingleTechnology,
   ABOUT_US: AboutUs,
   CONTACT: Contact,
-  SINGLE_SUPPORT: Contact,
-  SUPPORT: Contact,
+  SUPPORT: Support,
+  SINGLE_SUPPORT: SingleSupport,
 };
 
 export default function DynamicTemplate({ template, locale, namespace }: TDynamicTemplate) {

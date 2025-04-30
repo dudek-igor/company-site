@@ -2,6 +2,7 @@
 import * as motion from 'motion/react-client';
 import { FaMoon, FaSun } from 'react-icons/fa6';
 import { useTheme } from '@/providers';
+import clsx from 'clsx';
 
 export default function LayoutAnimation() {
   const { setThemeState, theme } = useTheme();
@@ -9,11 +10,17 @@ export default function LayoutAnimation() {
   return (
     <button
       onClick={() => setThemeState(theme === 'dark' ? 'light' : 'dark')}
-      className={`flex items-center justify-${theme === 'dark' ? 'start' : 'end'} w-14 h-8 rounded-full cursor-pointer bg-white border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700`}
+      className={clsx(
+        'flex items-center w-14 h-8 rounded-full cursor-pointer bg-white border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700',
+        theme === 'dark' ? 'justify-start' : 'justify-end'
+      )}
       aria-label="Toggle theme"
     >
-      <motion.div
-        className={`${theme === '' ? 'invisible' : 'visible'} w-8 h-8 rounded-full flex justify-center items-center bg-white border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700`}
+      <motion.span
+        className={clsx(
+          'w-8 h-8 rounded-full flex justify-center items-center bg-white border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700',
+          theme === '' ? 'invisible' : 'visible'
+        )}
         layout
         transition={{
           type: 'spring',
@@ -26,7 +33,7 @@ export default function LayoutAnimation() {
         ) : (
           <FaSun className="size-4 stroke-amber-200 fill-amber-400" />
         )}
-      </motion.div>
+      </motion.span>
     </button>
   );
 }
