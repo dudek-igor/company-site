@@ -95,8 +95,8 @@ const ConsentSwitch = ({
   disabled?: boolean;
   setEnabled: (val: boolean) => void;
 }) => (
-  <div className="flex items-center justify-between space-x-2">
-    <span className="text-sm text-gray-600 dark:text-gray-400">{label}</span>
+  <div className="flex items-center justify-between space-x-6">
+    <span className="text-sm text-justify text-gray-600 dark:text-gray-400">{label}</span>
     <Switch
       disabled={disabled}
       checked={enabled}
