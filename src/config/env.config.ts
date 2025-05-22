@@ -7,6 +7,7 @@ const envSchema = z.object({
   HOST: z.string().startsWith('https://', { message: 'Must provide secure URL' }),
   EMAIL_USER: z.string().min(1),
   EMAIL_PASS: z.string().min(1),
+  NEXT_PUBLIC_GTM_ID: z.string().startsWith('GTM-'),
 });
 
 declare global {

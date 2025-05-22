@@ -308,7 +308,7 @@
     }
   },
   "TERMS": {
-    "title": "Allgemeine Geschäftsbedingungen Hello Software",
+    "title": "Allgemeine Geschäftsbedingungen",
     "link": "AGB",
     "caption": "Lesen Sie die Bedingungen für die Nutzung unserer Website und Dienstleistungen.",
     "metadata": {
@@ -317,7 +317,7 @@
     }
   },
   "POLICY": {
-    "title": "Datenschutzrichtlinie von Hello Software",
+    "title": "Datenschutzrichtlinie",
     "link": "Datenschutz",
     "caption": "Erfahren Sie, wie wir Ihre persönlichen Daten erfassen, verwenden und schützen.",
     "metadata": {
@@ -361,10 +361,13 @@
   "COOKIES_BANNER": {
     "title": "Cookies",
     "link": "Cookie-Richtlinie",
-    "caption": "Wir verwenden Cookies, um den ordnungsgemäßen Betrieb der Website zu gewährleisten, den Datenverkehr zu analysieren und personalisierte Werbung anzuzeigen. Verwalte deine Einstellungen oder akzeptiere alle Cookies für die volle Nutzung der Website.",
+    "caption": "Wir verwenden Cookies, um die ordnungsgemäße Funktion der Website zu gewährleisten, den Datenverkehr zu analysieren und personalisierte Werbung anzuzeigen. Sie können Ihre Einwilligungen verwalten oder alle akzeptieren, um die volle Funktionalität der Website zu nutzen. Ihre Daten werden gemäß der DSGVO verarbeitet und ausschließlich für festgelegte Zwecke verwendet.",
     "preferences": {
-      "analytics": "Analytische Cookies (z. B. Google Analytics) – helfen uns, den Datenverkehr zu messen und die Website zu verbessern.",
-      "marketing": "Marketing-Cookies (z. B. Google Ads, Facebook Ads) – zeigen dir relevante Werbung basierend auf deinem Verhalten."
+      "ad_storage": "Werbe-Cookies – ermöglichen das Speichern von Daten im Zusammenhang mit Werbung, um personalisierte Inhalte basierend auf den Interessen des Nutzers anzuzeigen.",
+      "analytics_storage": "Analyse-Cookies – ermöglichen das Sammeln von Daten wie besuchte Seiten und Verweildauer, um die Benutzererfahrung zu optimieren.",
+      "personalization_storage": "Personalisierungs-Cookies – speichern Benutzereinstellungen, um bei zukünftigen Besuchen eine personalisierte Navigation zu ermöglichen.",
+      "ad_user_data": "Nutzerdaten-Cookies – ermöglichen die Übermittlung anonymer Nutzerdaten an Werbesysteme wie Google Ads zur besseren Zielgruppenansprache.",
+      "ad_personalization": "Marketing-Cookies – unterstützen die Personalisierung von Werbeinhalten basierend auf dem Nutzerverhalten, um die Relevanz der Werbung zu steigern."
     },
     "button": {
       "settings": {

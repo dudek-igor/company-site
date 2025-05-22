@@ -10,7 +10,7 @@ type THeadingSection = {
 
 const HeadingSection = ({ title, caption, motto }: THeadingSection) => {
   return (
-    <section className="relative overflow-hidden transition-colors duration-300">
+    <header className="relative overflow-hidden transition-colors duration-300">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -24,7 +24,7 @@ const HeadingSection = ({ title, caption, motto }: THeadingSection) => {
         )}
         {motto && <h3 className="text-gray-500 dark:text-gray-400">{motto}</h3>}
       </motion.div>
-    </section>
+    </header>
   );
 };
 

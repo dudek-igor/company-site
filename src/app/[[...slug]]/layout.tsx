@@ -5,7 +5,7 @@ import { routing } from '@/i18n/routing';
 import { defaultTheme, themeLocalStorageKey } from '@/config';
 import { ThemeProvider, CookieProvider } from '@/providers';
 import { NextIntlClientProvider } from 'next-intl';
-import { Header, Footer, CookiesBanner } from '@/components/globals';
+import { Header, Footer, CookiesBanner, GoogleTagMenager } from '@/components/globals';
 import { notFound } from 'next/navigation';
 import { JetBrains_Mono, Manrope } from 'next/font/google';
 import { type Slug } from '@/utils';
@@ -55,7 +55,6 @@ export default async function RootLayout({ children, params }: Props) {
           }}
         />
       </head>
-      {/* Adjust */}
       <body className="font-sans">
         {/* Unfortunately, we have to use a provider, unfortunately the link from next-intl requires it */}
         <NextIntlClientProvider>
@@ -65,6 +64,7 @@ export default async function RootLayout({ children, params }: Props) {
               {children}
               <CookiesBanner />
               <Footer />
+              <GoogleTagMenager />
             </ThemeProvider>
           </CookieProvider>
         </NextIntlClientProvider>

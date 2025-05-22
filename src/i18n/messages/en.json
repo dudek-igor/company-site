@@ -308,7 +308,7 @@
     }
   },
   "TERMS": {
-    "title": "Hello Software Terms & Conditions",
+    "title": "Terms & Conditions",
     "link": "Terms & Conditions",
     "caption": "Understand the legal terms that govern your use of our services and website.",
     "metadata": {
@@ -318,7 +318,7 @@
     "rules": []
   },
   "POLICY": {
-    "title": "Hello Software Privacy Policy",
+    "title": "Privacy Policy",
     "link": "Privacy Policy",
     "caption": "Learn how we handle your data and protect your privacy across all digital services.",
     "metadata": {
@@ -365,11 +365,15 @@
   "COOKIES_BANNER": {
     "title": "Cookies",
     "link": "Cookie Policy",
-    "caption": "We use cookies to ensure the website works properly, analyze traffic, and personalize ads. Manage your preferences or accept all to enjoy the full website experience.",
+    "caption": "We use cookies to ensure the proper functioning of the website, analyze traffic, and display personalized ads. You can manage your preferences or accept all to use the full functionality of the site. Your data is processed in accordance with the GDPR and used solely for specified purposes.",
     "preferences": {
-      "analytics": "Analytics cookies (e.g. Google Analytics) – help us measure traffic and improve performance.",
-      "marketing": "Marketing cookies (e.g. Google Ads, Facebook Ads) – used to show you relevant ads based on your interests."
+      "ad_storage": "Advertising cookies – enable storing data related to ads to display personalized content based on the user's interests.",
+      "analytics_storage": "Analytics cookies – allow for collecting data like visited pages and time spent on the site, helping to optimize user experience.",
+      "personalization_storage": "Personalization cookies – store user preferences to enable a personalized navigation experience during future visits.",
+      "ad_user_data": "User data cookies – allow the transfer of anonymous user data to advertising systems like Google Ads to improve ad targeting.",
+      "ad_personalization": "Marketing cookies – support the personalization of advertising content based on user behavior to increase ad relevance."
     },
+
     "button": {
       "settings": {
         "open": "Cookie Settings",

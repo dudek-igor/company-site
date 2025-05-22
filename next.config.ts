@@ -6,6 +6,9 @@ const withNextIntl = createNextIntlPlugin();
 const nextConfig: NextConfig = {
   poweredByHeader: false,
   output: 'standalone',
+  experimental: {
+    optimizePackageImports: ['@next/third-parties'],
+  },
 };
 
 export default withNextIntl(nextConfig);
