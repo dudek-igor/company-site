@@ -11,7 +11,6 @@
       "text": "We’re an experienced software house delivering high-performance digital solutions tailored to your business needs. We create fast, modern websites, mobile applications for iOS & Android, and scalable e-commerce platforms – all optimized for performance and SEO. Looking for a reliable technology partner? Let’s build your next digital product together – get in touch with us today!",
       "button": "Contact with us"
     },
-    "SERVICES_SECTION": {},
     "HOW_IT_WORK_SECTION": {
       "title": "Our Development Process",
       "caption": "Discover each stage of our development workflow – from strategy and design to launch and optimization.We simplify complex processes to deliver efficient, scalable, and user-friendly software solutions.",
@@ -96,84 +95,100 @@
     ]
   },
   "WEBSITES": {
-    "title": "Website Development",
+    "title": "Websites",
     "link": "Websites",
     "button": { "read_more": "Read More" },
-    "caption": "Custom website design and development – fast, modern, and optimized for SEO.",
+    "caption": "Modern websites – fast, responsive, and SEO-optimized.",
+    "motto": "We build websites that drive your success",
     "metadata": {
       "title": "Websites – Hello Software",
-      "description": "We design fast, modern websites optimized for SEO and user experience."
-    }
+      "description": "We design modern websites optimized for SEO and UX."
+    },
+    "text": "At Hello Software, we specialize in comprehensive website design and development that not only looks great but also delivers measurable business results. Whether you need a simple landing page, a complex corporate site, or an advanced CMS-based platform – we’re ready to create a solution tailored to your needs.\n\nEvery project starts with a detailed requirements analysis because we believe a successful website is built on a clear understanding of its purpose and audience. Our approach is fully customized – we don’t use pre-made templates. Instead, we design and develop every solution from scratch to match your industry, marketing strategy, and user expectations.\n\nWe create responsive, fast, and modern websites that meet the latest UX/UI and SEO standards. We ensure every website is optimized for search engines (SEO), increasing its visibility on Google and helping you attract more customers.\n\nAt Hello Software, we offer:\n- Design and development of modern websites\n- High-conversion landing pages\n- Advanced corporate websites and portfolios\n- CMS integrations\n- Custom content management panels\n- Full SEO and performance optimization\n- Ongoing support and post-launch development"
   },
   "E_COMMERCE": {
-    "title": "E-Commerce Solutions",
+    "title": "Online Stores",
     "link": "E-Commerce",
     "button": { "read_more": "Read More" },
-    "caption": "Scalable and secure e-commerce solutions – tailored for high conversions and growth.",
+    "caption": "Secure and scalable online stores – maximize conversions.",
+    "motto": "We build online stores that generate revenue",
     "metadata": {
-      "title": "E-Commerce – Hello Software",
-      "description": "We create scalable and secure e-commerce stores focused on conversions and performance."
-    }
+      "title": "Online Stores – Hello Software",
+      "description": "We create e-commerce stores focused on performance and conversion."
+    },
+    "text": "At Hello Software, we develop modern, scalable, and secure e-commerce stores.\nEach project is tailored to the specific needs of our clients – we don’t use pre-made templates, but instead design solutions customized to your business model, target audience, and sales goals.\n\nWe offer complete e-commerce implementations – from intuitive UX/UI design and payment/logistics integrations, to SEO optimization and sales analytics.\n\nWe build both small stores for startups and complex sales platforms with multiple integrations – including CRM, ERP, marketing tools, and marketplaces (e.g., Allegro, Amazon).\n\nOur e-commerce stores offer:\n– Fast and responsive performance on all mobile devices\n– High conversion rates thanks to refined UX and modern design\n– Integration with payment systems (Stripe, PayU, Przelewy24, Klarna, etc.)\n– Compliance with the latest SEO standards and Google Core Web Vitals\n– Full content control via an intuitive CMS\n– Customer data security and GDPR compliance\n\nGrow your store with a tech partner who knows e-commerce – choose Hello Software for results-driven solutions."
   },
   "WEB_APPLICATIONS": {
-    "title": "Web Application Development",
+    "title": "Web Applications",
     "link": "Web Applications",
     "button": { "read_more": "Read More" },
-    "caption": "Powerful and scalable web applications – crafted with cutting-edge technologies.",
+    "caption": "Scalable web applications tailored to your business needs.",
+    "motto": "We build web apps tailored to your industry",
     "metadata": {
       "title": "Web Applications – Hello Software",
-      "description": "We develop powerful and scalable web applications tailored to your business needs."
-    }
+      "description": "We create high-performance web applications using modern technologies."
+    },
+    "text": "At Hello Software, we specialize in designing and developing web applications – from simple admin panels to complex B2B systems, SaaS platforms, and multi-integration solutions.\n\nEach project is handled individually – we analyze user needs and business goals to select the right technology stack (e.g., React, Node.js, TypeScript, GraphQL).\n\nOur web apps are fast, secure, responsive, and scalable – ready to support your business growth.\n\nWhat we offer:\n– Full-cycle web application development (frontend + backend)\n– System architecture design for web platforms\n– Integration with external APIs, databases, and ERP/CRM systems\n– Progressive Web App (PWA) implementation\n– High-quality code, testing, and technical documentation\n– Continuous support and post-launch development\n\nAt Hello Software, we combine technical expertise with strategic thinking – we create applications that grow businesses, automate processes, and boost efficiency."
   },
   "MOBILE_APPLICATIONS": {
-    "title": "Mobile App Development",
+    "title": "Mobile Applications",
     "link": "Mobile Applications",
     "button": { "read_more": "Read More" },
-    "caption": "Developing Android & iOS mobile apps – seamless, high-performance, and user-friendly.",
+    "caption": "Modern mobile applications for Android and iOS – intuitive and efficient.",
+    "motto": "We create mobile apps tailored to the user",
     "metadata": {
       "title": "Mobile Applications – Hello Software",
-      "description": "We build mobile apps for Android and iOS – fast, intuitive, and modern."
-    }
+      "description": "We build fast and intuitive mobile applications for Android and iOS."
+    },
+    "text": "We design and develop mobile applications that are fast, modern-looking, and user-centered. At Hello Software, we create hybrid mobile apps – with a single codebase for both Android and iOS (e.g., using React Native), which helps reduce development time and costs.\n\nWe tailor the design to your industry and target audience – each app is developed based on an analysis of features, user needs, and business goals.\n\nOur mobile apps offer:\n– Modern design following UX and UI principles\n– Smooth performance and optimization for efficiency\n– Offline functionality and access to native device features\n– Integration with backend systems, APIs, and databases\n– Compliance with Google Play and App Store guidelines\n– Full support from project design to testing, publication, and ongoing development\n\nWith Hello Software, you will create a mobile app that attracts users, engages them, and delivers real business value."
   },
   "SERVER_APPLICATIONS": {
-    "title": "API & System Integrations",
-    "link": "API and System Integrations",
+    "title": "APIs and Integrations",
+    "link": "System Integrations",
     "button": { "read_more": "Read More" },
-    "caption": "Seamless API development and system integration – enhancing connectivity and automation.",
+    "motto": "We build efficient and scalable APIs",
+    "caption": "API development and system integrations – automation and connectivity.",
     "metadata": {
-      "title": "API & System Integrations – Hello Software",
-      "description": "We develop API integrations and systems that streamline automation and app communication."
-    }
+      "title": "APIs and Integrations – Hello Software",
+      "description": "We develop APIs and system integrations to support automation and optimization."
+    },
+    "text": "At Hello Software, we design and implement reliable server-side solutions that enable systems to communicate efficiently and automate data flow.\n\nWe build modern APIs (REST, GraphQL) and carry out integrations between CRM, ERP, CMS systems, e-commerce platforms, and mobile/web applications.\n\nEach integration project starts with a thorough technical and business analysis – we choose solutions that best fit your company's needs.\n\nOur solutions allow you to:\n– Automate data exchange between different systems\n– Improve internal business processes\n– Enhance data security and consistency\n– Provide access to data for clients, partners, or frontends via well-designed APIs\n\nWhat we offer:\n– Custom API design and development (REST/GraphQL)\n– Integration with external systems (e.g., payment, logistics, accounting, marketplaces)\n– Middleware – communication layers between systems\n– Queue-based and asynchronous systems (e.g., RabbitMQ, Kafka)\n– Secure authentication and authorization (OAuth2, JWT)\n– Monitoring, testing, and technical documentation\n\nTrust Hello Software with your system integrations – gain consistency, automation, and enterprise-grade efficiency."
   },
   "SEARCH_ENGINE_OPTIMIZATION": {
-    "title": "SEO Optimization",
-    "link": "Search Engine Optimization (SEO)",
+    "title": "SEO Services",
+    "link": "SEO",
     "button": { "read_more": "Read More" },
-    "caption": "Boost your online visibility with expert SEO – higher rankings, more traffic, better conversions.",
+    "motto": "Boost your visibility and attract high-value traffic",
+    "caption": "Grow your website traffic with effective SEO strategies.",
     "metadata": {
-      "title": "Search Engine Optimization (SEO) – Hello Software",
-      "description": "Boost your online visibility with effective SEO. More traffic, more customers."
-    }
+      "title": "SEO – Hello Software",
+      "description": "Improve your Google visibility with proven SEO techniques."
+    },
+    "text": "Make sure your website shows up where your customers are searching.\n\nAt Hello Software, we offer comprehensive SEO services – from technical site audits and keyword strategies to link building and competitor analysis.\n\nWe create personalized strategies based on your market and business goals to achieve long-term visibility in Google.\n\nOur services include:\n– Technical and content SEO audits\n– Code, structure, and Core Web Vitals optimization (where possible)\n– Optimized content creation (landing pages, blogs, service descriptions)\n– Link building strategies\n– Keyword strategies tailored to your industry and location\n– Ongoing performance reports and strategic adjustments\n\nWith Hello Software, your website won’t just look good – it will actually help drive sales and brand awareness online."
   },
   "CLOUD_COMPUTING_SOLUTIONS": {
     "title": "Cloud Solutions",
-    "link": "Cloud Computing Solutions",
+    "link": "Cloud Solutions",
     "button": { "read_more": "Read More" },
-    "caption": "Cloud-based solutions for businesses – secure, scalable, and optimized for performance.",
+    "motto": "Complete cloud solutions that support business growth",
+    "caption": "Secure and scalable cloud solutions for your business.",
     "metadata": {
-      "title": "Cloud Computing Solutions – Hello Software",
-      "description": "Secure, scalable, and modern cloud-based solutions for your business."
-    }
+      "title": "Cloud Solutions – Hello Software",
+      "description": "Modern cloud services – security, performance, and flexibility."
+    },
+    "text": "At Hello Software, we implement cloud systems based on AWS, Google Cloud, Microsoft Azure, and other popular platforms.\n\nWe deliver reliability, savings, and flexibility – just what your modern IT environment needs.\n\nOur services include:\n– Migration of existing systems to the cloud\n– Building cloud-native infrastructure (CI/CD, autoscaling, load balancing)\n– Configuration of containers and serverless services (Docker, Kubernetes, Lambda)\n– Cloud cost monitoring and optimization\n– Advanced security and data backups\n– Full DevOps support and infrastructure management\n\nTrust Hello Software to deliver scalable cloud solutions that grow with your business."
   },
   "OUTSOURCING": {
-    "title": "IT Outsourcing Services",
-    "link": "Outsourcing IT",
+    "title": "IT Outsourcing",
+    "link": "Outsourcing",
     "button": { "read_more": "Read More" },
-    "caption": "Reliable IT outsourcing services – cost-effective, expert-driven, and scalable solutions.",
+    "motto": "Access top IT talent without building an in-house team",
+    "caption": "External IT teams – cost-effective and professional technical support.",
     "metadata": {
       "title": "IT Outsourcing – Hello Software",
-      "description": "External development teams – flexible, cost-effective, and professional."
-    }
+      "description": "We provide external IT teams – flexible and high-quality services."
+    },
+    "text": "At Hello Software, we offer IT outsourcing – a flexible model to help you complete projects, scale production, or fill skill gaps fast.\n\nOur team includes experienced developers, project managers, testers, and DevOps engineers – ready to join your team on your terms.\n\nWhy choose us?\n– Dedicated teams or individual specialists for specific tasks\n– High availability and rapid onboarding\n– Flexible cooperation models (body leasing, team leasing, project-based)\n– Full project control – we provide the people and the quality\n– Reduced hiring costs and recruitment risks\n– Proven experience in IT projects\n\nIT outsourcing with Hello Software means not just savings – but real value and scalability for your business."
   },
   "TECHNOLOGIES": {
     "title": "Technologies We Use",
@@ -185,40 +200,48 @@
     }
   },
   "TYPESCRIPT": {
-    "title": "TypeScript Development",
+    "title": "TypeScript",
     "link": "TypeScript",
-    "caption": "Scalable front-end and back-end apps written in TypeScript for high performance and safety.",
+    "caption": "Safe apps with TypeScript – better code, fewer bugs.",
+    "motto": "Modern and secure JavaScript development",
     "metadata": {
-      "title": "Technology TypeScript – Hello Software",
-      "description": "We use TypeScript for modern, type-safe application development across frontend and backend."
-    }
+      "title": "TypeScript – Hello Software",
+      "description": "We build apps with TypeScript – a modern, typed JavaScript language."
+    },
+    "text": "TypeScript is a superset of JavaScript that adds static typing and improves code control.\n\nAt Hello Software, we use TypeScript in web, mobile, and backend projects to boost security, clarity, and code stability.\n\nWith TypeScript, you get:\n– Fewer runtime errors thanks to early bug detection\n– Better documentation and code editor suggestions\n– Easier maintenance and scaling of large codebases\n– Full compatibility with JavaScript and modern frameworks (React, Node.js)\n\nAt Hello Software, we deliver apps that are faster, safer, and more scalable with TypeScript."
   },
   "REACT": {
-    "title": "React Development",
+    "title": "React",
     "link": "React",
-    "caption": "Interactive and dynamic user interfaces powered by React – responsive and fast.",
+    "caption": "Fast, dynamic user interfaces – built with React.",
+    "motto": "Modern and responsive user interfaces",
     "metadata": {
-      "title": "Technology React – Hello Software",
-      "description": "We develop modern UIs using React – fast, scalable, and SEO-friendly interfaces."
-    }
+      "title": "React – Hello Software",
+      "description": "We build frontends with React – fast, scalable, and modern."
+    },
+    "text": "React is a JavaScript library developed by Facebook for building modern and interactive user interfaces.\n\nAt Hello Software, React is our go-to tool for websites, web apps, and PWAs (Progressive Web Apps).\n\nWith React, we provide:\n– Lightning-fast loading and smooth performance (SPA)\n– Component-based architecture for easy development and testing\n– High performance and SEO optimization using Next.js\n– Seamless integration with backend APIs via REST or GraphQL\n\nChoose React with Hello Software for a future-proof, flexible frontend your users will love."
   },
   "NODE_JS": {
-    "title": "Node.js Development",
+    "title": "Node.js",
     "link": "Node.js",
-    "caption": "Robust backend services and APIs built with Node.js – scalable and real-time ready.",
+    "caption": "Backend and API development with Node.js – fast and scalable.",
+    "motto": "Fast and scalable JavaScript backends",
     "metadata": {
-      "title": "Technology Node.js – Hello Software",
-      "description": "We use Node.js to build fast and scalable backend systems and APIs."
-    }
+      "title": "Node.js – Hello Software",
+      "description": "We build backends and APIs with Node.js – fast, flexible, and robust."
+    },
+    "text": "Node.js allows building high-performance server-side applications using the same language as the frontend – JavaScript.\n\nAt Hello Software, we use Node.js to build backends, APIs, and high-traffic systems.\n\nWhy choose Node.js:\n– Unified tech stack – JavaScript everywhere\n– Efficient handling of many requests with async architecture\n– Great for real-time apps (chats, notifications, streaming)\n– Rich ecosystem of libraries (NPM)\n\nHello Software delivers reliable, scalable Node.js backends – ready for integration and growth."
   },
   "REACT_NATIVE": {
-    "title": "React Native Development",
+    "title": "React Native",
     "link": "React Native",
-    "caption": "Cross-platform mobile apps with React Native – fast development and great performance.",
+    "caption": "Mobile app development with React Native – one codebase for iOS and Android.",
+    "motto": "Build mobile apps for Android and iOS from one codebase",
     "metadata": {
-      "title": "Technology React Native – Hello Software",
-      "description": "We develop cross-platform mobile apps using React Native – fast, native-like experience."
-    }
+      "title": "React Native – Hello Software",
+      "description": "We build mobile apps with React Native – fast, efficient, and modern."
+    },
+    "text": "React Native lets you build native mobile apps using JavaScript and React – from a single codebase for both Android and iOS.\n\nAt Hello Software, React Native is our tool of choice for creating high-performance, great-looking mobile apps quickly.\n\nWhat you get with React Native:\n– Time and budget savings – one codebase, two platforms\n– Near-native performance\n– Fast updates and deployments with Hot Reloading\n– Integration with native device features (camera, GPS, Bluetooth)\n\nHello Software builds mobile apps that look and feel native – without compromise."
   },
   "ABOUT_US": {
     "title": "About Hello Software",

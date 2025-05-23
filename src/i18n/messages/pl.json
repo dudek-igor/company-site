@@ -11,7 +11,6 @@
       "text": "Jesteśmy doświadczonym software housem, który dostarcza kompleksowe rozwiązania IT dostosowane do potrzeb Twojej firmy. Projektujemy szybkie, responsywne i zoptymalizowane strony www, funkcjonalne aplikacje mobilne na Androida i iOS oraz skalowalne systemy e-commerce. Szukasz niezawodnego partnera technologicznego? Skontaktuj się z nami – zaprojektujemy rozwiązanie idealne dla Twojego biznesu",
       "button": "Skontaktuj się z nami"
     },
-    "SERVICES_SECTION": {},
     "HOW_IT_WORK_SECTION": {
       "title": "Proces Rozwoju Oprogramowania",
       "caption": "Poznaj każdy etap naszej pracy – od strategii i projektowania UX, aż po wdrożenie i optymalizację. Upraszczamy złożone procesy, dostarczając szybkie, skalowalne i przyjazne użytkownikom rozwiązania.",
@@ -28,11 +27,6 @@
           "title": "Testy, Optymalizacja i Wdrożenie",
           "description": "Przeprowadzamy dokładne testy wydajności, responsywności, zgodności z SEO i bezpieczeństwa. Usuwamy błędy, optymalizujemy szybkość ładowania i wdrażamy witrynę na niezawodnym serwerze z integracją analityki."
         }
-      ],
-      "STATS_SECTION": [
-        { "title": "5+", "caption": "Lat doświadczenia" },
-        { "title": "Z Polski", "caption": "Dostępni globalnie" },
-        { "title": "+100%", "caption": "Wzrost od początku działalności" }
       ]
     },
     "CONNTACT_SECTION": {
