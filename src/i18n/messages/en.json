@@ -308,34 +308,149 @@
     }
   },
   "TERMS": {
-    "title": "Terms & Conditions",
-    "link": "Terms & Conditions",
-    "caption": "Understand the legal terms that govern your use of our services and website.",
+    "title": "Terms of Service",
+    "link": "Terms of Service",
+    "caption": "Learn the conditions for using our services and the rules governing this website.",
     "metadata": {
-      "title": "Terms & Conditions – Hello Software",
-      "description": "Read the terms and conditions of Hello Software to learn about your rights and responsibilities when using our services."
+      "title": "Terms of Service – Hello Software",
+      "description": "Read the terms of Hello Software to learn more about the rules for using our digital services."
     },
-    "rules": []
+    "rules": [
+      {
+        "title": "1. Definitions",
+        "content": "Service Provider – JavaScript Solutions Igor Dudek, operating under the name Hello Software, VAT ID: PL8943163760, contact email: contact@hello-software.com.\n\nUser – an individual or entity using services provided by the Service Provider, such as website development, mobile applications, e-commerce systems, and other IT solutions."
+      },
+      {
+        "title": "2. Scope of Services",
+        "content": "Hello Software provides comprehensive IT services, including:\n\n- Modern website development,\n- Mobile apps for Android and iOS,\n- E-commerce solutions including online stores,\n- Web and backend applications,\n- API and system integrations,\n- SEO optimization, cloud services, and IT outsourcing."
+      },
+      {
+        "title": "3. Terms of Service Usage",
+        "content": "Services are provided based on a contract signed with the User.\n\nThe User agrees to use the services in compliance with applicable laws.\n\nThe Service Provider reserves the right to modify the service offering at any time."
+      },
+      {
+        "title": "4. Payments",
+        "content": "Fees for services are agreed upon individually within the scope of the signed contracts."
+      },
+      {
+        "title": "5. Complaints",
+        "content": "Complaints regarding provided services should be submitted to: contact@hello-software.com."
+      },
+      {
+        "title": "6. Liability",
+        "content": "The Service Provider shall not be liable for damages resulting from improper use of the services, or for delays caused by force majeure."
+      },
+      {
+        "title": "7. Termination",
+        "content": "The contract may be terminated by mutual agreement or under conditions specified in the contract."
+      },
+      {
+        "title": "8. Amendments to the Terms",
+        "content": "The Service Provider reserves the right to amend the Terms. Users will be notified of changes."
+      },
+      {
+        "title": "9. Intellectual Property",
+        "content": "Unless otherwise agreed, all intellectual property rights to the developed software, websites, or systems remain with Hello Software until full payment is made."
+      },
+      {
+        "title": "10. Service Level Agreement (SLA)",
+        "content": "The level of support and response times are defined in individual agreements. Standard SLA includes email response within 48 hours on working days."
+      },
+      {
+        "title": "11. Testing and Acceptance",
+        "content": "Before final delivery, the software undergoes testing by both parties. The User is obliged to report any issues within 14 days of delivery."
+      },
+      {
+        "title": "12. Technical Support",
+        "content": "Post-launch support is available under a separate support agreement or based on the agreed maintenance terms."
+      }
+    ]
   },
   "POLICY": {
     "title": "Privacy Policy",
     "link": "Privacy Policy",
-    "caption": "Learn how we handle your data and protect your privacy across all digital services.",
+    "caption": "Learn how we protect your privacy and process personal data.",
     "metadata": {
       "title": "Privacy Policy – Hello Software",
-      "description": "Discover how Hello Software collects, uses, and protects your personal data in our privacy policy."
+      "description": "See how Hello Software processes and protects your personal data in accordance with GDPR regulations."
     },
-    "rules": []
+    "rules": [
+      {
+        "title": "1. Data Controller",
+        "content": "The data controller is JavaScript Solutions Igor Dudek, operating under the name Hello Software, VAT ID 8943163760, contact email: contact@hello-software.com."
+      },
+      {
+        "title": "2. Purposes of Data Processing",
+        "content": "We process personal data to provide IT services, including website and mobile app development, e-commerce systems, APIs and integrations, as well as for marketing purposes if the user gives consent."
+      },
+      {
+        "title": "3. Legal Basis for Processing",
+        "content": "Personal data is processed on the basis of user consent, contract execution, and the legitimate interests of the controller."
+      },
+      {
+        "title": "4. Scope of Data Processed",
+        "content": "We collect data such as name, email address (if voluntarily provided), and analytical data about website usage (Google Analytics)."
+      },
+      {
+        "title": "5. Data Recipients",
+        "content": "Data may be transferred to entities providing technical services, such as hosting providers, web analytics companies (e.g., Google Analytics), and external partners involved in contract execution."
+      },
+      {
+        "title": "6. Transfer of Data Outside the EEA",
+        "content": "Data may be transferred to countries outside the EEA, especially to Google (USA) when using Google Analytics. Google provides adequate data protection safeguards."
+      },
+      {
+        "title": "7. User Rights",
+        "content": "Users have the right to access, rectify, delete, transfer their data, and restrict processing. Consent can be withdrawn at any time by contacting the data controller."
+      },
+      {
+        "title": "8. Contact Regarding Personal Data",
+        "content": "To exercise your rights, contact the data controller at: contact@hello-software.com."
+      },
+      {
+        "title": "9. Data Retention",
+        "content": "Personal data is retained for the duration of the contract and for the period required by law, depending on the type of data."
+      }
+    ]
   },
   "COOKIES": {
-    "title": "Cookies Policy",
+    "title": "Cookie Policy",
     "link": "Cookies",
-    "caption": "Find out how we use cookies to improve your experience on our website.",
+    "caption": "Learn how we use cookies to improve our website.",
     "metadata": {
-      "title": "Cookies Policy – Hello Software",
-      "description": "Understand how Hello Software uses cookies for better functionality, analytics, and user experience."
+      "title": "Cookie Policy – Hello Software",
+      "description": "See how Hello Software uses cookies to improve website functionality and analyze traffic."
     },
-    "rules": []
+    "rules": [
+      {
+        "title": "1. What Are Cookies",
+        "content": "Cookies are small text files stored on the user's device that enable the identification of the device and save session information."
+      },
+      {
+        "title": "2. Types of Cookies",
+        "content": "Necessary cookies – enable the use of basic site functions, such as security and access to services (e.g., functionality_storage, security_storage).\n\nAnalytical cookies – collect anonymous data on website usage, e.g., Google Analytics.\n\nMarketing and advertising cookies – allow personalized ads to be displayed.\n\nPersonalization cookies – adapt website content to user preferences."
+      },
+      {
+        "title": "3. Legal Basis and GDPR / ePrivacy Compliance",
+        "content": "According to the GDPR and ePrivacy Directive, necessary cookies are used without user consent. All other cookies (e.g., analytical, marketing) require prior consent, which the user can give or withdraw at any time."
+      },
+      {
+        "title": "4. Purpose of Using Cookies",
+        "content": "Cookies are used to improve website functionality, ensure security, analyze traffic, and adapt content to user needs. In particular, we use Google Analytics to monitor website usage."
+      },
+      {
+        "title": "5. Cookie Consent",
+        "content": "A cookie banner is displayed during the user's first visit, allowing consent for specific cookie categories. This consent can be withdrawn at any time via cookie settings or the browser."
+      },
+      {
+        "title": "6. Managing Cookies",
+        "content": "Users can change cookie settings in their browser at any time. Instructions are available in browser documentation. Consent can also be managed via the website's cookie banner."
+      },
+      {
+        "title": "7. Google Analytics",
+        "content": "We use Google Analytics on our website to analyze traffic. Data is collected anonymously. Details are available in Google's privacy policy: https://policies.google.com/privacy"
+      }
+    ]
   },
   "FOOTER": {
     "title": "Would you like us to contact with you? <br></br> Leave your email below",

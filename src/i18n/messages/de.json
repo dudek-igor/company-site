@@ -308,31 +308,149 @@
     }
   },
   "TERMS": {
-    "title": "Allgemeine Geschäftsbedingungen",
-    "link": "AGB",
-    "caption": "Lesen Sie die Bedingungen für die Nutzung unserer Website und Dienstleistungen.",
+    "title": "Nutzungsbedingungen",
+    "link": "Nutzungsbedingungen",
+    "caption": "Erfahren Sie mehr über die Bedingungen für die Nutzung unserer Dienste und die Regeln auf dieser Website.",
     "metadata": {
-      "title": "AGB – Hello Software",
-      "description": "Lesen Sie die Allgemeinen Geschäftsbedingungen von Hello Software und erfahren Sie mehr über Ihre Rechte und Pflichten."
-    }
+      "title": "Nutzungsbedingungen – Hello Software",
+      "description": "Lesen Sie die Nutzungsbedingungen von Hello Software, um mehr über die Regeln zur Nutzung unserer digitalen Dienstleistungen zu erfahren."
+    },
+    "rules": [
+      {
+        "title": "1. Definitionen",
+        "content": "Dienstanbieter – JavaScript Solutions Igor Dudek, handelnd unter dem Namen Hello Software, USt-IdNr.: PL8943163760, Kontakt-E-Mail: contact@hello-software.com.\n\nNutzer – eine natürliche oder juristische Person, die Dienstleistungen des Dienstanbieters nutzt, z. B. die Entwicklung von Websites, mobilen Anwendungen, E-Commerce-Systemen und anderen IT-Lösungen."
+      },
+      {
+        "title": "2. Leistungsumfang",
+        "content": "Hello Software bietet umfassende IT-Dienstleistungen an, darunter:\n\n- Entwicklung moderner Websites,\n- Mobile Apps für Android und iOS,\n- E-Commerce-Lösungen inkl. Onlineshops,\n- Web- und Backend-Anwendungen,\n- API- und Systemintegrationen,\n- SEO-Optimierung, Cloud-Services und IT-Outsourcing."
+      },
+      {
+        "title": "3. Nutzungsbedingungen",
+        "content": "Die Dienstleistungen werden auf Grundlage eines mit dem Nutzer geschlossenen Vertrags erbracht.\n\nDer Nutzer verpflichtet sich, die Dienstleistungen gemäß geltendem Recht zu nutzen.\n\nDer Dienstanbieter behält sich das Recht vor, das Dienstleistungsangebot jederzeit zu ändern."
+      },
+      {
+        "title": "4. Zahlungen",
+        "content": "Die Vergütung wird individuell im Rahmen des geschlossenen Vertrags vereinbart."
+      },
+      {
+        "title": "5. Reklamationen",
+        "content": "Reklamationen im Zusammenhang mit den erbrachten Dienstleistungen sind an folgende E-Mail-Adresse zu richten: contact@hello-software.com."
+      },
+      {
+        "title": "6. Haftung",
+        "content": "Der Dienstanbieter haftet nicht für Schäden, die durch unsachgemäße Nutzung der Dienste oder durch höhere Gewalt entstehen."
+      },
+      {
+        "title": "7. Vertragsauflösung",
+        "content": "Der Vertrag kann im gegenseitigen Einvernehmen oder gemäß den im Vertrag festgelegten Bedingungen beendet werden."
+      },
+      {
+        "title": "8. Änderungen der Nutzungsbedingungen",
+        "content": "Der Dienstanbieter behält sich das Recht vor, die Nutzungsbedingungen zu ändern. Die Nutzer werden über Änderungen informiert."
+      },
+      {
+        "title": "9. Geistiges Eigentum",
+        "content": "Sofern nicht anders vereinbart, verbleiben alle Rechte am geistigen Eigentum an entwickelter Software, Websites oder Systemen bis zur vollständigen Bezahlung bei Hello Software."
+      },
+      {
+        "title": "10. Service Level Agreement (SLA)",
+        "content": "Der Unterstützungsgrad und die Reaktionszeiten werden individuell vereinbart. Die Standard-SLA sieht eine E-Mail-Antwort innerhalb von 48 Stunden an Werktagen vor."
+      },
+      {
+        "title": "11. Tests und Abnahme",
+        "content": "Vor der endgültigen Übergabe wird die Software von beiden Parteien getestet. Der Nutzer verpflichtet sich, eventuelle Mängel innerhalb von 14 Tagen zu melden."
+      },
+      {
+        "title": "12. Technischer Support",
+        "content": "Support nach dem Projektstart wird im Rahmen eines separaten Supportvertrags oder auf Grundlage der vereinbarten Wartungsbedingungen bereitgestellt."
+      }
+    ]
   },
   "POLICY": {
     "title": "Datenschutzrichtlinie",
-    "link": "Datenschutz",
-    "caption": "Erfahren Sie, wie wir Ihre persönlichen Daten erfassen, verwenden und schützen.",
+    "link": "Datenschutzrichtlinie",
+    "caption": "Erfahren Sie, wie wir Ihre Privatsphäre schützen und personenbezogene Daten verarbeiten.",
     "metadata": {
-      "title": "Datenschutz – Hello Software",
-      "description": "Informieren Sie sich über die Datenschutzpraktiken von Hello Software im Umgang mit Ihren persönlichen Daten."
-    }
+      "title": "Datenschutzrichtlinie – Hello Software",
+      "description": "Erfahren Sie, wie Hello Software Ihre personenbezogenen Daten gemäß der DSGVO verarbeitet und schützt."
+    },
+    "rules": [
+      {
+        "title": "1. Verantwortlicher für personenbezogene Daten",
+        "content": "Verantwortlicher ist JavaScript Solutions Igor Dudek, handelnd unter dem Namen Hello Software, USt-IdNr.: PL8943163760, Kontakt-E-Mail: contact@hello-software.com."
+      },
+      {
+        "title": "2. Zwecke der Datenverarbeitung",
+        "content": "Wir verarbeiten personenbezogene Daten zur Erbringung von IT-Dienstleistungen, einschließlich der Entwicklung von Websites, mobilen Apps, E-Commerce-Systemen, APIs und Integrationen sowie zu Marketingzwecken mit Einwilligung des Nutzers."
+      },
+      {
+        "title": "3. Rechtsgrundlage der Verarbeitung",
+        "content": "Die Verarbeitung erfolgt auf Grundlage der Einwilligung des Nutzers, zur Vertragserfüllung sowie aufgrund berechtigter Interessen des Verantwortlichen."
+      },
+      {
+        "title": "4. Umfang der verarbeiteten Daten",
+        "content": "Wir erfassen Daten wie Name, E-Mail-Adresse (wenn freiwillig angegeben) sowie analytische Daten zur Nutzung der Website (Google Analytics)."
+      },
+      {
+        "title": "5. Empfänger der Daten",
+        "content": "Daten können an technische Dienstleister, Hosting-Anbieter, Webanalyse-Firmen (z. B. Google Analytics) und externe Partner im Rahmen der Vertragserfüllung weitergegeben werden."
+      },
+      {
+        "title": "6. Datenübermittlung außerhalb des EWR",
+        "content": "Daten können an Länder außerhalb des EWR übermittelt werden, insbesondere an Google (USA) im Rahmen von Google Analytics. Google gewährleistet einen angemessenen Datenschutz."
+      },
+      {
+        "title": "7. Rechte der Nutzer",
+        "content": "Der Nutzer hat das Recht auf Auskunft, Berichtigung, Löschung, Datenübertragbarkeit und Einschränkung der Verarbeitung. Die Einwilligung kann jederzeit durch Kontaktaufnahme mit dem Verantwortlichen widerrufen werden."
+      },
+      {
+        "title": "8. Kontakt bei Datenschutzfragen",
+        "content": "Zur Ausübung Ihrer Rechte wenden Sie sich bitte per E-Mail an: contact@hello-software.com."
+      },
+      {
+        "title": "9. Speicherfrist",
+        "content": "Personenbezogene Daten werden für die Dauer des Vertrags und für den gesetzlich vorgeschriebenen Zeitraum gespeichert, abhängig von der Art der Daten."
+      }
+    ]
   },
   "COOKIES": {
     "title": "Cookie-Richtlinie",
     "link": "Cookies",
-    "caption": "Erfahren Sie, wie wir Cookies verwenden, um Ihre Nutzererfahrung zu verbessern.",
+    "caption": "Erfahren Sie, wie wir Cookies verwenden, um unsere Website zu verbessern.",
     "metadata": {
       "title": "Cookie-Richtlinie – Hello Software",
-      "description": "Verstehen Sie, wie Hello Software Cookies einsetzt, um die Website-Funktionalität und Benutzerfreundlichkeit zu optimieren."
-    }
+      "description": "Erfahren Sie, wie Hello Software Cookies zur Verbesserung der Funktionalität und zur Analyse des Datenverkehrs verwendet."
+    },
+    "rules": [
+      {
+        "title": "1. Was sind Cookies?",
+        "content": "Cookies sind kleine Textdateien, die auf dem Gerät des Nutzers gespeichert werden und die Identifizierung des Geräts sowie das Speichern von Sitzungsinformationen ermöglichen."
+      },
+      {
+        "title": "2. Arten von Cookies",
+        "content": "Notwendige Cookies – ermöglichen grundlegende Funktionen der Website, wie Sicherheit und Zugang zu Diensten (z. B. functionality_storage, security_storage).\n\nAnalyse-Cookies – erfassen anonyme Daten über die Nutzung der Website, z. B. Google Analytics.\n\nMarketing- und Werbe-Cookies – ermöglichen die Anzeige personalisierter Werbung.\n\nPersonalisierungs-Cookies – passen Inhalte der Website an Benutzerpräferenzen an."
+      },
+      {
+        "title": "3. Rechtsgrundlage und DSGVO/ePrivacy-Konformität",
+        "content": "Gemäß DSGVO und der ePrivacy-Richtlinie werden notwendige Cookies ohne Zustimmung des Nutzers gesetzt. Alle anderen Cookies (z. B. Analyse, Marketing) erfordern eine vorherige Zustimmung, die jederzeit widerrufen werden kann."
+      },
+      {
+        "title": "4. Zweck der Cookie-Nutzung",
+        "content": "Cookies dienen der Verbesserung der Website-Funktionalität, der Sicherheit, der Analyse des Datenverkehrs und der Anpassung von Inhalten an Nutzerbedürfnisse. Insbesondere verwenden wir Google Analytics zur Überwachung der Website-Nutzung."
+      },
+      {
+        "title": "5. Zustimmung zu Cookies",
+        "content": "Beim ersten Besuch der Website wird ein Cookie-Banner angezeigt, über den der Nutzer der Verwendung bestimmter Cookie-Kategorien zustimmen kann. Diese Zustimmung kann jederzeit widerrufen werden."
+      },
+      {
+        "title": "6. Verwaltung von Cookies",
+        "content": "Der Nutzer kann die Cookie-Einstellungen jederzeit im Browser ändern. Anleitungen finden sich in der Dokumentation des jeweiligen Browsers. Die Zustimmung kann auch über das Cookie-Banner auf der Website verwaltet werden."
+      },
+      {
+        "title": "7. Google Analytics",
+        "content": "Wir verwenden Google Analytics zur Analyse des Website-Traffics. Die Daten werden anonym erfasst. Weitere Informationen finden Sie in der Datenschutzerklärung von Google: https://policies.google.com/privacy"
+      }
+    ]
   },
   "FOOTER": {
     "heading": "Möchten Sie, dass wir Sie kontaktieren?<br></br>Hinterlassen Sie unten Ihre E-Mail-Adresse",

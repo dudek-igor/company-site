@@ -342,7 +342,7 @@
     "rules": [
       {
         "title": "1. Definicje",
-        "content": "Usługodawca – JavaScript Solutions Igor Dudek, działający pod nazwą Hello Software, NIP 8943163760, email kontaktowy: contact@hello-software.com.\n\nUżytkownik – osoba lub podmiot korzystający z usług świadczonych przez Usługodawcę, takich jak tworzenie stron internetowych, aplikacji mobilnych, systemów e-commerce i innych rozwiązań IT."
+        "content": "Usługodawca – JavaScript Solutions Igor Dudek, działający pod nazwą Hello Software, NIP: 8943163760, email kontaktowy: contact@hello-software.com.\n\nUżytkownik – osoba lub podmiot korzystający z usług świadczonych przez Usługodawcę, takich jak tworzenie stron internetowych, aplikacji mobilnych, systemów e-commerce i innych rozwiązań IT."
       },
       {
         "title": "2. Zakres usług",
@@ -358,11 +358,11 @@
       },
       {
         "title": "5. Reklamacje",
-        "content": "Reklamacje dotyczące świadczonych usług należy zgłaszać na adres email: [email kontaktowy]."
+        "content": "Reklamacje dotyczące świadczonych usług należy zgłaszać na adres email: contact@hello-software.com."
       },
       {
         "title": "6. Odpowiedzialność",
-        "content": "Usługodawca nie ponosi odpowiedzialności za szkody wynikłe z niewłaściwego korzystania z usług, ani za opóźnienia spowodowane działaniem siły wyższej."
+        "content": "Usługodawca nie ponosi odpowiedzialności za szkody wynikłe z niewłaściwego korzystania z usług ani za opóźnienia spowodowane działaniem siły wyższej."
       },
       {
         "title": "7. Rozwiązywanie umowy",
@@ -371,6 +371,22 @@
       {
         "title": "8. Zmiany regulaminu",
         "content": "Usługodawca zastrzega sobie prawo do wprowadzenia zmian w regulaminie, informując o tym użytkowników."
+      },
+      {
+        "title": "9. Własność intelektualna",
+        "content": "O ile nie ustalono inaczej, wszelkie prawa autorskie do opracowanego oprogramowania, stron internetowych czy systemów pozostają własnością Hello Software do momentu pełnej zapłaty przez Użytkownika."
+      },
+      {
+        "title": "10. Umowa o poziomie usług (SLA)",
+        "content": "Poziom wsparcia oraz czasy reakcji określane są indywidualnie w zawartej umowie. Standardowa SLA przewiduje odpowiedź mailową w ciągu 48 godzin w dni robocze."
+      },
+      {
+        "title": "11. Testy i odbiór",
+        "content": "Przed finalnym przekazaniem projektu oprogramowanie jest testowane przez obie strony. Użytkownik zobowiązany jest do zgłoszenia ewentualnych uwag w terminie 14 dni od przekazania."
+      },
+      {
+        "title": "12. Wsparcie techniczne",
+        "content": "Wsparcie techniczne po wdrożeniu świadczone jest w ramach osobnej umowy serwisowej lub na warunkach określonych w kontrakcie utrzymaniowym."
       }
     ]
   },
@@ -436,23 +452,27 @@
       },
       {
         "title": "2. Rodzaje plików cookies",
-        "content": "Niezbędne pliki cookies – umożliwiają korzystanie z podstawowych funkcji strony.\n\nAnalityczne pliki cookies – umożliwiają nam zbieranie anonimowych danych o sposobie korzystania z witryny, np. Google Analytics."
+        "content": "Niezbędne pliki cookies – umożliwiają korzystanie z podstawowych funkcji strony, takich jak bezpieczeństwo i dostęp do usług (np. functionality_storage, security_storage).\n\nAnalityczne pliki cookies – umożliwiają zbieranie anonimowych danych o sposobie korzystania z witryny, np. Google Analytics.\n\nMarketingowe i reklamowe pliki cookies – umożliwiają wyświetlanie spersonalizowanych reklam.\n\nPliki cookies personalizacyjne – pozwalają dostosować treści strony do preferencji użytkownika."
       },
       {
-        "title": "3. Cel stosowania cookies",
-        "content": "Pliki cookies służą do poprawy funkcjonalności strony, analizy ruchu oraz dostosowywania treści do potrzeb użytkowników. W szczególności, używamy Google Analytics do monitorowania użytkowania strony."
+        "title": "3. Podstawa prawna i zgodność z RODO / ePrivacy",
+        "content": "Zgodnie z RODO i dyrektywą ePrivacy, niezbędne pliki cookies są stosowane bez zgody użytkownika. Wszystkie pozostałe cookies (np. analityczne, marketingowe) wymagają uprzedniej zgody, którą użytkownik może wyrazić lub cofnąć w dowolnym momencie."
       },
       {
-        "title": "4. Zgoda na cookies",
-        "content": "Korzystając ze strony, użytkownik wyraża zgodę na stosowanie plików cookies. Zgodę można wycofać w każdej chwili, zmieniając ustawienia przeglądarki."
+        "title": "4. Cel stosowania cookies",
+        "content": "Pliki cookies służą do poprawy funkcjonalności strony, zapewnienia bezpieczeństwa, analizy ruchu oraz dostosowywania treści do potrzeb użytkowników. W szczególności, używamy Google Analytics do monitorowania użytkowania strony."
       },
       {
-        "title": "5. Zarządzanie plikami cookies",
+        "title": "5. Zgoda na cookies",
+        "content": "Podczas pierwszej wizyty na stronie wyświetlany jest baner cookies, który umożliwia wyrażenie zgody na poszczególne kategorie plików cookies. Zgoda ta może być w każdej chwili cofnięta poprzez ustawienia cookies lub przeglądarki."
+      },
+      {
+        "title": "6. Zarządzanie plikami cookies",
         "content": "Użytkownik może w każdej chwili zmienić ustawienia cookies w swojej przeglądarce. Instrukcje zmiany ustawień cookies są dostępne w dokumentacji przeglądarek internetowych."
       },
       {
-        "title": "6. Google Analytics",
-        "content": "Na naszej stronie używamy Google Analytics do analizy ruchu na stronie. Informacje o plikach cookies Google Analytics dostępne są w Polityce prywatności Google."
+        "title": "7. Google Analytics",
+        "content": "Na naszej stronie używamy Google Analytics do analizy ruchu. Dane zbierane są anonimowo. Szczegóły znajdują się w polityce prywatności Google."
       }
     ]
   },

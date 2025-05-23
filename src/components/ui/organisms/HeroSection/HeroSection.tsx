@@ -1,8 +1,8 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
 import * as motion from 'motion/react-client';
+import { Link } from '@/i18n/routing';
 import { Typewriter } from '@/components/ui';
 import type { SupportedNamespace } from '@/config';
 import { useTranslations } from 'next-intl';
