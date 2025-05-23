@@ -6,7 +6,7 @@ import { Link } from '@/i18n/routing';
 import { Typewriter } from '@/components/ui';
 import type { SupportedNamespace } from '@/config';
 import { useTranslations } from 'next-intl';
-import thumb3 from '@/public/assets/img/thumb/3.jpg';
+import imageLaptop from '@/public/assets/img/hero/hello-software-laptop.png';
 
 type THeroSection = {
   namespace: SupportedNamespace;
@@ -16,21 +16,21 @@ const HeroSection = ({ namespace }: THeroSection) => {
   const t = useTranslations(namespace); // i18n hook
 
   return (
-    <section className="relative first:lg:pt-20">
-      <div className="mx-auto container py-12 px-4 md:px-5">
-        <div className="grid grid-cols-1 lg:grid-cols-2 py-8 md:py-12">
+    <section className="relative overflow-hidden transition-colors duration-300">
+      <div className="mx-auto container py-6 lg:py-12 px-6 md:px-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* Text Section */}
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.4 }}>
-            <h1 className="text-4xl text-center font-bold uppercase leading-none text-gray-900 dark:text-white text-shadow-md sm:text-5xl md:text-6xl lg:text-7xl lg:text-left">
+            <h1 className="text-4xl text-center font-bold uppercase leading-none text-gray-900 dark:text-white text-shadow-md sm:text-5xl md:text-6xl lg:text-7xl">
               Hello
               <Typewriter />
             </h1>
-            <p className="mt-8 text-sm text-center text-gray-600 dark:text-gray-300 sm:text-base lg:text-lg lg:text-justify">
+            <p className="mt-4 text-sm text-center text-gray-600 dark:text-gray-300 sm:text-base lg:text-lg lg:text-justify">
               {t('HERO_SECTION.text')}
             </p>
             {/* Call To Acction Section */}
             <motion.div
-              className="flex justify-center my-10"
+              className="flex justify-center mt-12"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4 }}
@@ -45,33 +45,22 @@ const HeroSection = ({ namespace }: THeroSection) => {
           </motion.div>
 
           {/* Image Section */}
-          <div className="relative h-100% flex justify-center md:justify-evenly lg:justify-end">
-            {/* Decoration in the right side */}
-            <motion.div
-              className="lg:absolute lg:left-15 lg:bottom-0 xl:-bottom-20 xl:left-25"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.4 }}
-            >
-              <Image
-                src={thumb3}
-                alt="Banner Image"
-                className="max-w-2xs rounded-md shadow-2xl lg:max-w-[40%] xl:max-w-60%"
-              />
-            </motion.div>
-            <motion.div
-              className="hidden md:block"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.4 }}
-            >
-              <Image
-                src={thumb3}
-                alt="Banner Image"
-                className="hidden max-w-2xs md:block rounded-md shadow-2xl lg:max-w-fit xl:max-w-2xs"
-              />
-            </motion.div>
-          </div>
+          <motion.div
+            className="relative hidden lg:block"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4 }}
+          >
+            <Image
+              src={imageLaptop}
+              alt="Hero Image"
+              placeholder="blur"
+              quality={100}
+              // sizes="400px"
+              fill
+              className="object-contain opacity-90 xl:p-12"
+            />
+          </motion.div>
         </div>
       </div>
     </section>

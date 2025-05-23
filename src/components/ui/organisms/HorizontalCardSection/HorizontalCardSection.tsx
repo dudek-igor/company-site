@@ -31,7 +31,7 @@ export default function HorizontalCardSection({
       <motion.div
         initial={{ opacity: 0, x: direction === 'right' ? -30 : 30 }}
         whileInView={{ opacity: 1, x: 0 }}
-        viewport={{ once: true, amount: 0.4 }}
+        viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.6, ease: 'easeOut' }}
         className="mx-auto max-w-7xl py-6 lg:py-12 px-4 md:px-5"
       >

@@ -47,7 +47,7 @@ export default function TypewriterEffect() {
 
   return (
     <motion.span
-      className="lg:ml-13 xl:ml-20 block text-accented-primary"
+      className="ml-3 block text-accented-primary"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}

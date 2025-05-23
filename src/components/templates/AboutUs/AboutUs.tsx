@@ -3,7 +3,7 @@ import { setRequestLocale } from 'next-intl/server';
 import type { TBaseProps } from '@/config';
 import { HeadingSection, HorizontalCardSection } from '@/components/ui';
 import image1 from '@/public/assets/img/about-us/hello-software-core-values.jpg';
-import image2 from '@/public/assets/img/about-us/hello-software-team-culture.jpg';
+import image2 from '@/public/assets/img/about-us/hello-software-team-culture.png';
 import image3 from '@/public/assets/img/about-us/hello-software-vision.jpg';
 import image4 from '@/public/assets/img/about-us/hello-software-why-choose-us.jpg';
 /**

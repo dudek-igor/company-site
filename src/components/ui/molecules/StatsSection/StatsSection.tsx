@@ -37,7 +37,7 @@ const StatsSection = ({ namespace }: TStatsSection) => {
               className="mx-auto flex max-w-xs flex-col gap-y-4"
               initial="hidden"
               whileInView="visible"
-              viewport={{ once: true, amount: 0.4 }}
+              viewport={{ once: true, amount: 0.2 }}
               variants={fadeIn}
               custom={index}
             >

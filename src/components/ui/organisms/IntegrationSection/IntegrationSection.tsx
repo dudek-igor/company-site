@@ -14,7 +14,7 @@ const IntegrationCard = ({ icon: Icon, link, namespace, index }: TIntegrationCar
     <motion.div
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.4 }}
+      viewport={{ once: true, amount: 0.2 }}
       transition={{ duration: 0.6, delay: index * 0.2, ease: 'easeOut' }}
       className="grow basis-[calc(100%-2rem)] sm:basis-[calc(50%-2rem)] lg:basis-[calc(25%-2rem)] max-w-full flex justify-center items-center gap-2.5 px-6 py-8 rounded-2xl border border-gray-200 dark:border-gray-800 hover:border-accented-primary transition-colors duration-300 bg-white dark:bg-gray-900"
     >
