@@ -15,41 +15,33 @@ import { isValidTemplateTypeGuard } from './template.utils';
 export type Slug = { locale: SupportedLocale; slug?: string[] };
 
 export const createSlugs = () => {
-  const result: { locale: string; slug: string[] }[] = [];
+  const result: Slug[] = [];
 
-  function processItem(item: AppConfig[0], parentSlugs: string[] = []) {
-    for (const locale of supportedLocales) {
-      const slug = [...parentSlugs];
-      if (item.links && item.links[locale]) {
-        const linkPath = item.links[locale].replace(/^\//, '');
-        if (linkPath) {
-          slug.push(linkPath);
-        }
-        result.push({ locale, slug });
+  function traverse(
+    items: typeof appConfig,
+    parentSlugs: Record<SupportedLocale, string[]> = {} as Record<SupportedLocale, string[]>
+  ) {
+    for (const item of items) {
+      const currentSlugs: Record<SupportedLocale, string[]> = {} as Record<SupportedLocale, string[]>;
+
+      for (const locale of supportedLocales) {
+        const path = item.links[locale];
+        const slug = path
+          .replace(/^\/|\/$/g, '')
+          .split('/')
+          .filter(Boolean); // remove leading/trailing slashes
+        currentSlugs[locale] = [...(parentSlugs[locale] || []), ...slug];
+
+        result.push({ locale, slug: currentSlugs[locale] });
       }
-    }
 
-    if (item.children) {
-      for (const child of item.children) {
-        const parentSlugsForChild = [];
-        for (const locale of supportedLocales) {
-          if (item.links && item.links[locale]) {
-            const linkPath = item.links[locale].replace(/^\//, '');
-            if (linkPath) {
-              parentSlugsForChild.push(linkPath);
-              break;
-            }
-          }
-        }
-        processItem(child, parentSlugsForChild);
+      if (item.children) {
+        traverse(item.children, currentSlugs);
       }
     }
   }
 
-  for (const item of appConfig) {
-    processItem(item);
-  }
-
+  traverse(appConfig);
   return result;
 };
 /*
