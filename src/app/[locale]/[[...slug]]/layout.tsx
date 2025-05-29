@@ -1,18 +1,16 @@
 import type { ReactNode } from 'react';
 import { setRequestLocale } from 'next-intl/server';
-import { hasLocale } from 'next-intl';
-import { routing } from '@/i18n/routing';
 import { defaultTheme, themeLocalStorageKey } from '@/config';
 import { ThemeProvider, CookieProvider } from '@/providers';
 import { NextIntlClientProvider } from 'next-intl';
 import { Header, Footer, CookiesBanner, GoogleTagMenager } from '@/components/globals';
 import { notFound } from 'next/navigation';
 import { JetBrains_Mono, Manrope } from 'next/font/google';
-import { type Slug } from '@/utils';
+import { isValidLocaleTypeGuard, type Slug } from '@/utils';
 
 type Props = {
   children: ReactNode;
-  params: Promise<Slug>;
+  params: Promise<{ locale: string } & Partial<Slug>>;
 };
 
 export const dynamic = 'error';
@@ -31,11 +29,10 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export default async function RootLayout({ children, params }: Props) {
-  /** @info Get slug and rerive locale */
-  const { slug } = await params;
-  const locale = slug[0];
+  /** @info Get locale */
+  const { locale } = await params;
   /** @info Ensure that the incoming `locale` is valid. */
-  if (!hasLocale(routing.locales, locale)) return notFound();
+  if (!isValidLocaleTypeGuard(locale)) return notFound();
   /**
    * @info  We are using Static Side Generation only in build time,
    *        we have to enable static rendering.

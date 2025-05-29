@@ -4,8 +4,8 @@
     "link": "Strona Główna",
     "caption": "Nowoczesne strony, aplikacje mobilne i systemy IT – kompleksowe wsparcie technologiczne.",
     "metadata": {
-      "title": "Hello Software – Tworzenie Stron i Aplikacji",
-      "description": "Software House zajmujący się tworzeniem stron internetowych, aplikacjami mobilnymi i webowymi oraz zapewniamy wsparcie IT dla firm."
+      "title": "Hello Software – Kompleksowe rozwiązania IT dla Twojego biznesu",
+      "description": "Hello Software to doświadczony Software House, który specjalizuje się w tworzeniu nowoczesnych stron internetowych, aplikacji webowych i mobilnych oraz świadczeniu kompleksowego wsparcia IT. Pomagamy firmom rozwijać się dzięki innowacyjnym technologiom i niezawodnym rozwiązaniom informatycznym dopasowanym do indywidualnych potrzeb biznesowych. Z nami zamienisz swój pomysł w realny biznes."
     },
     "HERO_SECTION": {
       "text": "Jesteśmy doświadczonym software housem, który dostarcza kompleksowe rozwiązania IT dostosowane do potrzeb Twojej firmy. Projektujemy szybkie, responsywne i zoptymalizowane strony www, funkcjonalne aplikacje mobilne na Androida i iOS oraz skalowalne systemy e-commerce. Szukasz niezawodnego partnera technologicznego? Skontaktuj się z nami – zaprojektujemy rozwiązanie idealne dla Twojego biznesu",
@@ -76,7 +76,7 @@
     "caption": "Oferta usług programistycznych dostosowanych do potrzeb Twojej firmy",
     "motto": "Zamień swój pomysł w realny biznes",
     "metadata": {
-      "title": "Usługi IT – Hello Software",
+      "title": "Usługi IT",
       "description": "Oferujemy strony internetowe, aplikacje mobilne, integracje API i rozwiązania chmurowe."
     },
     "section": {
@@ -96,7 +96,7 @@
     "caption": "Nowoczesne strony internetowe – szybkie, responsywne i zoptymalizowane pod SEO.",
     "motto": "Tworzymy strony, które pracują na Twój sukces",
     "metadata": {
-      "title": "Strony Internetowe – Hello Software",
+      "title": "Strony Internetowe",
       "description": "Projektujemy nowoczesne strony www zoptymalizowane pod kątem SEO i UX."
     },
     "text": "W Hello Software specjalizujemy się w kompleksowym projektowaniu i tworzeniu stron internetowych, które nie tylko świetnie wyglądają, ale przede wszystkim realizują konkretne cele biznesowe naszych klientów. Niezależnie od tego, czy potrzebujesz prostej strony typu landing page, rozbudowanego serwisu firmowego, czy zaawansowanego systemu CMS – jesteśmy gotowi stworzyć rozwiązanie idealnie dopasowane do Twoich potrzeb.\n\nKażdy projekt rozpoczynamy od szczegółowej analizy wymagań, ponieważ wierzymy, że skuteczna strona internetowa powstaje tylko wtedy, gdy rozumiemy cel i odbiorcę. Nasze podejście jest w pełni indywidualne – nie korzystamy z gotowych szablonów, tylko projektujemy i kodujemy rozwiązania od podstaw, dopasowane do Twojej branży, strategii marketingowej i oczekiwań użytkowników.\n\nTworzymy strony responsywne, szybkie, nowoczesne i zgodne z najnowszymi standardami UX/UI oraz SEO. Dbamy o to, by każda strona internetowa była zoptymalizowana pod kątem wyszukiwarek (SEO), co zwiększa jej widoczność w Google i pozwala skutecznie przyciągać nowych klientów.\n\nW Hello Software oferujemy:\n- Projektowanie i rozwój nowoczesnych stron internetowych\n- Landing pages zoptymalizowane pod konwersję\n- Rozbudowane serwisy firmowe i portfolio\n- Integracje z systemami CMS\n- Autorskie panele zarządzania treścią\n- Pełną optymalizację pod SEO i szybkość działania\n- Wsparcie techniczne i rozwój po wdrożeniu"
@@ -108,7 +108,7 @@
     "caption": "Bezpieczne i skalowalne sklepy internetowe – maksymalizacja konwersji.",
     "motto": "Tworzymy sklepy internetowe, które zarabiają",
     "metadata": {
-      "title": "Sklepy Internetowe – Hello Software",
+      "title": "Sklepy Internetowe",
       "description": "Tworzymy sklepy e-commerce skoncentrowane na wydajności i konwersji."
     },
     "text": "W Hello Software tworzymy nowoczesne, skalowalne i bezpieczne sklepy internetowe. \n Każdy projekt e-commerce realizujemy w oparciu o indywidualne potrzeby klienta – nie korzystamy z gotowych szablonów, lecz projektujemy rozwiązania dostosowane do konkretnego modelu biznesowego, grupy docelowej i celów sprzedażowych.\nOferujemy kompleksowe wdrożenia, od zaprojektowania intuicyjnego interfejsu użytkownika (UX/UI), przez integrację z systemami płatności i logistyką, po optymalizację SEO i analitykę sprzedaży.\nTworzymy zarówno małe sklepy dla start-upów, jak i rozbudowane platformy sprzedażowe z wieloma integracjami – m.in. z CRM, ERP, narzędziami marketingowymi czy marketplace'ami (np. Allegro, Amazon).\n\nNasze sklepy internetowe to:\n – Szybkie i responsywne rozwiązania dostosowane do urządzeń mobilnych\n – Wysoka konwersja dzięki dopracowanemu UX i nowoczesnemu designowi\n – Integracja z systemami płatności (Stripe, PayU, Przelewy24, Klarna itp.)\n – Zgodność z najnowszymi standardami SEO i Google Core Web Vitals\n – Pełna kontrola nad treścią dzięki intuicyjnemu CMS\n – Bezpieczeństwo danych klientów i zgodność z RODO\n\nRozwijaj swój sklep z partnerem technologicznym, który zna się na rzeczy – wybierz Hello Software i postaw na skuteczny e-commerce."
@@ -120,7 +120,7 @@
     "caption": "Skalowalne aplikacje webowe dopasowane do Twoich potrzeb biznesowych.",
     "motto": "Tworzymy aplikacje internetowe, dostosowane do branży",
     "metadata": {
-      "title": "Aplikacje Internetowe – Hello Software",
+      "title": "Aplikacje Internetowe",
       "description": "Tworzymy wydajne aplikacje webowe z wykorzystaniem nowoczesnych technologii."
     },
     "text": "W Hello Software specjalizujemy się w projektowaniu i tworzeniu aplikacji internetowych – od prostych paneli administracyjnych po rozbudowane systemy B2B, SaaS i platformy z wieloma integracjami.\nKażdy projekt realizujemy indywidualnie – analizujemy potrzeby użytkowników, cele biznesowe i dobieramy odpowiednią technologię (np. React, Node.js, TypeScript, GraphQL).\n\nNasze aplikacje są szybkie, bezpieczne, responsywne i skalowalne – gotowe na rozwój Twojego biznesu.\n\nCo oferujemy:\n – Tworzenie aplikacji od podstaw (frontend + backend)\n – Projektowanie architektury systemów webowych\n – Integracje z zewnętrznymi API, bazami danych i systemami ERP/CRM\n – Wdrożenia PWA (Progressive Web Apps)\n – Wysoką jakość kodu, testy i dokumentację techniczną\n – Stałe wsparcie i rozwój aplikacji po wdrożeniu\n\nW Hello Software łączymy wiedzę technologiczną z myśleniem strategicznym – tworzymy aplikacje, które rozwijają biznes, automatyzują procesy i zwiększają efektywność."
@@ -132,7 +132,7 @@
     "caption": "Nowoczesne aplikacje mobilne Android i iOS – intuicyjne i wydajne.",
     "motto": "Tworzymy Aplikacje Mobile, skrojone pod użytkownika",
     "metadata": {
-      "title": "Aplikacje Mobilne – Hello Software",
+      "title": "Aplikacje Mobilne",
       "description": "Budujemy szybkie i intuicyjne aplikacje mobilne na Androida i iOS."
     },
     "text": "Projektujemy i tworzymy aplikacje mobilne, które działają szybko, wyglądają nowocześnie i są dopasowane do użytkowników.\n W Hello Software tworzymy aplikacje mobilne hybrydowe – z jednym kodem dla Androida i iOS (np. w React Native), co pozwala skrócić czas realizacji i zredukować koszty.\n\nDostosowujemy projekt do branży i grupy docelowej – każda aplikacja powstaje w oparciu o analizę funkcji, potrzeb użytkowników i celów biznesowych.\n\nNasze aplikacje mobilne to:\n – Nowoczesny design zgodny z zasadami UX i UI\n – Płynne działanie i optymalizacja pod kątem wydajności\n – Funkcjonalności offline i dostęp do natywnych funkcji urządzenia\n – Integracja z systemami backendowymi, API i bazami danych\n – Zgodność z wytycznymi Google Play i App Store\n – Pełne wsparcie od projektu, przez testy, po publikację i rozwój\n\nZ Hello Software stworzysz aplikację mobilną, która przyciąga użytkowników, angażuje i generuje realną wartość biznesową."
@@ -144,7 +144,7 @@
     "motto": "Tworzymy wydajne i skalowane API",
     "caption": "Tworzenie API i integracji systemowych – automatyzacja i łączność.",
     "metadata": {
-      "title": "API i Integracje – Hello Software",
+      "title": "API i Integracje",
       "description": "Tworzymy API oraz integracje między systemami w celu automatyzacji i optymalizacji."
     },
     "text": "W Hello Software projektujemy i wdrażamy niezawodne rozwiązania serwerowe, które pozwalają systemom efektywnie się komunikować i automatyzować przepływ danych.\n\nTworzymy nowoczesne API (REST, GraphQL) oraz realizujemy integracje pomiędzy systemami CRM, ERP, CMS, platformami e-commerce i aplikacjami mobilnymi/webowymi.\n\nKażdy projekt integracyjny poprzedzamy analizą technologiczną i biznesową – dobieramy rozwiązania, które najlepiej odpowiadają na potrzeby Twojej firmy.\n\nDzięki naszym rozwiązaniom możesz:\n – Zautomatyzować obieg danych między różnymi systemami\n – Usprawnić działanie procesów wewnętrznych\n – Zwiększyć bezpieczeństwo i spójność danych\n – Udostępniać dane klientom, partnerom lub frontendowi przez dobrze zaprojektowane API\n\nCo oferujemy:\n – Projektowanie i tworzenie dedykowanych API (REST/GraphQL)\n – Integracje z systemami zewnętrznymi (np. płatności, logistyka, księgowość, marketplace’y)\n – Middleware – pośrednie warstwy komunikacyjne między systemami\n – Systemy kolejkowe i asynchroniczne (np. RabbitMQ, Kafka)\n – Bezpieczne uwierzytelnianie i autoryzacja (OAuth2, JWT)\n – Monitoring, testy i dokumentacja techniczna\n\nZaufaj Hello Software w integracji Twoich systemów – zyskaj spójność, automatyzację i efektywność działania na poziomie enterprise."
@@ -156,7 +156,7 @@
     "motto": "Zwiększ widoczność i pozyskuj wartościowy ruch",
     "caption": "Zwiększ widoczność strony – skuteczne działania SEO dla większego ruchu.",
     "metadata": {
-      "title": "SEO – Hello Software",
+      "title": "SEO",
       "description": "Popraw widoczność strony w Google dzięki skutecznym technikom SEO."
     },
     "text": "Zadbaj o to, by Twoja strona była widoczna tam, gdzie szukają Cię klienci.\n\nW Hello Software oferujemy kompleksowe usługi SEO – od technicznej optymalizacji strony, przez strategię słów kluczowych, aż po link building i analizę konkurencji.\n\nPracujemy indywidualnie z każdą firmą – analizujemy rynek, cele biznesowe i budujemy długoterminową strategię wzrostu widoczności w Google.\n\nCo zapewniamy:\n– Audyt SEO techniczny i contentowy\n– Gdy jest taka możliwość, optymalizację kodu, struktury strony, Core Web Vitals\n– Tworzenie zoptymalizowanych treści (landing pages, blogi, opisy usług)\n– Budowę profilu linków (Zadbaj o to, by Twoja strona była widoczna tam, gdzie szukają Cię klienci.\n– Strategię słów kluczowych dopasowaną do branży i lokalizacji\n– Raportowanie efektów i ciągłe dostosowywanie działań\n\nZ Hello Software Twoja strona nie tylko będzie wyglądać dobrze – będzie też realnie działać na rzecz Twojej sprzedaży i rozpoznawalności online."
@@ -168,7 +168,7 @@
     "button": { "read_more": "Zobacz Więcej" },
     "caption": "Bezpieczne i skalowalne rozwiązania chmurowe dla firm.",
     "metadata": {
-      "title": "Rozwiązania Chmurowe – Hello Software",
+      "title": "Rozwiązania Chmurowe",
       "description": "Nowoczesne usługi chmurowe – bezpieczeństwo, wydajność i elastyczność."
     },
     "text": "W Hello Software wdrażamy systemy w chmurze oparte na Amazon Web Services (AWS), Google Cloud, Microsoft Azure oraz innych popularnych środowiskach.\n\nZ nami zyskujesz niezawodność, oszczędność i elastyczność – dokładnie to, czego potrzebujesz w nowoczesnym środowisku IT.\n\nZakres naszych usług:\n– Migracja istniejących systemów do chmury\n– Budowa infrastruktury cloud-native (CI/CD, auto-skalowanie, load balancing)\n– Konfiguracja kontenerów i usług serverless (Docker, Kubernetes, Lambda)\n– Monitorowanie i optymalizacja kosztów chmurowych\n– Wysokie bezpieczeństwo i kopie zapasowe danych\n– Pełne wsparcie DevOps i zarządzanie infrastrukturą\n\nZaufaj specjalistom z Hello Software – dostarczymy rozwiązania chmurowe, które rosną razem z Twoim biznesem."
@@ -180,7 +180,7 @@
     "button": { "read_more": "Zobacz Więcej" },
     "caption": "Zewnętrzne zespoły IT – oszczędność i profesjonalne wsparcie techniczne.",
     "metadata": {
-      "title": "Outsourcing IT – Hello Software",
+      "title": "Outsourcing IT",
       "description": "Oferujemy zespoły IT na zewnątrz – elastyczność i wysoka jakość usług."
     },
     "text": "W Hello Software oferujemy outsourcing IT – elastyczny model współpracy, dzięki któremu możesz szybko zrealizować projekt, zwiększyć moce produkcyjne lub uzupełnić kompetencje techniczne.\n\nZatrudniamy doświadczonych programistów, project managerów, testerów i DevOpsów – gotowych do działania w Twoim zespole, na Twoich zasadach.\n\nDlaczego warto?\n– Dedykowane zespoły lub pojedynczy specjaliści do konkretnych zadań\n– Wysoka dostępność i szybki onboarding\n– Elastyczne formy współpracy (body leasing, team leasing, projektowo)\n- Pełna kontrola nad projektem – my dostarczamy ludzi i jakość\n– Redukcja kosztów zatrudnienia i ryzyk rekrutacyjnych\n– Doświadczenie w projektach IT\n\nW Hello Software outsourcing IT to nie tylko oszczędność – to realna wartość i skalowalność dla Twojego biznesu."
@@ -190,7 +190,7 @@
     "link": "Technologie",
     "caption": "Nowoczesne technologie, które napędzają nasze projekty IT.",
     "metadata": {
-      "title": "Technologie – Hello Software",
+      "title": "Technologie",
       "description": "Poznaj technologie, które wykorzystujemy w projektach IT."
     }
   },
@@ -200,7 +200,7 @@
     "caption": "Bezpieczne aplikacje w języku TypeScript – lepszy kod, mniej błędów.",
     "motto": "Nowoczesność i bezpieczeństwo w kodzie JavaScript",
     "metadata": {
-      "title": "TypeScript – Hello Software",
+      "title": "TypeScript",
       "description": "Tworzymy aplikacje w TypeScript – nowoczesnym i typowanym języku JavaScript."
     },
     "text": "TypeScript to rozszerzenie JavaScript, które zapewnia statyczne typowanie i lepszą kontrolę nad kodem.\n\nW Hello Software wykorzystujemy TypeScript w projektach webowych, mobilnych i backendowych, aby zwiększyć bezpieczeństwo, czytelność oraz stabilność aplikacji.\n\nDzięki TypeScript zyskujesz:\n– Mniej błędów w czasie działania dzięki wczesnemu wykrywaniu problemów\n– Lepszą dokumentację i podpowiedzi w edytorze kodu\n– Większą łatwość utrzymania i rozwoju dużych projektów\n– Kompatybilność z JavaScript i nowoczesnymi frameworkami (React, Node.js)\n\nWdrażając TypeScript w Hello Software, tworzymy aplikacje szybciej, bezpieczniej i bardziej skalowal"
@@ -211,7 +211,7 @@
     "caption": "Dynamiczne i szybkie interfejsy użytkownika – tworzone z React.",
     "motto": "Dynamiczne i szybkie interfejsy użytkownika",
     "metadata": {
-      "title": "React – Hello Software",
+      "title": "React",
       "description": "Tworzymy front-endy aplikacji w React – szybkie, skalowalne i nowoczesne."
     },
     "text": "React to biblioteka JavaScript stworzona przez Facebooka, służąca do budowy nowoczesnych i interaktywnych interfejsów użytkownika.\n\nW Hello Software React jest naszym głównym narzędziem do tworzenia stron internetowych, aplikacji webowych i PWA (Progressive Web Apps).\n\nZ Reactem oferujemy:\n– Błyskawiczne ładowanie i płynne działanie stron (SPA)\n– Komponentową architekturę ułatwiającą rozwój i testowanie\n– Wysoką wydajność i optymalizację SEO z Next.js\n– Świetną integrację z backendem przez REST lub GraphQL\n\nWybierając React z Hello Software, inwestujesz w przyszłościowy i elastyczny frontend, który zachwyci Twoich użytkowników."
@@ -222,7 +222,7 @@
     "caption": "Aplikacje backendowe i API w Node.js – skalowalne i wydajne.",
     "motto": "Szybkie i skalowalne backendy w JavaScript",
     "metadata": {
-      "title": "Node.js – Hello Software",
+      "title": "Node.js",
       "description": "Tworzymy backendy i API w Node.js – elastyczne i szybkie rozwiązania serwerowe."
     },
     "text": "Node.js pozwala tworzyć wydajne aplikacje po stronie serwera w tym samym języku co frontend – JavaScript.\n\nW Hello Software używamy Node.js do budowy backendów, API oraz systemów wymagających wysokiej wydajności i skalowalności.\n\nDlaczego warto postawić na Node.js:\n– Jednolity stack technologiczny (JavaScript wszędzie)\n– Obsługa wielu zapytań jednocześnie dzięki asynchroniczności\n– Świetne do aplikacji real-time (czaty, notyfikacje, streaming)\n– Bogaty ekosystem bibliotek (NPM)\n\nHello Software dostarcza solidne backendy zbudowane na Node.js – gotowe na rozwój i integracje."
@@ -233,7 +233,7 @@
     "caption": "Tworzenie aplikacji mobilnych z React Native – jedno źródło kodu dla iOS i Android.",
     "motto": "Aplikacje mobilne na Android i iOS z jednego kodu",
     "metadata": {
-      "title": "React Native – Hello Software",
+      "title": "React Native",
       "description": "Tworzymy aplikacje mobilne z React Native – szybko, wydajnie i nowocześnie."
     },
     "text": "React Native umożliwia tworzenie natywnych aplikacji mobilnych przy użyciu JavaScript i React – z jednego kodu na oba systemy: Android i iOS.\n\nW Hello Software React Native to nasze narzędzie do tworzenia wydajnych i estetycznych aplikacji mobilnych z krótszym czasem developmentu.\n\nCo zyskujesz z React Native:\n– Oszczędność czasu i budżetu – jeden kod, dwa systemy\n– Wydajność zbliżona do aplikacji natywnych\n– Szybkie aktualizacje i wdrożenia dzięki Hot Reloading\n– Możliwość integracji z natywnymi komponentami (kamera, GPS, Bluetooth)\n\nHello Software tworzy aplikacje mobilne, które wyglądają i działają doskonale – bez kompromisów między platformami."
@@ -243,7 +243,7 @@
     "link": "O nas",
     "caption": "Poznaj nas, wartości i podejście do tworzenia oprogramowania.",
     "metadata": {
-      "title": "O nas – Hello Software",
+      "title": "O nas",
       "description": "Poznaj naszą firmę, wartości i sposób pracy przy tworzeniu rozwiązań IT."
     },
     "sections_1": {
@@ -321,7 +321,7 @@
     "link": "Przydatne Linki",
     "caption": "Dostęp do przydatnych zasobów, dokumentacji i polityk związanych z naszymi usługami.",
     "metadata": {
-      "title": "Przydatne Linki – Hello Software",
+      "title": "Przydatne Linki",
       "description": "Poznaj ważne linki i materiały pomocnicze od Hello Software, aby być na bieżąco i uzyskać wsparcie."
     }
   },
@@ -330,7 +330,7 @@
     "link": "Regulamin",
     "caption": "Poznaj warunki korzystania z naszych usług oraz zasady obowiązujące na stronie.",
     "metadata": {
-      "title": "Regulamin – Hello Software",
+      "title": "Regulamin",
       "description": "Zapoznaj się z regulaminem Hello Software, aby dowiedzieć się więcej o zasadach korzystania z naszych usług."
     },
     "rules": [
@@ -389,7 +389,7 @@
     "link": "Polityka Prywatności",
     "caption": "Dowiedz się, jak dbamy o Twoją prywatność i przetwarzamy dane osobowe.",
     "metadata": {
-      "title": "Polityka Prywatności – Hello Software",
+      "title": "Polityka Prywatności",
       "description": "Sprawdź, jak Hello Software przetwarza i chroni Twoje dane osobowe zgodnie z przepisami RODO."
     },
     "rules": [
@@ -436,7 +436,7 @@
     "link": "Cookies",
     "caption": "Dowiedz się, jak korzystamy z plików cookies, aby ulepszać naszą stronę.",
     "metadata": {
-      "title": "Polityka Cookies – Hello Software",
+      "title": "Polityka Cookies",
       "description": "Zobacz, jak Hello Software wykorzystuje pliki cookies w celu poprawy działania strony i analizy ruchu."
     },
     "rules": [
@@ -516,5 +516,10 @@
         "acceptAll": "Akceptuj wszystkie"
       }
     }
+  },
+  "OG_IMAGE": {
+    "title": "Hello Software",
+    "caption": "Rozwiązania IT dla Twojego biznesu",
+    "link": "Z nami zrealizujesz swój pomysł!"
   }
 }

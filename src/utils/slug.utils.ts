@@ -47,16 +47,12 @@ export const createSlugs = (): Slug[] => {
 /*
  * Decode slug and get data from app config
  */
-export type RouteInfo =
-  | { locale: SupportedLocale; template: SupportedTemplate; namespace: SupportedNamespace }
-  | undefined;
+export type SlugInfo = { template: SupportedTemplate; namespace: SupportedNamespace } | undefined;
 
-export const getInfoBySlug = (slug: string[]): RouteInfo => {
-  const [locale, ...path] = slug;
-
+export const getPageInfoBySlug = (locale: string, slug?: string[]): SlugInfo => {
   if (!isValidLocaleTypeGuard(locale)) return undefined;
 
-  const findInTree = (items: typeof appConfig, segments: string[]): RouteInfo => {
+  const findInTree = (items: typeof appConfig, segments: string[]): SlugInfo => {
     for (const item of items) {
       const itemSlug = item.links[locale]?.replace(/^\/|\/$/g, '');
 
@@ -67,7 +63,6 @@ export const getInfoBySlug = (slug: string[]): RouteInfo => {
             return {
               template: item.template,
               namespace: item.namespace,
-              locale,
             };
           } else {
             return undefined; // If the key is not valid, return undefined
@@ -81,5 +76,5 @@ export const getInfoBySlug = (slug: string[]): RouteInfo => {
     return undefined;
   };
 
-  return path.length === 0 ? findInTree(appConfig, ['']) : findInTree(appConfig, path);
+  return !slug ? findInTree(appConfig, ['']) : findInTree(appConfig, slug);
 };

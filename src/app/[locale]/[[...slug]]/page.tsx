@@ -1,10 +1,9 @@
 import { use } from 'react';
-import { createSlugs, getInfoBySlug, type Slug } from '@/utils';
+import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import { createSlugs, getPageInfoBySlug, isValidLocaleTypeGuard, type Slug } from '@/utils';
 import DynamicTemplate from '@/components/templates';
-import type { Metadata } from 'next';
-
 /**
  * Enable full static site generator only in build time.
  */
@@ -17,31 +16,31 @@ export async function generateStaticParams() {
   return slugs;
 }
 
-type TPageGeneratorParams = { params: Promise<Slug> };
+type TPageGeneratorParams = { params: Promise<{ locale: string } & Partial<Slug>> };
 /**
  * Generate Metadata for each slug
  */
 export async function generateMetadata({ params }: TPageGeneratorParams): Promise<Metadata> {
-  const { slug } = await params;
-  const pageData = getInfoBySlug(slug);
-  if (pageData) {
-    const { locale, namespace } = pageData;
+  const { locale, slug } = await params;
+  const pageData = getPageInfoBySlug(locale, slug);
+  if (pageData && isValidLocaleTypeGuard(locale)) {
+    const { namespace } = pageData;
     const t = await getTranslations({ locale, namespace });
     return {
-      title: t('metadata.title'),
+      title: namespace === 'HOME_PAGE' ? { absolute: t('metadata.title') } : t('metadata.title'),
       description: t('metadata.description'),
     };
   }
+  /** Fallback */
   return {};
 }
 /**
  * To catch unknown routes, we set dynamic params to false.
  */
 export default function PageGenerator({ params }: TPageGeneratorParams) {
-  const { slug } = use(params);
-  const pageData = getInfoBySlug(slug);
+  const { locale, slug } = use(params);
+  const pageData = getPageInfoBySlug(locale, slug);
 
-  if (!pageData) return notFound();
-
-  return <DynamicTemplate {...pageData} />;
+  if (pageData && isValidLocaleTypeGuard(locale)) return <DynamicTemplate locale={locale} {...pageData} />;
+  return notFound();
 }
