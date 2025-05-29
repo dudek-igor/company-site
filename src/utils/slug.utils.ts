@@ -12,38 +12,45 @@ import { isValidTemplateTypeGuard } from './template.utils';
 /**
  * Create slugs from app config for generate static params
  */
-export type Slug = { slug: string[] };
+export type Slug = { locale: SupportedLocale; slug?: string[] };
 
-export const createSlugs = (): Slug[] => {
-  const results: Slug[] = [];
+export const createSlugs = () => {
+  const result: { locale: string; slug: string[] }[] = [];
 
-  const cleanSlug = (slug: string) => slug.replace(/^\/|\/$/g, '');
-
-  const traverse = (
-    items: AppConfig,
-    currentPath: Record<SupportedLocale, string[]> = {
-      en: [],
-      pl: [],
-      de: [],
-    }
-  ) => {
-    for (const item of items) {
-      const newPath = {} as Record<SupportedLocale, string[]>;
-
-      supportedLocales.forEach((locale) => {
-        const slug = cleanSlug(item.links[locale]);
-        newPath[locale] = [...currentPath[locale], slug].filter(Boolean);
-        results.push({ slug: [locale, ...newPath[locale]] });
-      });
-
-      if (item.children?.length) {
-        traverse(item.children, newPath);
+  function processItem(item: AppConfig[0], parentSlugs: string[] = []) {
+    for (const locale of supportedLocales) {
+      const slug = [...parentSlugs];
+      if (item.links && item.links[locale]) {
+        const linkPath = item.links[locale].replace(/^\//, '');
+        if (linkPath) {
+          slug.push(linkPath);
+        }
+        result.push({ locale, slug });
       }
     }
-  };
 
-  traverse(appConfig);
-  return results;
+    if (item.children) {
+      for (const child of item.children) {
+        const parentSlugsForChild = [];
+        for (const locale of supportedLocales) {
+          if (item.links && item.links[locale]) {
+            const linkPath = item.links[locale].replace(/^\//, '');
+            if (linkPath) {
+              parentSlugsForChild.push(linkPath);
+              break;
+            }
+          }
+        }
+        processItem(child, parentSlugsForChild);
+      }
+    }
+  }
+
+  for (const item of appConfig) {
+    processItem(item);
+  }
+
+  return result;
 };
 /*
  * Decode slug and get data from app config
@@ -63,7 +70,7 @@ export const getPageInfoBySlug = (locale: string, slug?: string[]): SlugInfo | u
   const canonical = `${locale === defaultLocale ? '' : `/${locale}`}${slug ? `/${slug.join('/')}` : ''}` || '/';
 
   const findInTree = (
-    items: typeof appConfig,
+    items: AppConfig,
     segments: string[],
     parentPaths: Record<string, string> = Object.fromEntries(supportedLocales.map((l) => [l, '']))
   ): SlugInfo | undefined => {
@@ -121,10 +128,3 @@ export const getPageInfoBySlug = (locale: string, slug?: string[]): SlugInfo | u
 
   return findInTree(appConfig, slug || ['']);
 };
-// /**
-//  *  Test
-//  */
-// const buildFullPath = (item: any, locale: string, parentPath = ''): string => {
-//   const itemPath = item.links[locale] || '';
-//   return `${parentPath}${itemPath}`.replace(/\/+/g, '/');
-// };

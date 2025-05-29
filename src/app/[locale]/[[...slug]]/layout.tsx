@@ -10,7 +10,7 @@ import { isValidLocaleTypeGuard, type Slug } from '@/utils';
 
 type Props = {
   children: ReactNode;
-  params: Promise<{ locale: string } & Partial<Slug>>;
+  params: Promise<Slug>;
 };
 
 export const dynamic = 'error';

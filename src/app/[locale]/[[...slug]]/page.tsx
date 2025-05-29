@@ -16,7 +16,7 @@ export async function generateStaticParams() {
   return slugs;
 }
 
-type TPageGeneratorParams = { params: Promise<{ locale: string } & Partial<Slug>> };
+type TPageGeneratorParams = { params: Promise<Slug> };
 /**
  * Generate Metadata for each slug
  */
@@ -24,6 +24,7 @@ export async function generateMetadata({ params }: TPageGeneratorParams): Promis
   const { locale, slug } = await params;
 
   const pageData = getPageInfoBySlug(locale, slug);
+
   if (pageData && isValidLocaleTypeGuard(locale)) {
     const { namespace, alternates } = pageData;
 
@@ -45,5 +46,6 @@ export default function PageGenerator({ params }: TPageGeneratorParams) {
   const pageData = getPageInfoBySlug(locale, slug);
 
   if (pageData && isValidLocaleTypeGuard(locale)) return <DynamicTemplate locale={locale} {...pageData} />;
+
   return notFound();
 }
