@@ -1,5 +1,6 @@
 import {
   appConfig,
+  defaultLocale,
   supportedLocales,
   type AppConfig,
   SupportedLocale,
@@ -47,34 +48,83 @@ export const createSlugs = (): Slug[] => {
 /*
  * Decode slug and get data from app config
  */
-export type SlugInfo = { template: SupportedTemplate; namespace: SupportedNamespace } | undefined;
+export type SlugInfo = {
+  template: SupportedTemplate;
+  namespace: SupportedNamespace;
+  alternates: {
+    canonical: string;
+    languages: Record<string, string>;
+  };
+};
 
-export const getPageInfoBySlug = (locale: string, slug?: string[]): SlugInfo => {
+export const getPageInfoBySlug = (locale: string, slug?: string[]): SlugInfo | undefined => {
   if (!isValidLocaleTypeGuard(locale)) return undefined;
 
-  const findInTree = (items: typeof appConfig, segments: string[]): SlugInfo => {
+  const canonical = `${locale === defaultLocale ? '' : `/${locale}`}${slug ? `/${slug.join('/')}` : ''}` || '/';
+
+  const findInTree = (
+    items: typeof appConfig,
+    segments: string[],
+    parentPaths: Record<string, string> = Object.fromEntries(supportedLocales.map((l) => [l, '']))
+  ): SlugInfo | undefined => {
     for (const item of items) {
       const itemSlug = item.links[locale]?.replace(/^\/|\/$/g, '');
+      const currentSegment = segments[0] || '';
 
-      if (itemSlug === segments[0]) {
-        if (segments.length === 1) {
-          // Use the type guard to ensure that i18nKey is a valid MessageKey
-          if (isValidNamespaceTypeGuard(item.namespace) && isValidTemplateTypeGuard(item.template)) {
-            return {
-              template: item.template,
-              namespace: item.namespace,
-            };
-          } else {
-            return undefined; // If the key is not valid, return undefined
+      if (itemSlug === currentSegment) {
+        const remainingSegments = segments.slice(1);
+
+        // Calculate current paths for all locales
+        const currentPaths = Object.fromEntries(
+          supportedLocales.map((lang) => {
+            const itemPath = item.links[lang] || '';
+            return [lang, `${parentPaths[lang]}${itemPath}`.replace(/\/+/g, '/')];
+          })
+        );
+
+        if (remainingSegments.length === 0) {
+          if (!isValidNamespaceTypeGuard(item.namespace) || !isValidTemplateTypeGuard(item.template)) {
+            return undefined;
           }
+
+          // Build languages object excluding current locale
+          const languages = Object.fromEntries(
+            supportedLocales
+              .filter((lang) => lang !== locale)
+              .map((lang) => {
+                const path = currentPaths[lang];
+                return [lang, lang === defaultLocale ? path : `/${lang}${path === '/' ? '' : path}`];
+              })
+          );
+
+          // Add x-default with default locale path
+          languages['x-default'] = currentPaths[defaultLocale] || '/';
+
+          return {
+            template: item.template,
+            namespace: item.namespace,
+            alternates: {
+              canonical,
+              languages,
+            },
+          };
         }
 
-        return findInTree(item.children || [], segments.slice(1));
+        if (item.children) {
+          return findInTree(item.children, remainingSegments, currentPaths);
+        }
       }
     }
 
     return undefined;
   };
 
-  return !slug ? findInTree(appConfig, ['']) : findInTree(appConfig, slug);
+  return findInTree(appConfig, slug || ['']);
 };
+// /**
+//  *  Test
+//  */
+// const buildFullPath = (item: any, locale: string, parentPath = ''): string => {
+//   const itemPath = item.links[locale] || '';
+//   return `${parentPath}${itemPath}`.replace(/\/+/g, '/');
+// };

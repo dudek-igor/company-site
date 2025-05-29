@@ -22,13 +22,16 @@ type TPageGeneratorParams = { params: Promise<{ locale: string } & Partial<Slug>
  */
 export async function generateMetadata({ params }: TPageGeneratorParams): Promise<Metadata> {
   const { locale, slug } = await params;
+
   const pageData = getPageInfoBySlug(locale, slug);
   if (pageData && isValidLocaleTypeGuard(locale)) {
-    const { namespace } = pageData;
+    const { namespace, alternates } = pageData;
+
     const t = await getTranslations({ locale, namespace });
     return {
       title: namespace === 'HOME_PAGE' ? { absolute: t('metadata.title') } : t('metadata.title'),
       description: t('metadata.description'),
+      alternates,
     };
   }
   /** Fallback */
