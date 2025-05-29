@@ -2,7 +2,7 @@ import type { Messages } from 'next-intl';
 /** @info For i18n */
 export const localeKey = 'HELLO_SOFTWARE_LOCALE' as const;
 
-export const defaultLocale = 'en' as const;
+export const defaultLocale = 'pl' as const;
 export type DefaultLocale = typeof defaultLocale;
 
 export type SupportedLocale = 'en' | 'pl' | 'de';
