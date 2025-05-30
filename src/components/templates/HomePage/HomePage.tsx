@@ -2,7 +2,7 @@ import type { TBaseProps } from '@/config';
 import Image from 'next/image';
 import { setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
-import { getChildrenNamespace } from '@/utils';
+import { getChildrenNamespace, getLinkHrefViaNamespace } from '@/utils';
 import * as motion from 'motion/react-client';
 import {
   HeroSection,
@@ -51,7 +51,7 @@ export default function HomePage(props: TBaseProps) {
         direction="left"
         link={{
           title: t(`ABOUT_US.link`),
-          href: '/about-us',
+          href: getLinkHrefViaNamespace('ABOUT_US'),
         }}
       />
       <HorizontalCardSection
@@ -61,7 +61,7 @@ export default function HomePage(props: TBaseProps) {
         image={imageWhyChooseUs}
         link={{
           title: t(`ABOUT_US.link`),
-          href: '/about-us',
+          href: getLinkHrefViaNamespace('ABOUT_US'),
         }}
       />
     </main>
