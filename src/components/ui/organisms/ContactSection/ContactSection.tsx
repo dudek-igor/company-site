@@ -47,6 +47,7 @@ export default function ContactSection({ namespace }: TBaseProps) {
                       id="email"
                       name="email"
                       type="email"
+                      autoComplete="email"
                       defaultValue={state.values?.email}
                       placeholder={t(`${section}.form.input.email.placeholder`)}
                       aria-invalid={state.errors?.email}
@@ -69,6 +70,7 @@ export default function ContactSection({ namespace }: TBaseProps) {
                         )}
                         id="name"
                         name="name"
+                        autoComplete="name"
                         type="text"
                         defaultValue={state.values?.name}
                         placeholder={t(`${section}.form.input.name.placeholder`)}
@@ -91,6 +93,7 @@ export default function ContactSection({ namespace }: TBaseProps) {
                         )}
                         id="phone"
                         name="phone"
+                        autoComplete="tel"
                         type="tel"
                         defaultValue={state.values?.phone}
                         placeholder={t(`${section}.form.input.phone.placeholder`)}

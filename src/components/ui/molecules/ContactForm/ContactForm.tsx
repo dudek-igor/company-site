@@ -30,7 +30,7 @@ export default function ContactForm() {
               name="name"
               type="text"
               placeholder="Name"
-              autoComplete="off"
+              autoComplete="name"
               required
             />
             <span className="text-sm text-red-500 mt-1 block"></span>
@@ -44,7 +44,7 @@ export default function ContactForm() {
                 name="email"
                 type="email"
                 placeholder="Email*"
-                autoComplete="off"
+                autoComplete="email"
                 required
               />
               <span className="text-sm text-red-500 mt-1 block"></span>
@@ -56,7 +56,7 @@ export default function ContactForm() {
                 name="phone"
                 type="number"
                 placeholder="Phone"
-                autoComplete="off"
+                autoComplete="tel"
                 required
               />
               <span className="text-sm text-red-500 mt-1 block"></span>

@@ -82,6 +82,7 @@ export default function Footer() {
               id="email"
               name="email"
               type="email"
+              autoComplete="email"
               defaultValue={state.values?.email}
               placeholder={t('form.email.placeholder')}
               aria-invalid={state.error === 'email'}
