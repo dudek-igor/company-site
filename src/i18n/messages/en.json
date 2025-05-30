@@ -493,6 +493,10 @@
         "sending": "Sending..."
       }
     },
+    "menu": {
+      "navigation": "Navigation",
+      "support": "Helpful Links"
+    },
     "all-rights-reserved": "© Hello Software 2025. All rights reserved.",
     "STATS_SECTION": [
       { "title": "5+", "caption": "Years of experience" },

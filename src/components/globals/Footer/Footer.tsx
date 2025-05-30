@@ -33,8 +33,7 @@ function FooterNavItem({ href, namespace }: { href: string; namespace: Supported
   );
 }
 
-function FooterNav({ type = 'navigation' }: { type?: 'support' | 'navigation' }) {
-  const label = type === 'navigation' ? 'Navigation' : 'Helpful Links';
+function FooterNav({ type, label }: { type?: 'support' | 'navigation'; label: string }) {
   const options = type === 'navigation' ? { withHomePath: true, onlyMainRoute: true } : { onlyHelpfulLinks: true };
   const navigation = getNavigationTree(options);
 
@@ -126,8 +125,8 @@ export default function Footer() {
         </div>
 
         <div className="grid grid-cols-1 gap-8 text-center sm:grid-cols-2 lg:text-left">
-          <FooterNav />
-          <FooterNav type="support" />
+          <FooterNav type="navigation" label={t('menu.navigation')} />
+          <FooterNav type="support" label={t('menu.support')} />
         </div>
       </div>
 

@@ -1,4 +1,4 @@
-import { appConfig, defaultLocale, type SupportedNamespace, AppConfigItem } from '@/config';
+import { appConfig, defaultLocale, type SupportedNamespace, AppConfigItem, AppConfig } from '@/config';
 import type { IconType } from 'react-icons';
 import { isValidNamespaceTypeGuard } from './i18n.utils';
 /**
@@ -24,10 +24,13 @@ export const getNavigationTree = ({
   onlyHelpfulLinks = false,
   withHelpfulLinks = false,
 }: TgetNavigationPaths = {}): NavigationNode[] => {
+  /** @info Helpful Links namespace */
+  const SUPPORT = 'SUPPORT';
+
   const buildTree = (items: typeof appConfig, parentPath = ''): NavigationNode[] => {
     return items
       .filter(({ namespace }) => {
-        if (!withHelpfulLinks && namespace === 'SUPPORT') return false;
+        if (!withHelpfulLinks && namespace === SUPPORT) return false;
         return true;
       })
       .map(({ namespace, links, icon, children }) => {
@@ -62,12 +65,12 @@ export const getNavigationTree = ({
 
   const config = onlyHelpfulLinks
     ? appConfig.filter(({ namespace }) => {
-        if (onlyHelpfulLinks && namespace === 'SUPPORT') return true;
+        if (onlyHelpfulLinks && namespace === SUPPORT) return true;
         return false;
       })[0]?.children || []
     : appConfig;
 
-  const parentPath = onlyHelpfulLinks ? '/support' : '';
+  const parentPath = onlyHelpfulLinks ? getLinkHrefViaNamespace(SUPPORT) : '';
 
   return buildTree(config, parentPath);
 };
@@ -105,4 +108,31 @@ export const getChildrenNamespace = (namespace: SupportedNamespace): ChildrenIte
   };
 
   return findChildren(appConfig);
+};
+/**
+ * Get Href Link for given namespace
+ */
+export const getLinkHrefViaNamespace = (namespace: SupportedNamespace): string => {
+  // Helper function to search the tree recursively
+  const searchTree = (items: AppConfig): string | null => {
+    for (const item of items) {
+      // We check if this is the item we are looking for
+      if (item.namespace === namespace) {
+        return item.links[defaultLocale];
+      }
+
+      // If the element has children, we search them recursively
+      if (item.children) {
+        const childPath = searchTree(item.children);
+        if (childPath) {
+          // Łączymy ścieżkę rodzica z dzieckiem
+          return item.links[defaultLocale] + childPath;
+        }
+      }
+    }
+    return null;
+  };
+
+  // Start searching app config
+  return searchTree(appConfig) || '#';
 };

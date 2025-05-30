@@ -7,6 +7,7 @@ import { Typewriter } from '@/components/ui';
 import type { SupportedNamespace } from '@/config';
 import { useTranslations } from 'next-intl';
 import imageLaptop from '@/public/assets/img/hero/hello-software-laptop.png';
+import { getLinkHrefViaNamespace } from '@/utils';
 
 type THeroSection = {
   namespace: SupportedNamespace;
@@ -37,7 +38,7 @@ const HeroSection = ({ namespace }: THeroSection) => {
             >
               <Link
                 className="px-6 py-3 md:px-8 md:py-4 lg:text-lg text-white bg-gradient-to-r from-accented-primary to-accented-secondary rounded-md shadow-md hover:scale-105 transition-transform"
-                href="/contact"
+                href={getLinkHrefViaNamespace('CONTACT')}
               >
                 {t('HERO_SECTION.button')}
               </Link>
