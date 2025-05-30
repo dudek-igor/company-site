@@ -42,8 +42,8 @@ export default function HorizontalCardSection({
               direction === 'right' ? 'order-1 md:order-2' : 'order-1 md:order-1'
             )}
           >
-            <h4 className=" mb-6 text-accented-primary">{title}</h4>
-            <h3 className="text-xl md:text-2xl font-semibold mb-4 text-gray-900 dark:text-white">{caption}</h3>
+            <h3 className=" mb-6 text-accented-primary">{title}</h3>
+            <h4 className="text-xl md:text-2xl font-semibold mb-4 text-gray-900 dark:text-white">{caption}</h4>
             <p className="text-gray-500 dark:text-gray-400 leading-relaxed mb-6 ">{text}</p>
             {link && (
               <Link

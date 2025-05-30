@@ -30,10 +30,10 @@ export default function ContactSection({ namespace }: TBaseProps) {
           <div className="lg:col-span-6">
             <div className="max-w-xl mx-auto">
               <div className="bg-white dark:bg-gray-900 shadow-2xl px-8 py-16 lg:px-20 transition-colors duration-300">
-                <h4 className="text-accented-primary text-lg font-semibold mb-2">{t(`${section}.form.title`)}</h4>
-                <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-8">
+                <h2 className="text-accented-primary text-lg font-semibold mb-2">{t(`${section}.form.title`)}</h2>
+                <h3 className="text-4xl font-bold text-gray-900 dark:text-white mb-8">
                   {t(`${section}.form.caption`)}
-                </h2>
+                </h3>
 
                 <form action={formAction} className="space-y-10">
                   <div>
@@ -182,7 +182,7 @@ export default function ContactSection({ namespace }: TBaseProps) {
 
                 <li className="transition-opacity duration-500 ease-in-out delay-300">
                   <div>
-                    <h4 className="text-3xl font-semibold mb-2">{t(`${section}.informations.location.title`)}</h4>
+                    <h3 className="text-3xl font-semibold mb-2">{t(`${section}.informations.location.title`)}</h3>
                     <p className="text-gray-600 text-2xl dark:text-gray-400">
                       {t(`${section}.informations.location.detail`)}
                     </p>
@@ -191,7 +191,7 @@ export default function ContactSection({ namespace }: TBaseProps) {
 
                 <li className="transition-opacity duration-500 ease-in-out delay-500">
                   <div>
-                    <h4 className="text-3xl font-semibold mb-2">{t(`${section}.informations.mail.title`)}</h4>
+                    <h3 className="text-3xl font-semibold mb-2">{t(`${section}.informations.mail.title`)}</h3>
                     <a
                       href="mailto:contact@hello-software.com"
                       className="text-2xl text-accented-primary hover:underline block"
