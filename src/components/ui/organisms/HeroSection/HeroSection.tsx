@@ -46,7 +46,7 @@ const HeroSection = ({ namespace }: THeroSection) => {
               alt="Hero Image"
               placeholder="blur"
               quality={100}
-              // sizes="400px"
+              sizes="400px"
               fill
               className="object-contain opacity-90 xl:p-12"
             />
