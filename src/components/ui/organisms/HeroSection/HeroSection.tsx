@@ -44,9 +44,9 @@ const HeroSection = ({ namespace }: THeroSection) => {
             <Image
               src={imageLaptop}
               alt="Hero Image"
-              placeholder="blur"
               quality={100}
               sizes="400px"
+              priority
               fill
               className="object-contain opacity-90 xl:p-12"
             />
