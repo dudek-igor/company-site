@@ -1,5 +1,6 @@
 import type { NextConfig } from 'next';
 import createNextIntlPlugin from 'next-intl/plugin';
+import env from '@/config/env.config';
 
 const withNextIntl = createNextIntlPlugin();
 
@@ -23,7 +24,7 @@ const cspHeader = `
     https://*.analytics.google.com 
     https://*.googletagmanager.com 
     https://*.gstatic.com;
-    upgrade-insecure-requests;
+    ${env.NODE_ENV === 'production' ? 'upgrade-insecure-requests;' : ''}
 `;
 
 const nextConfig: NextConfig = {
