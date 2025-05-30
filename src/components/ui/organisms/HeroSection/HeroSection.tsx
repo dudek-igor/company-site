@@ -1,7 +1,6 @@
 'use client';
 
 import Image from 'next/image';
-import * as motion from 'motion/react-client';
 import { Link } from '@/i18n/routing';
 import { Typewriter } from '@/components/ui';
 import type { SupportedNamespace } from '@/config';
@@ -21,7 +20,7 @@ const HeroSection = ({ namespace }: THeroSection) => {
       <div className="mx-auto container py-6 lg:py-12 px-6 md:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* Text Section */}
-          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.4 }}>
+          <div>
             <h1 className="text-4xl text-center font-bold uppercase leading-none text-gray-900 dark:text-white text-shadow-md sm:text-5xl md:text-6xl lg:text-7xl">
               Hello
               <Typewriter />
@@ -30,28 +29,18 @@ const HeroSection = ({ namespace }: THeroSection) => {
               {t('HERO_SECTION.text')}
             </p>
             {/* Call To Acction Section */}
-            <motion.div
-              className="flex justify-center mt-12"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.4 }}
-            >
+            <div className="flex justify-center mt-12">
               <Link
                 className="px-6 py-3 md:px-8 md:py-4 lg:text-lg text-white bg-gradient-to-r from-accented-primary to-accented-secondary rounded-md shadow-md hover:scale-105 transition-transform"
                 href={getLinkHrefViaNamespace('CONTACT')}
               >
                 {t('HERO_SECTION.button')}
               </Link>
-            </motion.div>
-          </motion.div>
+            </div>
+          </div>
 
           {/* Image Section */}
-          <motion.div
-            className="relative hidden lg:block"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.4 }}
-          >
+          <div className="relative hidden lg:block">
             <Image
               src={imageLaptop}
               alt="Hero Image"
@@ -61,7 +50,7 @@ const HeroSection = ({ namespace }: THeroSection) => {
               fill
               className="object-contain opacity-90 xl:p-12"
             />
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>
